@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://dfe3300.karelia.ru/koi/posob/X/index.html -->
+<HTML><HEAD><TITLE>Электронный учебник: Программирование в X Window System</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=koi8-r">
+<META http-equiv=Content-Style-Type content=text/css>
+<META content="Программирование в X Window System с помощью библиотеки Xlib" 
+name="Программирование в X Window Sistem"><LINK 
+href="Электронный учебник Программирование в X Window System.files/zed00000.css" 
+type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.2900.3199" name=GENERATOR></HEAD>
+<BODY><!--div class="logo"><a href="http://zed.karelia.ru/index.html">&nbsp;</a></div-->
+<HR>
+<!--div class="navi">
+::[<a class="navi" href="http://zed.karelia.ru/4them/index.html">Студентам</a>]::
+[<a class="navi" href="http://zed.karelia.ru/4us/index.html">Преподавателям</a>]::
+[<a class="navi" href="http://zed.karelia.ru/4all/index.html">Вообще</a>]::
+[<a class="navi" href="http://zed.karelia.ru/4me/index.html">Себе любимому</a>]::
+</div-->
+<HR>
+<!--div class="logo2"></div-->
+<H1>: Программирование в среде X Window на основе библиотеки Xlib :</H1>
+<DIV class=note><B>С о д е р ж а н и е</B><BR><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/index.html">Введение</A><BR><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/osnov.htm">I. Базовые понятия X 
+Window</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/xwindow.htm">Характеристики 
+X-окна</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/win_control.htm">Менеджер 
+окон</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/win_control.htm">Свойства и 
+атомы</A><BR><A href="http://dfe3300.karelia.ru/koi/posob/X/example1.htm">Первый 
+пример</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/events.htm">События</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/window_attr.htm">Атрибуты 
+окна</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/win_operation.htm">Операции над 
+окнами</A><BR><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/gr_text.htm">II. Текст и 
+графика</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/gr_text.htm">Графический 
+контекст</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/gr_prop.htm">Характеристики 
+графического контекста</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/text_out.htm">Вывод текста, работа с 
+шрифтами</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/colors.htm">Использование 
+цвета</A><BR><A href="http://dfe3300.karelia.ru/koi/posob/X/bitmaps.htm">Битовые 
+и пиксельные карты</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/cursor.htm">Изменяем курсор 
+мыши</A><BR><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/keyboard.htm">III. Работа с внешними 
+устройствами</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/keyboard.htm">Клавиатура</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/mouse.htm">Мышь</A><BR><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/resources.htm">IV. Ресурсы 
+программ</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/resources.htm">Формат файла 
+ресурсов</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/resources.htm">Доступ к ресурсам 
+программ</A><BR><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/inter_client.htm">V. Взаимодействие 
+клиентов</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/inter_client.htm">Механизм 
+свойств</A><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/manager.htm">Работаем с менеджером 
+окон</A><BR><BR><A href="http://dfe3300.karelia.ru/koi/posob/X/glossary.htm">VI. 
+Дополнительная информация</A><BR><BR><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/literature.htm">VII. 
+Литература</A><BR><BR><!-- SpyLOG f:0111 -->
+<SCRIPT language=javascript>
+u="u1693.11.spylog.com";d=document;nv=navigator;na=nv.appName;p=0;j="N";
+d.cookie="b=b";c=0;bv=Math.round(parseFloat(nv.appVersion)*100);
+if (d.cookie) c=1;n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();
+z="p="+p+"&rn="+rn+"&c="+c;if (self!=top) {fr=1;} else {fr=0;}
+sl="1.0";</SCRIPT>
+
+<SCRIPT language=javascript1.1>
+pl="";sl="1.1";j = (navigator.javaEnabled()?"Y":"N");</SCRIPT>
+
+<SCRIPT language=javascript1.2>         
+sl="1.2";s=screen;px=(n==0)?s.colorDepth:s.pixelDepth;
+z+="&wh="+s.width+'x'+s.height+"&px="+px;
+</SCRIPT>
+
+<SCRIPT language=javascript1.3>
+sl="1.3"</SCRIPT>
+
+<SCRIPT language=javascript>
+y="";y+="<div align=\"center\"><a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+"&j="+j+"&sl="+sl+
+"&r="+escape(d.referrer)+"&fr="+fr+"&pg="+escape(window.location.href);
+y+="' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a></div>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></SCRIPT>
+<NOSCRIPT>
+<P><A href="http://u1693.11.spylog.com/cnt?f=3&amp;p=0" target=_blank><IMG 
+height=31 alt=SpyLOG 
+src="Электронный учебник Программирование в X Window System.files/cnt.gif" 
+width=88 border=0></A></P></NOSCRIPT>
+<SCRIPT language=javascript1.2><!--
+if(!n) { d.write("--"+">"); }//--></SCRIPT>
+<!-- SpyLOG  -->
+<SCRIPT type=text/javascript><!--
+ document.write("<img src='/.click/koi/posob/X/index.html?img="+Math.random()+"' width=0 height=0>");
+--></SCRIPT>
+<NOSCRIPT><IMG height=0 
+src="Электронный учебник Программирование в X Window System.files/index.gif" 
+width=0></NOSCRIPT> <BR></DIV>
+<CENTER>
+<H2>Введение</H2></CENTER>
+<P>X Window System или просто X - это система для создания графического 
+интерфейса, которая используется в операционных системах Unix. В начале 80-х 
+существовала некая "Операционная система V" (The V System), а при ней - оконная 
+подсистема W следующая буква алфавита после V, а заодно - первая буква слова 
+Window Система созданная в сентябре 1987г. в MIT (Массачусетский Технологический 
+Институт) стала стандартом. К 1984 году совместными усилиями института и 
+исследовательского отделения Digital Equipment Corporation (DEC) эту оконную 
+подсистему сделали системно-независимой (crossplatforming или X-platforming). 
+Вдобавок первый разработчик X Window использовал весьма привлекательный и 
+совершенный по сегодняшним меркам объектно-ориентированный язык программирования 
+CLU, а затем молодой проект был перепрограммирован на язык С. </P>
+<P>Как и любой большой и долгоживущий проект, X Window обладает массой 
+специфических достоинств и недостатков. К достоинствам относиться то, что X 
+Window работает, и работает хорошо (даже в приложениях относящихся к mission 
+critical). X Window развивается, в настоящее время уже версия 11.6(X11R6) и уже 
+активно идёт подготовка к выпуску версии 7). А также X Window так и осталась 
+уникальной системой, у которой нет реальной альтернативы с 1987г. Недостатки 
+системы были критичными только на ранней стадии использования, ругали 
+обоснованно и необоснованно конкретные реализации и по мере развития системы по 
+мере сил недостатки убирались. Несмотря на сетевой характер X Window не имела 
+сетевой защиты, а также элементарно можно было получить сетевой доступ к 
+компьютеру, использующему эту графическую подсистему. Вдобавок X Window была 
+чрезвычайно прожорлива к системным ресурсам. К счастью эти особенности остались 
+в прошлом. </P>
+<P>X Window System позволяет рисовать на экране дисплея графические изображения, 
+поддерживать концепцию окон и унифицировать работу с различными устройствами на 
+основе библиотеки Xlib (именно о программировании на Xlib и будет идти речь в 
+данном учебнике). Xlib - X library, это библиотека нижнего уровня, реализующая 
+интерфейс X протокола к языку C и является основой для всех программ для X 
+Window. Для того чтобы облегчить программирование с применением Xlib (X11) и 
+упростить создание пользовательских интерфейсов, существует несколько пакетов, 
+из которых наиболее широко распространены X Toolkit Intrinsics (Xt), Athena 
+(Xaw) и Motif (Xm). В последние годы появились два новых пакета: GTK+ и Qt, 
+лежащих в основе популярных среди пользователей Linux графических интерфейсов 
+GNOME и KDE. </P>
+<P>Конечно, использовать Qt для разработки приложения на C очень удобно, но 
+чтобы более глубоко понять устройство X Window System, нужно заглянуть под 
+покров библиотек Qt и GTK, умение писать Xlib приложения может оказаться 
+полезным. </P>
+<P class=c align=center><A 
+href="http://dfe3300.karelia.ru/koi/posob/X/osnov.htm">вперёд &gt;&gt;&gt;</A> 
+</P></BODY></HTML>

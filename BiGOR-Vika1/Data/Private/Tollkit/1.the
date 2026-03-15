@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Thesaurus UId="EJ73VKT5CQIPZGWQ9PWA">
+<Title>Программирование в среде XWindow System</Title>
+
+<Entity>
+<Phrase>виджеты</Phrase>
+<Phrase Hom="Y">widget</Phrase>
+<Define> это компоненты пользовательского интерфейса, которые представляют собой комбинацию Х-окна и необходимые семантики для формирования объекта, при этом объект обеспечивает абстракцию пользовательского интерфейса.</Define>
+</Entity>
+
+<Entity>
+<Phrase>widget</Phrase>
+<Phrase Hom="Y">виджеты</Phrase>
+<Define>это структура данных, поля которой включают идентификатор самого элемента, идентификатор его окна, если таковое имеется, и многое другое</Define>
+</Entity>
+
+<Entity>
+<Phrase>object</Phrase>
+<Define>Абстрактный класс (т.е. класс, не &quot;порождающий собственного объекта), который используется в качестве корня дерева всех объектов. </Define>
+</Entity>
+
+<Entity>
+<Phrase>core</Phrase>
+<Define>Корень дерева классов widget, имеющих окна. Этот класс определяет характеристики, общие для всех объектов, например такие, как размер окна widget и его положение на экране.</Define>
+</Entity>
+
+<Entity>
+<Phrase>composite</Phrase>
+<Define>Подкласс класса Core. Widget, относящиеся к данному классу, могут быть родительскими по отношению к другим объектам.</Define>
+</Entity>
+
+<Entity>
+<Phrase>constraint</Phrase>
+<Define>Это подкласс класса Composite. Он представляет собой дальнейшее расширение базового класса. Его экземпляры имеют дополнительные возможности для управления размером и местоположением своих &quot;потомков&quot;. </Define>
+</Entity>
+
+<Entity>
+<Phrase>shell</Phrase>
+<Define>Это специальный подкласс класса Composite, предназначенный для взаимодействия с менеджером окон. Widget из этого класса может иметь только одного &quot;потомка&quot;. </Define>
+</Entity>
+
+<Entity>
+<Phrase>overrideShell</Phrase>
+<Define>Это важный подкласс класса Shell. Для окна widget данного класса атрибут <Term Type="In">override_redirect</Term> устанавливается в True. Это означает, что менеджер окон его не контролирует. Как правило, окна объектов данного класса не имеют аксессуаров, добавляемых менеджером (заголовка, рамки), и используются в основном для создания pop up меню.</Define>
+</Entity>
+
+<Entity>
+<Phrase>WMShell</Phrase>
+<Define>Это специальный подкласс класса Shell, который содержит дополнительные поля, необходимые для взаимодействия с менеджером окон.</Define>
+</Entity>
+
+<Entity>
+<Phrase>VendorShell</Phrase>
+<Define>Этот класс предназначен для того, чтобы дать возможность взаимодействия со специальными менеджерами окон. </Define>
+</Entity>
+
+<Entity>
+<Phrase>TopLevelShell</Phrase>
+<Define>Widget данного класса, как правило, используются как shell-объекты дерева объектов. </Define>
+</Entity>
+
+<Entity>
+<Phrase>TransientShell</Phrase>
+<Define>Этот класс отличается от предыдущего только особенностями взаимодействия с менеджером окон. Окна widget данного класса не могут быть минимизированы (превращены в пиктограмму). Но если в пиктограмму превращается &quot;родитель&quot; объекта класса TransientShell, то окно widget убирается с экрана. Класс TransientShell используется для создания диалогов.</Define>
+</Entity>
+
+<Entity>
+<Phrase>ApplicationShell</Phrase>
+<Define>Это подкласс класса TopLevelShell. Программа может иметь, как правило, только один экземпляр, принадлежащий классу ApplicationShell.</Define>
+</Entity>
+
+<Entity>
+<Phrase>X Windows System</Phrase>
+<Define>это система для создания графического пользовательского интерфейса на компьютерах, работающих под управлением операционной системы UNIX. </Define>
+</Entity>
+
+<Entity>
+<Phrase>XOpenDisplаy()</Phrase>
+<Define>Устанавливает взаимодействие Х-клиента и Х-сервера, функция возвращает указатель на структуру Display. Поля структуры  Display содержат всю информацию об Х-сервере, необходимую клиентской программе. Адрес дисплея необходим любой функции библиотеки Xlib.a</Define>
+</Entity>
+
+<Entity>
+<Phrase>XCreateWindow()</Phrase>
+<Define>функция, используемая для создания окон в X Window Sysytem. Функция имеет длинный список аргументов, который определяет геометрию, класс, визуальный тип, идентификатор родительского окна, маску и адрес структуры атрибутов создаваемого окна.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XMapWindow()</Phrase>
+<Define>Данная функция обеспечивает  возможность отображения окна.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XGetWindowAttributes()</Phrase>
+<Define>данная структура получает характеристики окна</Define>
+</Entity>
+
+<Entity>
+<Phrase>override_redirect</Phrase>
+<Define>атрибут, контролирующий изменение размеров окна и его положения на экране </Define>
+</Entity>
+
+<Entity>
+<Phrase>colormap</Phrase>
+<Define>данный параметр  задает  цветовую гамму окна.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XCreateGC()</Phrase>
+<Define>данная процедура создает графический контекст. Он имеет следующий прототип: GC XCreateGC (Display *prDisplay, Drawable nDrawable, . unsigned long nValueMask, XGCValues *prValues);,</Define>
+</Entity>
+
+<Entity>
+<Phrase>XLoadFont()</Phrase>
+<Define> с помощью этой процедуры осуществляется загрузка шрифта. Она берет в качестве аргумента имя шрифта, находит его и возвращает программе соответствующий идентификатор. Этот идентификатор передается затем процедуре XSetFont( ), чтобы выбрать шрифт в GC. После этого при обращениях к XLoadFont( ) с тем же именем шрифта, функция возвращает ссылку на шрифт, уже находящийся в памяти компьютера.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XGetGCValues()</Phrase>
+<Define>используется для получения значения полей графического контекста</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawString()</Phrase>
+<Define>данная процедура спользуется для вывода  текста, если в шрифте не более 256 символов</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawImageString()</Phrase>
+<Define>данная процедура спользуется для вывода  текста, причем  фон символов при рисовании закрашивается цветом фона, установленного в графическом контексте</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawText()</Phrase>
+<Define>позволяет рисовать несколько строк сразу, используя при этом разные шрифты. Каждая рисуемая единица задается структурой XTextItem.</Define>
+</Entity>
+
+<Entity>
+<Phrase>поле fill_style</Phrase>
+<Phrase Aux="Y">fill_style</Phrase>
+<Define>определяет способ закраски. Он устанавливается процедурой XSetFillStyle( ) и воздействует на все функции, рисующие линии, текст и фигуры. Исключение составляет случай, когда выводится линия, для которой значение line_width равно 0. </Define>
+</Entity>
+
+<Entity>
+<Phrase>поле font</Phrase>
+<Phrase Aux="Y">font</Phrase>
+<Define>определяет шрифт, используемый для вывода текста. Задать этот параметр можно с помощью процедуры XSetFont( )</Define>
+</Entity>
+
+<Entity>
+<Phrase>XSetLineAttributes()</Phrase>
+<Define>данная процедура используется для установки параметров линии</Define>
+</Entity>
+
+<Entity>
+<Phrase>поле line_style</Phrase>
+<Phrase Aux="Y">line_style</Phrase>
+<Define>определяет тип линии (сплошная линия, пунктирная линия; промежутки между штрихами не закрашиваются,  пунктирная линия; промежутки между штрихами закрашиваются цветом фона).</Define>
+</Entity>
+
+<Entity>
+<Phrase>dash_offset</Phrase>
+<Define>данный параметр указывает, с какого места начинать рисование 1-й черточки пунктирной линии.</Define>
+</Entity>
+
+<Entity>
+<Phrase>поле join_style</Phrase>
+<Phrase Aux="Y">join_style</Phrase>
+<Define>определяет, как соединяются линии друг с другом.</Define>
+</Entity>
+
+<Entity>
+<Phrase>cap_style</Phrase>
+<Define>данный параметр  определяет вид линии в крайних точках, если ее ширина больше 1 пиксела.</Define>
+</Entity>
+
+<Entity>
+<Phrase>поле line_width</Phrase>
+<Phrase Aux="Y">line_width</Phrase>
+<Define>задает толщину линии в пикселах. Нулевое значение поля соответствует тому, что линия должна быть толщиной в один пиксел и рисоваться с помощью наиболее быстрого алгоритма для данного устройства вывода. </Define>
+</Entity>
+
+<Entity>
+<Phrase>XSetBackground()</Phrase>
+<Define>функция, устанавливающая цвет фона</Define>
+</Entity>
+
+<Entity>
+<Phrase>XSetForeground() </Phrase>
+<Define>функция, устанавливающая цвет переднего плана</Define>
+</Entity>
+
+<Entity>
+<Phrase>XGrabKeyboard()</Phrase>
+<Define>данная функция используется для &quot;захвата&quot; клавиатуры.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XGrabButton()</Phrase>
+<Define>данная процедура указывает, что курсор должен быть &quot;захвачен&quot; после нажатия определенной кнопки.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XGrabKey()</Phrase>
+<Define>данная функция запрещает передачу фокуса после нажатия определенной комбинации клавиш. Освободить клавиатуру можно, обратившись к процедуре XUngrabKeyboard( )</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtInitialize()</Phrase>
+<Define>данная процедура инициализирует сам пакет, менеджер ресурсов (resourse manager) X Window, и выполняет другие необходимые операции. Для каждого приложения обращение к XtInitialize( )  должно предшествовать всем другим вызовам процедур Xt. После завершения, XtInitialize( ) возвращает идентификатор sheel-widget, который может использоваться как корень дерева объектов программы.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtIsRealized()</Phrase>
+<Define>данная процедура позволяет проверить, реализован данный объект или нет.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtDisplay()</Phrase>
+<Define>данная процедура возвращает указатель на X структуру данных типа Display, которая используется данным widget.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtScreen()</Phrase>
+<Define>данная процедура возвращает для заданного объекта указатель на X структуру данных типа Screen.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDestroyWidget() </Phrase>
+<Define>данная процедура используется для уничтожения заданного widget и всех его &quot;потомков&quot;: указанная процедура освобождает все ресурсы, используемые уничтожаемыми объектами. </Define>
+</Entity>
+
+<Entity>
+<Phrase>XtAppAddInput()</Phrase>
+<Define> возвращает число, позволяющее идентифицировать зарегистрированную функцию и условия ее работы</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtWidgetToApplicationContext()</Phrase>
+<Define>данная процедура возвращает  по данному widget  контекст программы. </Define>
+</Entity>
+
+<Entity>
+<Phrase>XtAppPeekEvent()</Phrase>
+<Define>данная процедура позволяет получить информацию о следующем событии без удаления его из очереди. Процедура имеет следующий прототип: Boolean XtAppPeekEvent (XtAppContext prAppContext,  XEvent  *prEvent);</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtAppProcessEvent()</Phrase>
+<Define>Процедура  позволяет, задавая маску событий, выбирать из очереди нужные события и обрабатывать их. Функция имеет следующий прототип:                                                                void XtAppProcessEvent (XtAppContext prAppContext, XtInputMask nMask);</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtRealizeWidget()</Phrase>
+<Define>создает и отображает окна</Define>
+</Entity>
+
+<Entity>
+<Phrase>управление событиями</Phrase>
+<Define>предоставляет механизмы для прикладынх программ Toolkit с целью получения информации о событиях и диспетчеризации с помощью диспетчерной процедуры этих событий.</Define>
+</Entity>
+
+<Entity>
+<Phrase>управление трансляцией</Phrase>
+<Define>обеспечивает обработку событий через применение структуры виджет-класса.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtAppNextEvent()</Phrase>
+<Define>для получения значения, которое является в настоящее время следующим во входной очереди.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtDispatchEvent()</Phrase>
+<Define>для пересылки событий соответствующей функции, обрабатывающей эти события.</Define>
+</Entity>
+
+<Entity>
+<Phrase>XtAppMainLoop()</Phrase>
+<Define>представляет из себя бесконечный цикл, который вызывает функцию XtAppNextEvent() следуя за XtDispatchEvent().</Define>
+</Entity>
+
+<Entity>
+<Phrase>X-сервер</Phrase>
+<Define>программа, которая управляет экранами, клавиатурой,мышью и другими элементами Х-Дисплея</Define>
+</Entity>
+
+<Entity>
+<Phrase>Х-клиент</Phrase>
+<Define>прикладная программа, которая выполняется в среде  X WINDOWS System</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDestroyWindow</Phrase>
+<Define>данная процедура удаляет окно</Define>
+</Entity>
+
+<Entity>
+<Phrase>XFreePixMap</Phrase>
+<Define>данная процедура удаляет ранее созданную пиксельную карту</Define>
+</Entity>
+
+<Entity>
+<Phrase>XFreeFont</Phrase>
+<Define>данная процедура удалаяет шрифты</Define>
+</Entity>
+
+<Entity>
+<Phrase>XCloseDisplay</Phrase>
+<Define>данная процедура закрывает ранее созданный экран</Define>
+</Entity>
+
+<Entity>
+<Phrase>make-файл</Phrase>
+<Define>файл,который указывает как различные файлы зависят друг от друга</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawLine</Phrase>
+<Define>соединяет отрезком две точки (x1, y1) и (х2, у2), используя для этого необходимые компоненты графического контекста</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawLines</Phrase>
+<Define>рисует ломаную из npoints-отрезков, соединяющих пары точек (point[i], point[i+1]) массива структур XPoint</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawSegments</Phrase>
+<Define>изображает набор не связанных друг с другом отрезков</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawPoint</Phrase>
+<Define>выводит точку в указанное окно или пиксельную карту (внеэкранную области памяти)</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawPoints</Phrase>
+<Define>выводит несколько точек</Define>
+</Entity>
+
+<Entity>
+<Phrase>XDrawRectangle</Phrase>
+<Phrase>XDrawRectangles</Phrase>
+<Define> предназначены для рисования прямоугольников, рассматриваемых как ломаные линии,&quot;определяемые пятью точками:  [х,у] [x+width,у] [x+width,y+height] [x,y+height] [x, у]</Define>
+</Entity>
+</Thesaurus>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Course UId="ZUUXUHWRPC1Q4R5FWAYE" Creator="И.П.Норенков">
+<Title>Информационные технологии в образовании</Title>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Введение в телекоммуникационные технологии</ChTitle>
+<LModul RC="rk6.bmstu.ru-Web-Education:IJ826EPMVL1LFEXW4BQR" /><LModul RC="ru.bmstu.rk6-051313-09:58APZ4BPR5UB7OFSLLKS" /><LModul RC="ru.bmstu.rk6-051313-09:I4F12SOVXST3H9KTANRO" /><LModul RC="ru.bmstu.rk6-051313-09:QURPX37JPFDSVUJ4WK00" /><LModul RC="ru.bmstu.rk6-051313-09:3LBFGBJ1VGBTTJBXDU1O" /><LModul RC="ru.bmstu.rk6-051315-10:NMFDFLQP3ZATY3LNT6PC" /><LModul RC="ru.bmstu.rk6-051315-10:LZLDKJRAXXSTVOK1WDXW" /><LModul RC="ru.bmstu.rk6-051315-10:LECIC0O0ES317DPJ6ZK4" /><LModul RC="ru.bmstu.rk6-051313-09:E097AKZTCF8K4Z2HHMPE" /><LModul RC="ru.bmstu.rk6-051313-09:G1D7BOE1PMTYL8CLZFSX" /><LModul RC="ru.bmstu.rk6-051313-09:NCXNNN6ORYGEM159301B" /></Chapter>
+<LTestMod RC="rk6.bmstu.ru-Web-Education:R27YBR9DQ2Z28NXGIVU8" /><LTestMod RC="ru.bmstu.rk6-051313-09:ZFJEEXOURC7U891XCZS6" /><LTestMod RC="ru.bmstu.rk6-051313-09:LNSKR53I8FB3HWR0TH3R" /><LTestMod RC="ru.bmstu.rk6-051313-09:CCHDF5X0VQ0A2YNRG5TA" />
+<Chapter Num="Y" Type="1">
+<ChTitle>Сетевые службы и Web-технологии</ChTitle>
+<LModul RC="ru.bmstu.rk6-051313-09:EBWTIYF7LJ7MQHUG1S5L" /><LModul RC="rk6.bmstu.ru-Computers:JI1LEWI95I82JUD6VVTV" /><LModul RC="ru.bmstu.rk6-051315-10:80SO4V6JOIS8HPIR8IZL" /><LModul RC="ru.bmstu.rk6-051315-10:889UB6VALNL2K5ULD6KP" /><LModul RC="ru.bmstu.rk6-051315-10:A4TXA96TA83BDOQX31OY" /><LModul RC="ru.bmstu.rk6-051315-10:1HW05BINGEVWSRHOS6LN" /><LModul RC="ru.bmstu.rk6-051315-10:AJ1GN4Z33SWQ5PO62LII" /><LModul RC="ru.bmstu.rk6-051315-10:LUSTXXXIJNJGQK8TD1A3" /><LModul RC="ru.bmstu.rk6-051315-10:5F71VF2OW7KHMSUEZMKT" /><LModul RC="ru.bmstu.rk6-051315-10:HUNZH9DQO4A0449W29NS" /><LModul RC="ru.bmstu.rk6-051315-10:KC9HOOZSD9EJLPSEM4SO" /><LModul RC="ru.bmstu.rk6-051315-10:64LI469M24GGXYKKQI26" /><LModul RC="ru.bmstu.rk6-051315-10:PZ95X4LLUE3O4SYBIZJR" /><LModul RC="ru.bmstu.rk6-051315-10:FMNQ9U1M0HGLY6615CPA" /><LModul RC="ru.bmstu.rk6-051315-10:85QYHQ4KRUMVZF4M80K5" /><LModul RC="ru.bmstu.rk6-051315-10:K0NU7JIABHB8GYNMS648" /><LModul RC="ru.bmstu.rk6-051315-10:EC6MXTYNP2YA5OB5QN9V" /><LModul RC="ru.bmstu.rk6-051315-10:MB7O913NQ1CPRPRRNIEO" /><LModul RC="ru.bmstu.rk6-051315-10:3ZS3PE5HH93XPAKD2IO9" /><LModul RC="ru.bmstu.rk6-051315-10:YMYGD489ZNHI3AMJVLV7" /></Chapter>
+<LTestMod RC="ru.bmstu.rk6-051315-10:EEOVWS0XPCC14GNS0798" /><LTestMod RC="ru.bmstu.rk6-051315-10:1ABSO3HQXMIZFOBCCLCO" /><LTestMod RC="ru.bmstu.rk6-051315-10:2X2FY7C0NGGA8ON6X9LH" /><LTestMod RC="ru.bmstu.rk6-051315-10:KV78IIIF6NHTDMQ334ZQ" />
+<Chapter Num="Y" Type="1">
+<ChTitle>Семантический Web</ChTitle>
+<LModul RC="ru.bmstu.rk6-051315-10:SNABTOIZNQPH8V3UAPQN" /><LModul RC="ru.bmstu.rk6-051315-10:14QEJOVB8MBG92UZOVR5" /><LModul RC="ru.bmstu.rk6-051315-10:PJWQAL6GZBRAK43N02OC" /><LModul RC="ru.bmstu.rk6-051315-10:679NT7VTXRXSEHNGQ8H2" /><LModul RC="ru.bmstu.rk6-051315-10:NIDBCNXSY9DN1YMENB5S" /><LModul RC="ru.bmstu.rk6-051315-10:7H2INP8O4476WSHOQKKO" /><LModul RC="ru.bmstu.rk6-051315-10:2NEY90ZH3V7XH7QE896Z" /></Chapter>
+<LTestMod RC="ru.bmstu.rk6-051315-10:M72X802DYVZAI7MGLBV0" />
+<Chapter Num="Y" Type="1">
+<ChTitle>Информационная поддержка открытого образования</ChTitle>
+<LModul RC="rk6.bmstu.ru-Web-Education:KXVUB12SB2FMG7Z7JRIM" /><LModul RC="rk6.bmstu.ru-Web-Education:TDF513IGPZG2EPEQJHAY" /><LModul RC="rk6.bmstu.ru-Web-Education:PD1U5GY0L6G1Q0YC6HWG" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Информационно-образовательные среды</ChTitle>
+<LModul RC="rk6.bmstu.ru-Web-Education:U41PUE2OJH1WZPL0UHJ7" /><LModul RC="rk6.bmstu.ru-Web-Education:PCLX9L1RRJKF0RTJ1VWK" /><LModul RC="rk6.bmstu.ru-Web-Education:6SI7TGCY04NMKUXETFHU" /><LModul RC="rk6.bmstu.ru-Web-Education:YPNTTRC7OY7WLI1QCNVS" /><LModul RC="rk6.bmstu.ru-Web-Education:CDFXIEPWMOSSNWZR6RKZ" /><LModul RC="rk6.bmstu.ru-Web-Education:PYIYKGVBX1XAH27SD4PO" /><LModul RC="rk6.bmstu.ru-Graphics:NY82AD40VE8QG3DWHHK7" /><LModul RC="rk6.bmstu.ru-Web-Education:I5F3T2SSOR18WIDCV9Z3" /><LModul RC="rk6.bmstu.ru-Web-Education:5ZIEVW9PLGYSKQP6L0HX" /><LModul RC="rk6.bmstu.ru-Web-Education:T6FXCATM0K7066H404X2" /></Chapter>
+<LTestMod RC="rk6.bmstu.ru-Web-Education:5G7R5GYHPWBU9CQL5Q68" /><LTestMod RC="rk6.bmstu.ru-Web-Education:0MMKTOD1GSTD6FHZ7CCX" /></Course>

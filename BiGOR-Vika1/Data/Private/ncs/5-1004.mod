@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Modul UId="KX4P4NGLKZY5IXE181FJ" Author="kylagin" Level="0" ADate="ETRKHWNH">
+<Title>Секционированная свертка</Title>
+<P>На практике часто имеет место ситуация, при которой размер изображения (сигнала) значительно превосходит размер импульсного отклика <Formula>N<Sub>c</Sub>&gt;&gt;N<Sub>U</Sub></Formula> . В этом случае используется операция свертки над секциями или блоками данных.</P>
+<P><Font U="Y"><Font U="Y"><Font>Метод</Font></Font> перекрытия с суммированием</Font></P>
+<P>Разделим массив сигнала <Formula>U<Sub>вх</Sub>(n)</Formula> на<Formula>N<Sub>U</Sub></Formula> &#x2014; точечные секции, определив секцию с номером <Formula>l</Formula> следующим образом</P>
+<P><Formula Br="Y" Num="Y" ID="ETRKVPV4">U<Sub>вх,l</Sub>(n)=<LogBr><M X="0.0" Y="1.25" Kh="1.25">{</M><M X="1.25" Y="1.12" Kh="1.0"><Matrix Col="1" Row="1" Alg="1"><M X="0.5" Y="1.2" Kh="1.0"><Matrix Col="1" Row="2" Alg="0"><M X="0.5" Y="1.2" Kh="1.0">U<Sub>вх</Sub>(n)  l&#x2219;N<Sub>U</Sub>&#x2264;n&#x2264;(l+1)N<Sub>U</Sub></M><M X="0.5" Y="2.6" Kh="1.0">0    в остальных случаях</M></Matrix></M></Matrix></M><Z X="2.24" Y="1.25" Kh="1.25" /></LogBr></Formula></P>
+<Image ID="ETRKW48I" DDImg="АЗЙЖsrбв6-h+++++Ь++яяяVщE2+++я+gE++++в-hш++0юADdыЛнDXQoЪЯ9nЮwыD4эвИKж7aкrКqо9ЗтМяЧцBзъОчсюDA85ДWус6МeLМaZу7Bъ++ЕцХ8НкrЛfPВЛB9ЗдMtшАhfЧмцuaэxvзфъюNSАЫчьy8УDaзrИШйsXM+иsИTШc0cиctВЙ7-ирЩdntЙйZMЩNДeeN7uъ8xЪЧOКЪeeEзКБJйЪлZPn9EvбЕКыы9ьmvмOPСPAQgГПМE974СgфwНBтьмvЦЫxНBТыQVЭhyymQLiОSiiсBЙGfxSjT6Rdи+zTПЮюЖ3dяDkEzaъоQ3w6kЗVВ3APqР+K1вДьLcуЮnИГWГnuIЪouршFBXNFЛИоALССд7EhШьОoвтY6IрxвyТЙВжmЛNnитРйъBз8UВ2тaдLНиtZЛl5EBщoYboвФfЪx8pЧfЦhЬvъэЬ8qgШlдЛхOx9qhЪpВмНaк9riыЬtфлЪx98rjЮxскmяRщЧДУK-vXтКкЧЗа1C3ЧqqQBЗсПЗRK53oЙNтГЙ5mЦпkмMnжcsDАыуAФdЦкIfЗЫfЭЯЪ0йУeЕv2Seb++v" /><P>Пример опорной области такой секции. Т.к. опорные области секций не перекрываются, и покрывают всю опорную область массива <Formula>U<Sub>вх</Sub>(n)</Formula>, то:</P>
+<P><Formula>U<Sub>вх</Sub>(n)=<Limits><Z /><M>&#x2211;</M><M>l</M></Limits>U<Sub>вх,l</Sub>(n)</Formula></P>
+<P>Из линейности свертки можно записать:</P>
+<P><Formula>U<Sub>вых</Sub>(n)=<Limits><M>N<Sub>c</Sub>&#x2212;1</M><M>&#x2211;</M><M>k=0</M></Limits>U<Sub>вх</Sub>(k)h(n&#x2212;k)=<Limits><M>N<Sub>c</Sub>&#x2212;1</M><M>&#x2211;</M><M>k=0</M></Limits> <Limits><Z /><M>&#x2211;</M><M>l</M></Limits>{U<Sub>вх,l</Sub>(k)}h(n&#x2212;k)=</Formula></P>
+<P><Formula>=<Limits><Z /><M>&#x2211;</M><M>l  </M></Limits><LogBr><M X="0.0" Y="1.25" Kh="1.25"> </M><M X="1.25" Y="1.12" Kh="1.0">{<Limits><M>N<Sub>c</Sub>&#x2212;1</M><M>&#x2211;</M><M>k=0</M></Limits></M><Z X="2.25" Y="1.25" Kh="1.25" /></LogBr>U<Sub>вх,l</Sub>(k)h(n&#x2212;k)}=<Limits><Z /><M>&#x2211;</M><M>l</M></Limits>U<Sub>вых,l</Sub>(n)</Formula></P>
+<P>Выходная секция <Formula>U<Sub>вых,l</Sub>(n)</Formula> представляет результат свертки <Formula>h(n)</Formula> с секцией <Formula>l</Formula> последовательности U<Sub>вх</Sub>(n). Т.к. опорная область секции <Formula>U<Sub>вых,l</Sub>(n)</Formula> больше опорной области <Formula>U<Sub>вх,l</Sub>(n)</Formula> выходные секции должны перекрываться.</P>
+<P>Свертки <Formula>U<Sub>вх,l</Sub>(n)</Formula> с <Formula>h(n)</Formula> можно вычислить, используя БПФ.</P>
+</Modul>

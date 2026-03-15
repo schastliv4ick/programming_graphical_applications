@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Course UId="BaseCourse" Creator="Федорук Е.В." Base="Y">
+<Title>Программирование на языке Си</Title>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Введение</ChTitle>
+<LModul RC="Cintro:M83TFL2R752R2HI2XG9A" /><LModul RC="Cintro:W1P2CPYIU1S0LW3NIZH7" /><LModul RC="Cintro:NGDK4HKBFSUVNBZZWPJ2" /><LModul RC="Cintro:3K9SVLY0UYBLAOPZUO9P" /><LModul RC="Cintro:D0IXUW46W4OQK9TJHW1B" /><LModul RC="Cintro:CQH9A17E80L3TZG3R1P2" /><LModul RC="Cintro:9676IZR6NOY45Z3VNJL5" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Основные понятия языка программирования Си</ChTitle>
+<LModul RC="Cintro:RK5MZDK8COCN6R39MUGA" /><LModul RC="Cintro:ZYSPO8ECRL8F9DGFIS64" /><LModul RC="Cintro:OO6IKXW4JR41YVXYA8EL" /><LModul RC="Cintro:4XVW7LADKILFA0K6VSNF" /><LModul RC="Cintro:TQ9AI1ICGOG9A1WJDFJ3" /><LModul RC="Cintro:W1CN1D9O1S0C393PXT2K" /><LModul RC="Cintro:VPHSKXT579OEQJD5WGAR" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Основные типы данных и операции языка Си</ChTitle>
+<LModul RC="Cintro:KTHTS2I2BY5EY4Y1NNCD" /><LModul RC="Cintro:36D0KFB6G2KXW93TC3OI" /><LModul RC="Cintro:NDSH83WQ3I8QE86D5JO2" /><LModul RC="Cintro:3IDNQ3NL9ROO31CMHVRQ" /><LModul RC="Cintro:WSYVTF0QLC0W1O2VA7KV" /><LModul RC="Cintro:23A43YNTB3ZV8R93VEIW" /><LModul RC="Cintro:VJAUOI97IGWS4RERD2E9" /><LModul RC="Cintro:C1F77Z9U62N7X1RA434Q" /><LModul RC="Cintro:CSX1FSGW4YZEQNV2890F" /><LModul RC="Cintro:T75EJSDMTVU6ED6O0I82" /><LModul RC="Cintro:0HKEFKYKLN4C187CAWIR" /><LModul RC="Cintro:TBUV6QUIVZIB6POJSZLA" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Функции</ChTitle>
+<LModul RC="Cintro:6J2B961G9BKTJWGKF572" /><LModul RC="Cintro:SPQ46581NIPL3LTDP9G4" /><LModul RC="Cintro:J78LRH344A2SGHIGD6HW" /><LModul RC="Cintro:2V2ZY48SUBFEN8OVHUHX" /><LModul RC="Cintro:7AICT7V762N8I8FG6AZI" /><LModul RC="Cintro:BHBJ6OMF57UH69WJAZDD" /><LModul RC="Cintro:H8I665WCZ42HQILAIM7D" /><LModul RC="Cintro:E10VY2FZ14Q98M3MNVMT" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Классы памяти</ChTitle>
+<LModul RC="Cintro:6NGHVS5GIV4XQQK7APZL" /><LModul RC="Cintro:VYL10D0M5LUARXZARAZM" /><LModul RC="Cintro:TCVFVAWQRHN2IZARPQ2A" /><LModul RC="Cintro:IXW2TRURIU2QGW44PWMM" /><LModul RC="Cintro:VJQ9XBKI8ZIDZQL4ZO6P" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Управляющие операторы</ChTitle>
+<LModul RC="Cintro:IBEB3BWXYHTYYP53PG2X" /><LModul RC="Cintro:1R18542HG5A3IRM4T0QI" /><LModul RC="Cintro:5EVVRY7QQAB5GIUG7DDO" /><LModul RC="Cintro:JQDU9435L30U3X21CWML" /><LModul RC="Cintro:0J2DAN4W06WHNWJL2DOB" /><LModul RC="Cintro:0JWANEKBIWGR4SA4Z1DZ" /><LModul RC="Cintro:D010YINFWMRTNX72KNPO" /><LModul RC="Cintro:TVIN4JOQ1RYFMMR6CY4U" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Указатели</ChTitle>
+<LModul RC="Cintro:ZOO88LPH2LDQURQ7G1EI" /><LModul RC="Cintro:2VJKPKZ8408FJW6PDUOU" /><LModul RC="Cintro:HJXZC50F720L31C2Z4TB" /><LModul RC="Cintro:HGCM1KIIW333WL574UKD" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Массивы</ChTitle>
+<LModul RC="Cintro:IHFIOKFW83NRHQ47ZOY0" /><LModul RC="Cintro:KP35D9EARBKWT406NB27" /><LModul RC="Cintro:Q9ABQ1GRZJFOOS87LGAY" /><LModul RC="Cintro:TBZMP12TFANCVWT02L8V" /><LModul RC="Cintro:TMHA3VBII2CU7DRJTXSR" /><LModul RC="Cintro:3SPMA6ZLP2VH313QNDQI" /><LModul RC="Cintro:HU5J3ITPYPSDHIU20PPI" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Структуры</ChTitle>
+<LModul RC="Cintro:BFUHJ2QK1ANY9PNEULI9" /><LModul RC="Cintro:9C1U9LTUBPSTSOS83VYU" /><LModul RC="Cintro:T0AE5QBFQ7STZWQ1YJ34" /><LModul RC="Cintro:G5H9I0P8UIA7AKEFFO6C" /><LModul RC="Cintro:YGXATT6GVLNB463BRMUH" /><LModul RC="Cintro:WAS1AV4BP3IWS1T8AK94" /><LModul RC="Cintro:KCSDPDGIX3XO2RH4BXFN" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Препроцессор</ChTitle>
+<LModul RC="Cintro:H96YGS2X4H1510EGE5IW" /><LModul RC="Cintro:0U0T66Z1UFK46AK4DAOE" /><LModul RC="Cintro:YI45MFW8KM72QPT2NESB" /><LModul RC="Cintro:S5IGNB95N4YGL6EBHHMH" /><LModul RC="Cintro:OM1B8234LGQYG9XU3HKY" /><LModul RC="Cintro:FGDZXMK3MEE2TO3OZNIC" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Доступ к аргументам командной строки</ChTitle>
+<LModul RC="Cintro:KSWW2U94GZW3I77SAM38" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Побитовые операции</ChTitle>
+<LModul RC="Cintro:IZGG2PTENMGC414LBBRV" /></Chapter>
+</Course>

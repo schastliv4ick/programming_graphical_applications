@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Modul UId="TRA231Z1JAAKK036KZV6" Author="Волосатова Т.М." Level="0" ADate="F8GZP1UW">
+<Title>Уничтожение клиентской программы и порожденных ею объектов</Title>
+<P>Функции: <Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetCloseDownMode()</Term>, <Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XKillCkient()</Term></P>
+<P /><P><Font B="Y">XSetCloseDownMode (display,   close_mode)</Font></P>
+<P><Font B="Y">Display  *display;</Font></P>
+<P><Font B="Y">int  close_mode; </Font></P>
+<P><Font B="Y">XKillClient (display,   resource)</Font></P>
+<P><Font B="Y">Display  *display;</Font></P>
+<P><Font B="Y">XID resource;</Font></P>
+<P /><P>display           Задает соединение с Х-сервером.</P>
+<P>close_mode     Задает режим разрыва соединения (close-down). Может принимать значения Destroy Аll, RetainPermanent и RetainTemporary.</P>
+<P>resourse         Задает какой-либо объект, созданный клиентской программой, которую нужно уничтожить, либо имеет значение АllТеmрогагу.</P>
+<P /><P>Функция XSetCloseDownMode() определяет судьбу объектов клиентской программы при разрыве соединения с Х-сервером. При установке соединения задается режим Destroy All (уничтожать все объекты). Если задать режим RetainPermanent или RetainTemporary, то после завершения клиентской программы созданные в ней объекты сохраняются, пока не будет вызвана функция XKillClient(). <Term Type="Link" Sp="*">Аргумент</Term> resource функции XKillClient() можно использовать для указания клиентской программы, объекты которой нужно уничтожить (или соединение которой с X-сервером необходимо разорвать, если оно еще не разорвано), или же можно присвоить ему значение АllТеmрогагу, и тогда XKillClient() уничтожит все объекты всех клиентских программ, которые уже завершили выполнение в режиме RetainTemporary.</P>
+<P>Одно из применений режимов RetainTemporary и RetainPermanent - восстановление прикладной программы после ошибок в работе соединения с дисплейным <Term Type="Link" Sp="*">сервером</Term>. После рестарта прикладной программе потребуется идентифицировать собственные объекты и восстановить контроль над ними.</P>
+<P>При отработке функции XSetCloseDownMode() может возникать ошибка BadValue.</P>
+<P /><P>Если задан действующий идентификатор объекта, то функция XKillClient вызывает разрыв соединения с сервером той клиентской программы, которой принадлежит этот объект. Если клиентская программа уже завершена и соединение было разорвано в режиме RetainPermanent или Retain Temporary, все объекты этой клиентской программы уничтожаются. Если в качестве аргумента resource задано  АllТеmрогагу, то уничтожаются все объекты всех клиентских программ, которые завершились в режиме RetainTemporary.</P>
+<P>Данные функции позволяют реализовать простейшие средства <Term Type="Link" Sp="*">отладки</Term> в менеджере окон. Если клиент установил для себя режим RetainTemporary, то после аварийного завершения работы программы на дисплее останутся все его окна. Программист может анализировать дерево окон программы и их реквизиты, а затем использовать менеджер окон для уничтожения этих &quot;мертвых&quot; окон.</P>
+<P>При отработке функции XKillClient() может возникать ошибка BadValue.</P>
+<P /><P>BadValue Значения некоторых числовых параметров выходят за диапазон допустимых величин. Если для аргумента не описан <Term Type="Link" Sp="*">диапазон значений</Term>, то допустимы все значения, представимые в данном типе. Если аргумент может принимать лишь несколько определенных значений, то любое другое значение вызовет данную ошибку.</P>
+</Modul>

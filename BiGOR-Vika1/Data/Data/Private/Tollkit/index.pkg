@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Index>
+
+<AuxMod UId="8KFGF4KGWQ6PO6U6TPGT" Path="1.aux" Time="EV881XDC" Size="11407">
+<Title>Вопросы для контрольных работ</Title>
+</AuxMod>
+
+<Thesaurus UId="EJ73VKT5CQIPZGWQ9PWA" Path="1.the" Time="EYFN9L0U" Size="11695">
+<Title>Программирование в среде XWindow System</Title>
+</Thesaurus>
+
+<Modul UId="9OHDJQZ9NP5JCTR83DMP" Author="Полякова В.Г." Level="0" ADate="ETJNYQ2V" Path="2.1.1.mod" Time="EY6978IO" Size="3535">
+<Title>Общее устройство X Window</Title>
+<Term Type="Out">X Windows System</Term>
+</Modul>
+
+<Modul UId="1MDKOX3FVCQ0FDTH4ZGL" Author="Полякова В.Г." Level="0" ADate="ETJQC2YK" Path="2.1.10.mod" Time="EY699XQO" Size="2360">
+<Title>Отобрaжение текста</Title>
+<Term Type="Out">XSetForeground</Term>
+<Term Type="Out">XSetBackground</Term>
+</Modul>
+
+<Modul UId="D0TYALX7PEMJJAW4IE78" Author="Полякова В.Г." Level="0" ADate="ETJQDQFM" Path="2.1.11.mod" Time="EY6BGLJ4" Size="7443">
+<Title>Обработка событий</Title>
+<Term Type="In">X Window System</Term>
+<Term Type="Out">XGrabKeyboard</Term>
+<Term Type="Out">XGrabKey</Term>
+<Term Type="Out">XGrabButton()</Term>
+</Modul>
+
+<Modul UId="VGMKG3MTO74G5AZFQT3I" Author="Полякова В.Г." Level="0" ADate="ETJQGZSG" Path="2.1.12.mod" Time="EVWFAZCG" Size="972">
+<Title>Разрыв связи с Х-сервером</Title>
+<Term Type="In">X Windows System</Term>
+</Modul>
+
+<Modul UId="Q31WK7JJYLQO5OU85UFO" Author="Полякова" Level="0" ADate="EV87F17M" Path="2.1.2.mod" Time="EY69ODSW" Size="76484">
+<Title>Структура клиентской программы</Title>
+</Modul>
+
+<Modul UId="PZP8YXK8KTR10OHGMACU" Author="Полякова В.Г." Level="0" ADate="ETJOPEFS" Path="2.1.3.mod" Time="EY69PHXC" Size="2716">
+<Title>Инициализация взаимодействия с X-сервером</Title>
+<Term Type="In">X Windows System</Term>
+<Term Type="Out">XOpenDisplаy</Term>
+</Modul>
+
+<Modul UId="V7XVNSNMXZQZ3QOKHH95" Author="Полякова" Level="0" ADate="EV87KJWU" Path="2.1.4.mod" Time="EY6BHXDC" Size="5063">
+<Title>Создание окна</Title>
+<Term Type="In">X Windows System</Term>
+<Term Type="Out">XCreateWindow</Term>
+<Term Type="Out">override_redirect</Term>
+<Term Type="Out">XMapWindow</Term>
+</Modul>
+
+<Modul UId="EVC2Y1PTHCXB4LVEPWZS" Author="Полякова В.Г." Level="0" ADate="ETJPRTF3" Path="2.1.5.mod" Time="EY6A0DWG" Size="7855">
+<Title>Загрузка шрифтов</Title>
+<Term Type="Out">XDrawString</Term>
+<Term Type="Out">XDrawImageString()</Term>
+<Term Type="Out">XDrawText()</Term>
+<Term Type="In">Поле font</Term>
+<Term Type="Out">XLoadFont()</Term>
+<Term Type="In">X Window System</Term>
+</Modul>
+
+<Modul UId="8YH29E5PWYIR125GDXDL" Author="Полякова В.Г." Level="0" ADate="ETJPZS2Z" Path="2.1.6.mod" Time="EY6A0ZI8" Size="3411">
+<Title>Распределение цветов</Title>
+<Term Type="Out">Colormap</Term>
+</Modul>
+
+<Modul UId="JW23I8NFKZS6KV1604F3" Author="Полякова В.Г." Level="0" ADate="ETJQ56SY" Path="2.1.7.mod" Time="EY6A6LO0" Size="14151">
+<Title>Установка графического контекста</Title>
+<Term Type="In">X Window System</Term>
+<Term Type="Out">XCreateGC</Term>
+<Term Type="Out">XGetGCValues</Term>
+<Term Type="In">XSetForeground()</Term>
+<Term Type="In">XSetBackground()</Term>
+<Term Type="Out">Поле line_width</Term>
+<Term Type="Out">Поле line_style</Term>
+<Term Type="Out">cap_style</Term>
+<Term Type="Out">Поле join_style</Term>
+<Term Type="Out">dash_offset</Term>
+<Term Type="Out">XSetLineAttributes()</Term>
+<Term Type="Out">Поле font</Term>
+<Term Type="Out">полем fill_style</Term>
+</Modul>
+
+<Modul UId="0TXVMIWW6A92X83KB8MZ" Author="Полякова В.Г." Level="0" ADate="ETJQ94XA" Path="2.1.8.mod" Time="EY6A8TWW" Size="2473">
+<Title>Создание пиксельной карты</Title>
+</Modul>
+
+<Modul UId="3VTF1L3DS1SCQ64E9YX0" Author="Полякова В.Г." Level="0" ADate="ETJQAFLE" Path="2.1.9.mod" Time="EY6A9LOW" Size="2473">
+<Title>Примитивы графического вывода</Title>
+<Term Type="In">XSetForeground</Term>
+</Modul>
+
+<Modul UId="AAJFP4W26X1ZW2FVA0SR" Author="Полякова В.Г." Level="0" ADate="EV1607AE" Path="2.1.mod" Time="EY6ADOAO" Size="1243">
+<Title>Виджеты и встроенные средства Xt</Title>
+<Term Type="Out">Виджеты</Term>
+</Modul>
+
+<Modul UId="U5VAG2A0F7364LR9U9HF" Author="Полякова В.Г." Level="0" ADate="EV155HXF" Path="2.3.mod" Time="EY6AEYLC" Size="8112">
+<Title>Инициализация программы. Контекст программы</Title>
+<Term Type="Out">XtInitialize</Term>
+<Term Type="Out">ApplicationShell</Term>
+<Term Type="In">widget</Term>
+<Term Type="Out">XtAppMainLoop</Term>
+</Modul>
+
+<Modul UId="HRV0L1X40278SB5RR13G" Author="Полякова В.Г." Level="0" ADate="EV15ALOF" Path="2.5.mod" Time="EY6AXWOW" Size="5509">
+<Title>Классы объектов.</Title>
+<Term Type="Out">Object</Term>
+<Term Type="In">widget</Term>
+<Term Type="Out">Core</Term>
+<Term Type="Out">Composite</Term>
+<Term Type="Out">OverrideShell</Term>
+<Term Type="In">override_redirect</Term>
+<Term Type="Out">WMShell</Term>
+<Term Type="Out">VendorShell</Term>
+<Term Type="Out">TransientShell</Term>
+<Term Type="Out">TopLevelShell</Term>
+<Term Type="Out">ApplicationShell</Term>
+</Modul>
+
+<Modul UId="8ZS400R7ECDER2GG1T66" Author="Полякова В.Г." Level="0" ADate="EV15C5Y1" Path="2.6.mod" Time="EY6AN8FK" Size="763">
+<Title>Атрибуты (ресурсы) объектов</Title>
+</Modul>
+
+<Modul UId="JO4Z6EAKIEES5AZN0JMA" Author="Полякова В.Г." Level="0" ADate="EV15D2G6" Path="2.7.mod" Time="EY6AN5CG" Size="7195">
+<Title>Управление объектами</Title>
+<Term Type="In">Composite</Term>
+<Term Type="In">Core</Term>
+<Term Type="Out">XtIsRealized</Term>
+<Term Type="Out">XtDisplay</Term>
+<Term Type="Out">XtScreen</Term>
+<Term Type="Out">XDestroyWidget</Term>
+</Modul>
+
+<Modul UId="QG5Z7J64OA1APK2GEX39" Author="Полякова В.Г." Level="0" ADate="EV15R2A7" Path="2.8.mod" Time="EY6AOB0G" Size="3598">
+<Title>Модификация и чтение ресурсов объекта</Title>
+<Term Type="In">widget</Term>
+<Term Type="In">Core</Term>
+</Modul>
+
+<Modul UId="C8QYJCE6EQBCESYQWL0Y" Author="Полякова В.Г." Level="0" ADate="EV15SX0Z" Path="2.9.mod" Time="EYFNAWUR" Size="28907">
+<Title>Динамические ресурсы обьектов</Title>
+<Term Type="In">widget</Term>
+</Modul>
+
+<Modul UId="J6VA1LVCCCKUVAT229OC" Author="Полякова В.Г." Level="0" ADate="EUGXQZWK" Path="3.1.mod" Time="EY6ATA0W" Size="3623">
+<Title>Основы X Toollkit</Title>
+<Term Type="Out">widget</Term>
+<Term Type="In">X Window System</Term>
+</Modul>
+
+<Modul UId="ZH1Q6BNJ1TR9U3PQ5XJQ" Author="Полякова В.Г." Level="0" ADate="EUH0E5WX" Path="3.3.mod" Time="EY6B23XC" Size="24726">
+<Title>Дополнительные возможности Xt</Title>
+<Term Type="Out">XtAppAddInput</Term>
+<Term Type="Out">XtWidgetToApplicationContext</Term>
+<Term Type="In">XtAppMainLoop</Term>
+<Term Type="In">XtAppNextEvent</Term>
+<Term Type="In">XtDispatchEvent</Term>
+<Term Type="Out">XtAppPeekEvent</Term>
+<Term Type="Out">XtAppProcessEvent</Term>
+<Term Type="In">Object</Term>
+<Term Type="In">Core</Term>
+</Modul>
+
+<Modul UId="9SI47D9YSXBAPKWGU7DE" Author="Полякова В.Г." Level="0" ADate="EUH0GYXN" Path="3.4.mod" Time="EY6BBMIO" Size="27688">
+<Title>Xt и ресурсы программ.</Title>
+<Term Type="In">TopLevelShell</Term>
+<Term Type="In">ApplicationShell</Term>
+<Term Type="In">XtInitialize</Term>
+<Term Type="In">widget</Term>
+<Term Type="In">Colormap</Term>
+<Term Type="In">Core</Term>
+</Modul>
+
+<Modul UId="PTPYT56VHZBK27EODZ7C" Author="Полякова" Level="0" ADate="EV84HE09" Path="4.1.mod" Time="EY6BC3HS" Size="125107">
+<Title>Иерархия виджет-класса</Title>
+<Term Type="In">Core</Term>
+<Term Type="In">Composite</Term>
+<Term Type="Out">Shell</Term>
+<Term Type="Out">Constraint</Term>
+</Modul>
+
+<Modul UId="J32CH7OYDNJJIE9VDYGV" Author="Полякова" Level="0" ADate="EV84ZADB" Path="4.2.mod" Time="EY6BCIXC" Size="907">
+<Title>Реализация дерева экземпляра виджета</Title>
+<Term Type="Out">XtRealizeWidget</Term>
+</Modul>
+
+<Modul UId="3FMFI3JEYGEGIX9YJB08" Author="Полякова" Level="0" ADate="EV859IOV" Path="4.3.mod" Time="EY6BCS6O" Size="1123">
+<Title>Механизмы обработки событий</Title>
+<Term Type="Out">управление событиями</Term>
+<Term Type="Out">Управление трансляцией</Term>
+</Modul>
+
+<Modul UId="0VXZBO9JJCY5Z59PLP1B" Author="Полякова" Level="0" ADate="EV85O9AF" Path="4.4.mod" Time="EY6BD62O" Size="1276">
+<Title>Управление событиями</Title>
+<Term Type="Out">XtAppNextEvent</Term>
+<Term Type="Out">XtDispatchEvent</Term>
+</Modul>
+
+<Modul UId="H7V2OIGBRHKCB3DJF88Z" Author="Полякова" Level="0" ADate="EV867Q72" Path="4.5.mod" Time="EY6BER68" Size="1781">
+<Title>Интерфейс функции реакции клиента</Title>
+<Term Type="In">Виджет</Term>
+</Modul>
+
+<Modul UId="1ZMSJXB4L8PGTM4DI6Y3" Author="Полякова" Level="0" ADate="EV883D46" Path="4.6.mod" Time="EVV0DFMO" Size="753">
+<Title>Список литературы</Title>
+</Modul>
+
+<Course UId="BaseCourse" Creator="Полякова В.Г." Base="Y" Path="base.cou" Time="EVC51VXS" Size="2644">
+<Title>Прикладное программирование в среде X Window System (базовый курс)</Title>
+</Course>
+</Index>

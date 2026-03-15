@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Index>
+
+<AuxMod UId="8KFGF4KGWQ6PO6U6TPGT" Path="1.aux" Time="EV881XDC" Size="11407">
+<Title>Вопросы для контрольных работ</Title>
+</AuxMod>
+
+<Thesaurus UId="EJ73VKT5CQIPZGWQ9PWA" Path="1.the" Time="F9RNBCNK" Size="13525">
+<Title>Программирование в среде XWindow System</Title>
+</Thesaurus>
+
+<Modul UId="9OHDJQZ9NP5JCTR83DMP" Author="Полякова В.Г." Level="0" ADate="ETJNYQ2V" Path="2.1.1.mod" Time="F9RIV11S" Size="11425">
+<Title>Общее устройство X Window</Title>
+<Term Type="Out">X Windows System</Term>
+</Modul>
+
+<Modul UId="T91G2BKZX7RGSBIEIQ6B" Author="Волосатова Т.М." Level="0" ADate="F88T0E1P" Path="2.1.12.1.mod" Time="F8GZBR80" Size="3893">
+<Title>Терминология</Title>
+</Modul>
+
+<Modul UId="OL1B0RF1RGXRTWLNO02N" Author="Волосатова Т.М." Level="0" ADate="F88T7MBX" Path="2.1.12.2.mod" Time="F9RJ113K" Size="1535">
+<Title>Установка связи с Х-сервером</Title>
+</Modul>
+
+<Modul UId="VGMKG3MTO74G5AZFQT3I" Author="Полякова В.Г." Level="0" ADate="ETJQGZSG" Path="2.1.12.mod" Time="F9RJ9AXS" Size="3064">
+<Title>Разрыв связи с Х-сервером</Title>
+<Term Type="In">X Windows System</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XDestroyWindow</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XFreePixMap</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XFreeFont</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XCloseDisplay</Term>
+</Modul>
+
+<Modul UId="Q31WK7JJYLQO5OU85UFO" Author="Полякова" Level="0" ADate="EV87F17M" Path="2.1.2.mod" Time="F9SCI468" Size="76549">
+<Title>Структура клиентской программы</Title>
+</Modul>
+
+<Modul UId="TRA231Z1JAAKK036KZV6" Author="Волосатова Т.М." Level="0" ADate="F8GZP1UW" Path="2.1.3.1.mod" Time="F9RLATJK" Size="4508">
+<Title>Уничтожение клиентской программы и порожденных ею объектов</Title>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetCloseDownMode()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XKillCkient()</Term>
+</Modul>
+
+<Modul UId="PZP8YXK8KTR10OHGMACU" Author="Полякова В.Г." Level="0" ADate="ETJOPEFS" Path="2.1.3.mod" Time="F9RLCSJ4" Size="2813">
+<Title>Инициализация взаимодействия с X-сервером</Title>
+<Term Type="In">X Windows System</Term>
+<Term Type="Out">XOpenDisplаy</Term>
+</Modul>
+
+<Modul UId="WVX8Y3T1OHSJP3SOE706" Author="Волосатова Т.М." Level="0" ADate="F8H07IRY" Path="2.1.4.1.mod" Time="F9RLEI9C" Size="1879">
+<Title>Захват и освобождение Х-сервера</Title>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XGrabServer()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XUngrabServer()</Term>
+</Modul>
+
+<Modul UId="0RXALXFFBWRJZ9QGRDP1" Author="Волосатова Т.М." Level="0" ADate="F8H0BY2C" Path="2.1.4.2.mod" Time="F9RLGB2O" Size="3657">
+<Title>Включение и отключение синхронизации обменов по Х-протоколу</Title>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSynchronize()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetAfterFunction()</Term>
+</Modul>
+
+<Modul UId="V7XVNSNMXZQZ3QOKHH95" Author="Полякова" Level="0" ADate="EV87KJWU" Path="2.1.4.mod" Time="F9RLS9MO" Size="5223">
+<Title>Создание окна</Title>
+<Term Type="In">X Windows System</Term>
+<Term Type="Out">XCreateWindow</Term>
+<Term Type="Out">override_redirect</Term>
+<Term Type="Out">XMapWindow</Term>
+</Modul>
+
+<Modul UId="1VRZ6G35X18I0E1G6TVQ" Author="Волосатова Т.М." Level="0" ADate="F8H0OD1H" Path="2.1.5.1.mod" Time="F9RLWC8G" Size="5607">
+<Title>Управление окнами, атрибуты окон</Title>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XMapWindow()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XMapRaised()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XMapSubwindows()</Term>
+</Modul>
+
+<Modul UId="BMN5FP9Z5RPUUANNG5AB" Author="Волосатова Т.М." Level="0" ADate="F8H1RGUH" Path="2.1.5.3.mod" Time="F9RM1YE8" Size="12382">
+<Title>Изменение атрибутов окна</Title>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XChangeWindowAttributes()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetWindowBackground()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetWindowBackgroundPixmap()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetWindowBorder()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetWindowBorderPixmap()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetWindowColormap()</Term>
+</Modul>
+
+<Modul UId="COZRBXZ1CG7FG22KWEJZ" Author="Волосатова Т.М." Level="0" ADate="F8H0V186" Path="2.1.5.4.mod" Time="F9RM8II8" Size="2706">
+<Title>Уничтожение окон</Title>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XDestroySubwindows</Term>
+</Modul>
+
+<Modul UId="EVC2Y1PTHCXB4LVEPWZS" Author="Полякова В.Г." Level="0" ADate="ETJPRTF3" Path="2.1.5.mod" Time="F9RMDSBK" Size="8529">
+<Title>Загрузка шрифтов</Title>
+<Term Type="Out">XDrawString</Term>
+<Term Type="Out">XDrawImageString()</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XDrawText</Term>
+<Term Type="Out">XDrawText()</Term>
+<Term Type="In">Поле font</Term>
+<Term Type="Out">XLoadFont()</Term>
+<Term Type="In">X Window System</Term>
+</Modul>
+
+<Modul UId="8YH29E5PWYIR125GDXDL" Author="Полякова В.Г." Level="0" ADate="ETJPZS2Z" Path="2.1.6.mod" Time="F9RMF2M8" Size="3444">
+<Title>Распределение цветов</Title>
+<Term Type="Out">Colormap</Term>
+</Modul>
+
+<Modul UId="JW23I8NFKZS6KV1604F3" Author="Полякова В.Г." Level="0" ADate="ETJQ56SY" Path="2.1.7.mod" Time="F9RMKFIO" Size="14928">
+<Title>Установка графического контекста</Title>
+<Term Type="In">X Window System</Term>
+<Term Type="Out">XCreateGC</Term>
+<Term Type="Out">XGetGCValues</Term>
+<Term Type="In">XSetForeground()</Term>
+<Term Type="In">XSetBackground()</Term>
+<Term Type="Out">Поле line_width</Term>
+<Term Type="Out">Поле line_style</Term>
+<Term Type="Out">cap_style</Term>
+<Term Type="Out">Поле join_style</Term>
+<Term Type="Out">dash_offset</Term>
+<Term Type="Out">XSetLineAttributes()</Term>
+<Term Type="Out">Поле font</Term>
+<Term Type="Out">полем fill_style</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">line_width</Term>
+</Modul>
+
+<Modul UId="J2Q30GKJK7G4IPDGU6HW" Author="Волосатова Т.М." Level="0" ADate="F8H2C424" Path="2.1.8.1.mod" Time="F9RMOF1C" Size="4685">
+<Title>Процедуры изменения отдельных компонент графического контекста</Title>
+<Term Type="Out" Sp="Cintro">XSetState</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetFunction</Term>
+<Term Type="Out" Sp="Cintro;XRHN6ZLN1XWOVGQ3I3VL;U6BYA6CQ2EZ8KVW8IA4M;GNV7ZB1PXH9TJCKWQ04X;8J2HI82P95AO672PPQ2O;ru.bmstu.rk6-BD;9J0HNYNMQDVXW24XBBO3-E;ru.bmstu.rk6-051312-08;rk6.bmstu.ru-CALS;rk6.bmstu.ru-Computers;rk6.bmstu.ru-ERP;rk6.bmstu.ru-Graphics;ru.bmstu.rk6-MU;ru.bmstu.rk6-nn;RXFJ6XXUKETK1QBZNIBA-E;ru.bmstu.rk6-051313-09;rk6.bmstu.ru-Optimization;SAP;ru.bmstu.rk6-051315-10;rk6.bmstu.ru-Web-Education;simulation;ru.bmstu.rk6-051316-05;ru.bmstu.rk6-051319-11;ru.bmstu.rk6-070010-13;ru.bmstu.rk6-051311-03">XSetForeground</Term>
+<Term Type="Out" Sp="Cintro">XSetBackground</Term>
+<Term Type="Out" Sp="Cintro">XFlushGC</Term>
+<Term Type="Out" Sp="Cintro">XSetPlanemask</Term>
+</Modul>
+
+<Modul UId="0TXVMIWW6A92X83KB8MZ" Author="Полякова В.Г." Level="0" ADate="ETJQ94XA" Path="2.1.8.mod" Time="F9RMQH40" Size="2669">
+<Title>Создание пиксельной карты</Title>
+<Term Type="Out" Sp="Cintro">XCreatePixmap</Term>
+</Modul>
+
+<Modul UId="3VTF1L3DS1SCQ64E9YX0" Author="Полякова В.Г." Level="0" ADate="ETJQAFLE" Path="2.1.9.mod" Time="F9RMRXKW" Size="2602">
+<Title>Примитивы графического вывода</Title>
+<Term Type="In">XSetForeground</Term>
+</Modul>
+
+<Modul UId="PXY2OYK1O9SE9BLFBY58" Author="Волосатова Т.М." Level="0" ADate="F90W7X5I" Path="2.1.90.mod" Time="F9RMX8XS" Size="4684">
+<Title>Установка атрибутов линий</Title>
+<Term Type="Out" Sp="Cintro">XSetDashes</Term>
+<Term Type="In">line_width</Term>
+<Term Type="In">line_style</Term>
+<Term Type="In">cap_style</Term>
+<Term Type="In">join_slyle</Term>
+<Term Type="In">dash_offset</Term>
+<Term Type="In">dash_list</Term>
+</Modul>
+
+<Modul UId="UD35YTKX8BUNL7VZ9M7C" Author="Волосатова Т.М." Level="0" ADate="F90X5UML" Path="2.1.91.0.mod" Time="F9RN35WG" Size="4953">
+<Title>Рисование отрезков, ломаных и многоугольников</Title>
+<Term Type="Out">XDrawLine</Term>
+<Term Type="Out">XDrawLines</Term>
+<Term Type="Out">XDrawSegments</Term>
+</Modul>
+
+<Modul UId="LAGL39QYWMERCN4B7YCD" Author="Волосатова Т.М." Level="0" ADate="F90WY4Y2" Path="2.1.91.mod" Time="F9RN6JTC" Size="3084">
+<Title>Рисование точек</Title>
+<Term Type="Out">XDrawPoint</Term>
+<Term Type="Out">XDrawPoints</Term>
+</Modul>
+
+<Modul UId="BXQB1R1I4QU8H4ERVO3P" Author="Волосатова Т.М." Level="0" ADate="F90Y1CRL" Path="2.1.92.mod" Time="F9RNE4YO" Size="2971">
+<Title>Рисование прямоугольников</Title>
+<Term Type="Out">XDrawRectangle</Term>
+<Term Type="Out">XDrawRectangles</Term>
+</Modul>
+
+<Modul UId="9RXIJS3JV2I48CLR7BLA" Author="Волосатова Т.М." Level="0" ADate="F90YEI4E" Path="2.1.93.mod" Time="F9RNIDQO" Size="4193">
+<Title>Вывод текстовой строки</Title>
+<Term Type="In">fill_style</Term>
+<Term Type="In">font</Term>
+<Term Type="In">font</Term>
+</Modul>
+
+<Modul UId="6Y069N3Z7V6G5ROZGYTI" Author="Волосатова Т.М." Level="0" ADate="F90Z1E1F" Path="2.1.94.2.mod" Time="F9RNMMIO" Size="12052">
+<Title>Работа с внешними устройствами - клавиатура</Title>
+</Modul>
+
+<Modul UId="2VC0HK8L8I32P0LSUY1N" Author="Волосатова Т.М." Level="0" ADate="F90ZF0AA" Path="2.1.94.3.mod" Time="F9RNR1GW" Size="11734">
+<Title>Работа с внешними устройствами - мышь</Title>
+</Modul>
+
+<Modul UId="I31F0866K6CDOMSFA2JS" Author="Волосатова Т.М." Level="0" ADate="F9H2ZDQL" Path="2.1.95.2.mod" Time="F9RNUZG0" Size="311447">
+<Title>Базовые структуры: XAnyEvent, XEvent</Title>
+<Term Type="Out">XEvent</Term>
+</Modul>
+
+<Modul UId="JJ3LZAJ1Z737KCFQMVS1" Author="Волосатова Т.М." Level="0" ADate="F9H4H6SJ" Path="2.1.95.3.mod" Time="F9RO099C" Size="455971">
+<Title>Событие KeyPress, KeyRelease, ButtonPress, ButtonRelease и MotionNotify; структуры XButtonEvent, XKeyEvent, XMotionEvent</Title>
+<Term Type="Out">XKeyEvent</Term>
+<Term Type="Out">KeyPress</Term>
+<Term Type="Out">KeyRelease</Term>
+<Term Type="Out">XButtonEvent</Term>
+<Term Type="Out">ButtonPress </Term>
+<Term Type="Out">ButtonRelease</Term>
+<Term Type="Out">XMotionEvent</Term>
+<Term Type="Out">MotionNotify</Term>
+</Modul>
+
+<Modul UId="MZ4OKKN3RRFNZE58SN0L" Author="Волосатова Т.М." Level="0" ADate="F9H55CJQ" Path="2.1.95.4.mod" Time="F9RO2QRK" Size="4775">
+<Title>События EnterNotify и LeaveNotify</Title>
+<Term Type="Out">XCrossingEvent</Term>
+</Modul>
+
+<Modul UId="F0P0CDVUFDV4XSZ25AXW" Author="Волосатова Т.М." Level="0" ADate="F9QPDLUH" Path="2.1.95.5.mod" Time="F9RO4I1C" Size="3260">
+<Title>События FocusIn и  FocusOut</Title>
+<Term Type="Out">Focusln</Term>
+<Term Type="Out">FocusOut</Term>
+<Term Type="Out">структура XFocusChangeEvent</Term>
+</Modul>
+
+<Modul UId="W4QLDGWC6GRXM1Z1M0X1" Author="Волосатова Т.М." Level="0" ADate="F9QPJAE7" Path="2.1.95.6.mod" Time="F9RO6IKG" Size="1961">
+<Title>Сообщение об ошибке, Структура XErrorEvent</Title>
+<Term Type="Out">XErrorEvent</Term>
+</Modul>
+
+<Modul UId="TCVN2WB2EEVON3F7LSAS" Author="Волосатова Т.М." Level="0" ADate="F9QPR9XR" Path="2.1.95.7.mod" Time="F9RO8P9S" Size="2862">
+<Title>Событие Expose, структура XExposeEvent</Title>
+</Modul>
+
+<Modul UId="AAJFP4W26X1ZW2FVA0SR" Author="Полякова В.Г." Level="0" ADate="EV1607AE" Path="2.1.mod" Time="F9QQ4E4W" Size="1245">
+<Title>Виджеты и встроенные средства Xt</Title>
+<Term Type="Out">Виджеты</Term>
+</Modul>
+
+<Modul UId="U5VAG2A0F7364LR9U9HF" Author="Полякова В.Г." Level="0" ADate="EV155HXF" Path="2.3.mod" Time="F7UVYFU8" Size="8116">
+<Title>Инициализация программы. Контекст программы</Title>
+<Term Type="Out">XtInitialize</Term>
+<Term Type="Out">ApplicationShell</Term>
+<Term Type="In">widget</Term>
+<Term Type="Out">XtAppMainLoop</Term>
+</Modul>
+
+<Modul UId="HRV0L1X40278SB5RR13G" Author="Полякова В.Г." Level="0" ADate="EV15ALOF" Path="2.5.mod" Time="F9QQ55WW" Size="5510">
+<Title>Классы объектов.</Title>
+<Term Type="Out">Object</Term>
+<Term Type="In">widget</Term>
+<Term Type="Out">Core</Term>
+<Term Type="Out">Composite</Term>
+<Term Type="Out">OverrideShell</Term>
+<Term Type="In">override_redirect</Term>
+<Term Type="Out">WMShell</Term>
+<Term Type="Out">VendorShell</Term>
+<Term Type="Out">TransientShell</Term>
+<Term Type="Out">TopLevelShell</Term>
+<Term Type="Out">ApplicationShell</Term>
+</Modul>
+
+<Modul UId="8ZS400R7ECDER2GG1T66" Author="Полякова В.Г." Level="0" ADate="EV15C5Y1" Path="2.6.mod" Time="F9QQ5F68" Size="768">
+<Title>Атрибуты (ресурсы) объектов</Title>
+</Modul>
+
+<Modul UId="JO4Z6EAKIEES5AZN0JMA" Author="Полякова В.Г." Level="0" ADate="EV15D2G6" Path="2.7.mod" Time="F7UW2WC0" Size="7197">
+<Title>Управление объектами</Title>
+<Term Type="In">Composite</Term>
+<Term Type="In">Core</Term>
+<Term Type="Out">XtIsRealized</Term>
+<Term Type="Out">XtDisplay</Term>
+<Term Type="Out">XtScreen</Term>
+<Term Type="Out">XDestroyWidget</Term>
+</Modul>
+
+<Modul UId="QG5Z7J64OA1APK2GEX39" Author="Полякова В.Г." Level="0" ADate="EV15R2A7" Path="2.8.mod" Time="F7UW6UB4" Size="3599">
+<Title>Модификация и чтение ресурсов объекта</Title>
+<Term Type="In">widget</Term>
+<Term Type="In">Core</Term>
+</Modul>
+
+<Modul UId="C8QYJCE6EQBCESYQWL0Y" Author="Полякова В.Г." Level="0" ADate="EV15SX0Z" Path="2.9.mod" Time="F7UWFVXC" Size="28909">
+<Title>Динамические ресурсы объектов</Title>
+<Term Type="In">widget</Term>
+</Modul>
+
+<Modul UId="J6VA1LVCCCKUVAT229OC" Author="Полякова В.Г." Level="0" ADate="EUGXQZWK" Path="3.1.mod" Time="F7UWKY0W" Size="3624">
+<Title>Основы X Toollkit</Title>
+<Term Type="Out">widget</Term>
+<Term Type="In">X Window System</Term>
+</Modul>
+
+<Modul UId="ZH1Q6BNJ1TR9U3PQ5XJQ" Author="Полякова В.Г." Level="0" ADate="EUH0E5WX" Path="3.3.mod" Time="F9QQ7WOG" Size="24727">
+<Title>Дополнительные возможности Xt</Title>
+<Term Type="Out">XtAppAddInput</Term>
+<Term Type="Out">XtWidgetToApplicationContext</Term>
+<Term Type="In">XtAppMainLoop</Term>
+<Term Type="In">XtAppNextEvent</Term>
+<Term Type="In">XtDispatchEvent</Term>
+<Term Type="Out">XtAppPeekEvent</Term>
+<Term Type="Out">XtAppProcessEvent</Term>
+<Term Type="In">Object</Term>
+<Term Type="In">Core</Term>
+</Modul>
+
+<Modul UId="9SI47D9YSXBAPKWGU7DE" Author="Полякова В.Г." Level="0" ADate="EUH0GYXN" Path="3.4.mod" Time="F9QQAB3K" Size="27689">
+<Title>Xt и ресурсы программ.</Title>
+<Term Type="In">TopLevelShell</Term>
+<Term Type="In">ApplicationShell</Term>
+<Term Type="In">XtInitialize</Term>
+<Term Type="In">widget</Term>
+<Term Type="In">Colormap</Term>
+<Term Type="In">Core</Term>
+</Modul>
+
+<Modul UId="PTPYT56VHZBK27EODZ7C" Author="Полякова" Level="0" ADate="EV84HE09" Path="4.1.mod" Time="F9QQAV5S" Size="125108">
+<Title>Иерархия виджет-класса</Title>
+<Term Type="In">Core</Term>
+<Term Type="In">Composite</Term>
+<Term Type="Out">Shell</Term>
+<Term Type="Out">Constraint</Term>
+</Modul>
+
+<Modul UId="J32CH7OYDNJJIE9VDYGV" Author="Полякова" Level="0" ADate="EV84ZADB" Path="4.2.mod" Time="F9QQB5YO" Size="908">
+<Title>Реализация дерева экземпляра виджета</Title>
+<Term Type="Out">XtRealizeWidget</Term>
+</Modul>
+
+<Modul UId="3FMFI3JEYGEGIX9YJB08" Author="Полякова" Level="0" ADate="EV859IOV" Path="4.3.mod" Time="F9QQBW74" Size="1125">
+<Title>Механизмы обработки событий</Title>
+<Term Type="Out">управление событиями</Term>
+<Term Type="Out">Управление трансляцией</Term>
+</Modul>
+
+<Modul UId="0VXZBO9JJCY5Z59PLP1B" Author="Полякова" Level="0" ADate="EV85O9AF" Path="4.4.mod" Time="F9QQCA34" Size="1277">
+<Title>Управление событиями</Title>
+<Term Type="Out">XtAppNextEvent</Term>
+<Term Type="Out">XtDispatchEvent</Term>
+</Modul>
+
+<Modul UId="H7V2OIGBRHKCB3DJF88Z" Author="Полякова" Level="0" ADate="EV867Q72" Path="4.5.mod" Time="F9QQCPIO" Size="1782">
+<Title>Интерфейс функции реакции клиента</Title>
+<Term Type="In">Виджет</Term>
+</Modul>
+
+<Modul UId="1ZMSJXB4L8PGTM4DI6Y3" Author="Полякова" Level="0" ADate="EV883D46" Path="4.6.mod" Time="F9QQEF8W" Size="754">
+<Title>Список литературы</Title>
+</Modul>
+
+<Course UId="BaseCourse" Creator="Полякова В.Г." Base="Y" Path="base.cou" Time="F9RPP4M8" Size="3727">
+<Title>Прикладное программирование в среде X Window System (базовый курс)</Title>
+</Course>
+</Index>

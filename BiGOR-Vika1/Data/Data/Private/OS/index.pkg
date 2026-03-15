@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Index>
+
+<Course UId="BaseCourse" Creator="Грошев С.В." Base="Y" Path="base.cou" Time="ETR95OY8" Size="156">
+<Title>Операц (базовый курс)</Title>
+</Course>
+
+<Modul UId="O70R69WXNXAZNPZV1DLX" Author="Грошев С.В." Level="0" ADate="ESVMVXWI" Path="m1.mod" Time="ET5NP1WG" Size="1052">
+<Title>Введение</Title>
+</Modul>
+</Index>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Course UId="BaseCourse" Creator="werwer" Base="Y">
+<Title>qqqqqq (базовый курс)</Title>
+<P />
+<Chapter Num="Y" Type="1">
+<ChTitle>вапвапвапвапвап</ChTitle>
+<LModul RC="rk6.bmstu.ru-Optimization:9ZQN7W5I3L7N1OFPZUIM" /><LTestMod RC="U54SLK8QAHROXUQQ237B:XUR84LIMOYAZ6LCTH0LL" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>впвапавпвапвап</ChTitle>
+<LModul RC="U54SLK8QAHROXUQQ237B:ANYZJ03Y7MFZGOJG1VY8" /></Chapter>
+</Course>

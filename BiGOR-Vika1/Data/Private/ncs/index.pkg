@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Index>
+
+<Modul UId="LFXKOG1IAH0LOLQ081NV" Level="1" ADate="ESZZTFYQ" Author="Волосатова" Path="1-1001.mod" Time="EV6MMA6O" Size="2933">
+<Title>Элементы теории сигналов</Title>
+<Term Type="Out">сигналом</Term>
+<Term Type="Out">Пространственный сигнал</Term>
+<Term Type="Out">Временной сигнал</Term>
+<Term Type="Out">Финитный сигнал</Term>
+<Term Type="Out">Инфинитный сигнал</Term>
+<Term Type="Out">Аналоговый сигнал</Term>
+<Term Type="Out">Дискретный сигнал</Term>
+<Term Type="Out">Квантованный сигнал </Term>
+<Term Type="Out">Цифровой сигнал</Term>
+<Term Type="Out">Детерминированный сигнал</Term>
+<Term Type="Out">Случайный сигнал</Term>
+</Modul>
+
+<Modul UId="BTSPPGMAW88GNGF655KC" Level="1" ADate="ET1RMWG9" Author="Волосатова" Path="1-1002.mod" Time="EVF2EGCG" Size="2275">
+<Title>Классификация сигналов</Title>
+<Term Type="In">сигналов</Term>
+<Term Type="In">Финитный сигнал</Term>
+<Term Type="In">Инфинитный сигнал</Term>
+<Term Type="Out">непрерывный</Term>
+</Modul>
+
+<Modul UId="985AVV4LZ0A4YDXMS5SR" Level="0" ADate="ET1RV757" Author="Волосатова" Path="1-1003.mod" Time="EV6MVDCG" Size="799">
+<Title>Математические модели сигналов</Title>
+</Modul>
+
+<Modul UId="2G9N2KPI3A4GCCOYEST1" Level="1" ADate="ET1SKXCZ" Author="Волосатова" Path="1-1004.mod" Time="EVEUWKAO" Size="1187">
+<Title>Параллельные и векторные методы цифровой обработки сигналов</Title>
+<Term Type="In">сигналов</Term>
+</Modul>
+
+<Modul UId="8B3BNHAOKWGD1K4L2MIN" Level="1" ADate="EU72WP18" Author="Волосатова" Path="1-1005.mod" Time="EV6LE4OG" Size="1332">
+<Title>Вопрос о сравнении 2-х сигналов</Title>
+</Modul>
+
+<Modul UId="7AUJI64RITBNLXLILYNM" Author="kylagin" Level="1" ADate="EU73CPOJ" Path="1-1006.mod" Time="EV6N7JM8" Size="3621">
+<Title>Некоторые характерные сигналы</Title>
+<Term Type="Out">Точечный сигнал</Term>
+</Modul>
+
+<Modul UId="EYBO1KVB3RMK0I39E234" Level="1" ADate="ET60615I" Author="Волосатова" Path="1-1007.mod" Time="EV6LEDXS" Size="1410">
+<Title>Интенсивность сигнала</Title>
+</Modul>
+
+<Modul UId="AEBYN5YL7F9ZQJHMXFOL" Level="1" ADate="ET77IJ9X" Author="Волосатова" Path="1-1008.mod" Time="EV6LETDC" Size="5367">
+<Title>Примеры базисных функций</Title>
+</Modul>
+
+<Modul UId="P7D8J3CTASLLXHK2VW4C" Author="kylagin" Level="1" ADate="EU1EQWJA" Path="10-1000.mod" Time="EUNQ7WCG" Size="874">
+<Title>Введение в параллельные методы цифровой обработки сигналов </Title>
+</Modul>
+
+<Modul UId="Z6M9UV8TH316G87PWS00" Author="kylagin" Level="1" ADate="EU1FUJ1E" Path="10-1001.mod" Time="EVF3E8XC" Size="29555">
+<Title>Параллельные методы вычисления свертки(аппаратно-программные)</Title>
+</Modul>
+
+<Modul UId="MH955XHDT40ZJ6WSD1LK" Level="1" ADate="EU2LQLN7" Author="Волосатова Т.М." Path="10-1002.mod" Time="EVF3GK9C" Size="8796">
+<Title>Параллельное вычисление по группам разрядов(разрядным срезам) изображения</Title>
+</Modul>
+
+<Modul UId="2CVIJNALNJOIPZ1Y0IKM" Author="kylagin" Level="1" ADate="EU2YWOY8" Path="10-1003.mod" Time="EU3W71CG" Size="2654">
+<Title>Локальная эквализация</Title>
+</Modul>
+
+<Modul UId="JV3Z329J6EJFBJYT59T5" Author="kylagin" Level="1" ADate="EU3U6K74" Path="10-1004.mod" Time="EU3X6NR4" Size="2635">
+<Title>Параллельное вычисление по группам элементов входного изображения</Title>
+</Modul>
+
+<Modul UId="M7MEX3FXPQ3DDMUHHB58" Level="1" ADate="EU3V2FOS" Author="Волосатова" Path="10-1005.mod" Time="EVE8ZIFK" Size="7591">
+<Title>Медианные фильтры</Title>
+<Term Type="Out">медианных фильтров</Term>
+<Term Type="Out">Медиана</Term>
+</Modul>
+
+<Modul UId="4TM9QH4XW16O05UXA3LG" Author="kylagin" Level="1" ADate="EU4EQD9J" Path="10-1006.mod" Time="EVE8VEA8" Size="3811">
+<Title>Медианные фильтры на основе сортирующих сетей</Title>
+<Term Type="In">Медиана</Term>
+</Modul>
+
+<Modul UId="5B5V7LC8UDHEELLBM15S" Author="kylagin" Level="1" ADate="EU4IV1NL" Path="10-1007.mod" Time="EVE94HG0" Size="1576">
+<Title>Модели изображений</Title>
+<Term Type="Out">Черно-белая модель Bitmap</Term>
+<Term Type="Out">Полутоновые изображения. (grayscale</Term>
+<Term Type="Out">Индексированный цвет</Term>
+<Term Type="Out">Полноцветные изображения</Term>
+</Modul>
+
+<Modul UId="YO40V0FBQYHZ9CK3FANP" Author="kylagin" Level="1" ADate="EU5EVMUI" Path="10-1008.mod" Time="EU5MAODC" Size="22871">
+<Title>Основные цветовые модели</Title>
+</Modul>
+
+<Modul UId="HV9Y9I6O1CN2T9SINIR2" Level="1" ADate="EU5K731S" Author="Волосатова" Path="10-1009.mod" Time="EVE9EFGW" Size="2095">
+<Title>Форматы файлов изображения</Title>
+<Term Type="In">индексированные цвета</Term>
+<Term Type="Out">Формат TIFF</Term>
+<Term Type="Out">Формат PSD</Term>
+<Term Type="Out">Формат JPEG</Term>
+<Term Type="In">полноцветные изображения</Term>
+<Term Type="Out">Формат GIF</Term>
+<Term Type="Out">Формат PCD</Term>
+<Term Type="Out">Формат EPS</Term>
+</Modul>
+
+<Modul UId="54N3RQNS516RYZ1VHKP8" Author="kylagin" Level="0" ADate="EU5LUSVK" Path="10-1010.mod" Time="EVE9FRB4" Size="15718">
+<Title>Алгоритмы сжатия изображений</Title>
+</Modul>
+
+<Modul UId="KO7SZD42A55EWTV47QVN" Author="kylagin" Level="1" ADate="EU707J7W" Path="10-1011.mod" Time="EUBLJWLC" Size="6093">
+<Title>Алгоритм JPEG</Title>
+</Modul>
+
+<Modul UId="4K6BWULN9KDM9SFRSOMV" Author="kylagin" Level="1" ADate="EUBJHAYK" Path="10-1012.mod" Time="EVE9G574" Size="6441">
+<Title>Алгоритм Хаффмана</Title>
+</Modul>
+
+<Modul UId="XOHY6CD5BQ9C2JQ11P8N" Author="kylagin" Level="1" ADate="EUBL4MTF" Path="10-1013.mod" Time="EUN7MKO0" Size="21789">
+<Title>Вейвлеты</Title>
+</Modul>
+
+<Modul UId="1HBEVZOZT7VXREIGXZ7U" Author="kylagin" Level="1" ADate="EUCUI79S" Path="10-1014.mod" Time="EUCZ1DB4" Size="4400">
+<Title>Алгоритм JPEG2000(2000г)</Title>
+</Modul>
+
+<Modul UId="6195MYUROR3SBL6UL7ZO" Author="kylagin" Level="1" ADate="EUCWX6ZC" Path="10-1015.mod" Time="EVE9GVFK" Size="17768">
+<Title>Распознавание образов</Title>
+<Term Type="Out">Распознавание образов</Term>
+<Term Type="Out">Анализ информации</Term>
+</Modul>
+
+<Modul UId="FU8UQU5LZVZ09B1TO54R" Author="kylagin" Level="1" ADate="ET7DKCFD" Path="2-1001.mod" Time="EVF2IIY8" Size="17722">
+<Title>Дискретизация сигналов</Title>
+<Term Type="Out">Дискретизация сигнала</Term>
+<Term Type="Out">строб-эффектом</Term>
+<Term Type="Out">муар-эффектом</Term>
+</Modul>
+
+<Modul UId="PBV49AIRUYM9COHCKS78" Author="kylagin" Level="0" ADate="ET8VR7HH" Path="2-1002.mod" Time="EV6O9KG0" Size="14623">
+<Title>Квантование сигнала</Title>
+<Term Type="Out">Оптимальное квантование </Term>
+</Modul>
+
+<Modul UId="W2ALE1SJNE2HCIF7ZCJE" Author="kylagin" Level="0" ADate="ETB33WJU" Path="2-1003.mod" Time="EV6S1R80" Size="9341">
+<Title>Практические вопросы дискретизации и квантования</Title>
+</Modul>
+
+<Modul UId="49784MEY48YAG8APXU7Q" Author="kylagin" Level="0" ADate="ETBAMDZ8" Path="3-1001.mod" Time="EUNQBA9C" Size="3128">
+<Title>Преобразование Фурье</Title>
+</Modul>
+
+<Modul UId="V619RJS4EQIMZNZS3B3S" Author="kylagin" Level="1" ADate="ETBEK5RD" Path="3-1002.mod" Time="EVF2KYWW" Size="1482">
+<Title>Преобразование Уолша</Title>
+</Modul>
+
+<Modul UId="VRBILTA6VRS7SSUG8B90" Author="kylagin" Level="0" ADate="ETBEXXFW" Path="3-1003.mod" Time="EV6OHHXS" Size="2961">
+<Title>Линейные и нелинейные фильтры</Title>
+<Term Type="In">сигнала</Term>
+</Modul>
+
+<Modul UId="2WS23S7PT3JL8LN2OJQS" Author="kylagin" Level="0" ADate="ETCYOHGT" Path="3-1004.mod" Time="EV6P3TY8" Size="3531">
+<Title>Дискретные и спектральные преобразования</Title>
+<Term Type="Out">Дискретное преобразование сигнала</Term>
+<Term Type="Out">Спектральное  преобразование сигнала</Term>
+</Modul>
+
+<Modul UId="37D3Z3FVWBL5A9YSWKHP" Author="kylagin" Level="1" ADate="ETFBMZND" Path="3-1005.mod" Time="EVF2O0HC" Size="5785">
+<Title>Цифровое представление преобразований</Title>
+<Term Type="In">сигнала</Term>
+</Modul>
+
+<Modul UId="8FJPHK478DKDQUOPKBD5" Author="kylagin" Level="0" ADate="ETHHZRE2" Path="3-1006.mod" Time="EUN2CUF4" Size="13575">
+<Title>Свойства дискретных спектральных преобразований (на примере ДПФ)</Title>
+</Modul>
+
+<Modul UId="QYKO4LUCU240IV2TVW0H" Author="kylagin" Level="1" ADate="ETIURI5S" Path="4-1001.mod" Time="EV6P6X28" Size="22614">
+<Title>Быстрые алгоритмы ДПФ и ДПУ</Title>
+<Term Type="Out">БПФ</Term>
+<Term Sp="rk6.bmstu.ru-Computers" Type="In">ЭВМ</Term>
+</Modul>
+
+<Modul UId="0QX7LHYRLGMF1LF9FISY" Author="kylagin" Level="1" ADate="ETK69MO7" Path="4-1002.mod" Time="ETKCJAG0" Size="16093">
+<Title>Двумерное БПФ</Title>
+</Modul>
+
+<Modul UId="LSD313WNSI4IPH88565P" Level="1" ADate="ETKAETPZ" Author="Волосатова" Path="4-1003.mod" Time="EV6LFPS0" Size="3084">
+<Title>Совмещенные алгоритмы</Title>
+</Modul>
+
+<Modul UId="E6MTGU1CL94SBC59JR10" Author="kylagin" Level="1" ADate="ETKGLCGR" Path="4-1004.mod" Time="EUFXAOQ8" Size="4376">
+<Title>Реккурентный алгоритм вычисления БПФ</Title>
+</Modul>
+
+<Modul UId="55KADQ3RCZMPVPJOHYOK" Level="1" ADate="ETL4SNYK" Author="Волосатова" Path="5-1001.mod" Time="EV6LG6R4" Size="4815">
+<Title>Цифровая реализация линейного фильтра-цифровой фильтр</Title>
+</Modul>
+
+<Modul UId="H0VFGCPM8NSW8VK2640G" Author="kylagin" Level="1" ADate="ETN2TB44" Path="5-1002.mod" Time="ETN7UXUO" Size="4832">
+<Title>Вычисление цифровой свертки с использованием БПФ</Title>
+</Modul>
+
+<Modul UId="VF3NMTC6LYM2OPIBAM69" Level="1" ADate="ETN5QC7H" Author="Волосатова" Path="5-1003.mod" Time="EV6LGG0G" Size="1996">
+<Title>Последовательная свертка</Title>
+</Modul>
+
+<Modul UId="KX4P4NGLKZY5IXE181FJ" Author="kylagin" Level="0" ADate="ETRKHWNH" Path="5-1004.mod" Time="ETRNRGF4" Size="3235">
+<Title>Секционированная свертка</Title>
+</Modul>
+
+<Modul UId="1LGLFGC90W2QKUCOX82M" Author="kylagin" Level="0" ADate="ETRLNERD" Path="6-1001.mod" Time="EVF2SZHS" Size="2060">
+<Title>Одномерные фильтры</Title>
+<Term Type="Out">БИХ-фильтры</Term>
+<Term Type="Out">КИХ-фильтры</Term>
+</Modul>
+
+<Modul UId="69AMDSWM6H75RLOQUW6X" Author="Горшкова" Level="0" ADate="EUBEQT27" Path="6-1002.mod" Time="EV6QTE00" Size="41074">
+<Title>Базисные фильтры</Title>
+<Term Type="Out">Фильтр высоких частот</Term>
+<Term Type="Out">Полосопропускающий фильтр</Term>
+<Term Type="Out">Заграждающий фильтр</Term>
+</Modul>
+
+<Modul UId="JTW77FE7DEBCO5LUE2ZI" Author="Горшкова" Level="0" ADate="EUBHJDL6" Path="6-1003.mod" Time="EV3LNFYO" Size="15598">
+<Title>Нерекурсивные КИХ-фильтры</Title>
+</Modul>
+
+<Modul UId="GMCTPN11WMXDG8Q8VXAT" Level="1" ADate="EUE9XQID" Author="Волосатова" Path="6-1004.mod" Time="EV6LGVG0" Size="22611">
+<Title>Фильтры низких частот</Title>
+</Modul>
+
+<Modul UId="GMOOQQO9OIBLTG93ITTI" Author="kylagin" Level="1" ADate="ETT20VUI" Path="7-1001.mod" Time="EV6R37E8" Size="892">
+<Title>Реальный сигнал</Title>
+<Term Type="Out">Реальный сигнал</Term>
+<Term Type="Out">статистического моделирования</Term>
+</Modul>
+
+<Modul UId="I2CDPZCYJIWJ81EDEH5O" Author="kylagin" Level="1" ADate="ETT2GW6Y" Path="7-1002.mod" Time="EV6R9Z80" Size="10938">
+<Title>Генерация случайных сигналов</Title>
+<Term Type="Out">Стандартный способ генерации</Term>
+</Modul>
+
+<Modul UId="M7UPA9SHE6Y9WVGQ6FQK" Level="1" ADate="ETUCADFJ" Author="Волосатова" Path="7-1003.mod" Time="EV6RANWW" Size="2557">
+<Title>Вычисление статистических характеристик случайных сигналов</Title>
+<Term Type="Out">Одномерная гистограмма</Term>
+<Term Type="Out">Многомерная гистограмма</Term>
+</Modul>
+
+<Modul UId="KR8G5CM1NGX5YQSDIBQ8" Author="Горшкова" Level="0" ADate="EU3QNZ4I" Path="9-1000.mod" Time="EVE8AZPS" Size="1087">
+<Title>Нелинейные алгоритмы обработки сигналов</Title>
+<Term Type="Out">ранговые алгоритмы</Term>
+<Term Type="Out">Ранг</Term>
+</Modul>
+
+<Modul UId="2SLJVA2SSDF0ACHV3RT9" Author="Горшкова" Level="0" ADate="EU3RCOSA" Path="9-1001.mod" Time="EVE8G09S" Size="30445">
+<Title>Алгоритмы сглаживания сигналов</Title>
+<Term Type="In">сигнала</Term>
+<Term Type="Out">сглаживания сигнала</Term>
+</Modul>
+
+<Modul UId="FLCH3S6J1G4DSQWE8DGO" Author="kylagin" Level="1" ADate="ETUE1NZR" Path="9-1002.mod" Time="EVF399WW" Size="18555">
+<Title>Увеличение детальности изображения</Title>
+<Term Type="Out">детальности изображения</Term>
+<Term Type="In">ранга</Term>
+<Term Type="In">сигнала</Term>
+<Term Type="In">импульсных помех</Term>
+</Modul>
+
+<Modul UId="YBLUJY51L499BZ94MIEI" Author="kylagin" Level="0" ADate="ETYQ4LMZ" Path="9-1003.mod" Time="EU1FJQ00" Size="2316">
+<Title>Обнаружение деталей и границ</Title>
+</Modul>
+
+<Modul UId="LF1Z9LYY3Y996N8PUUGD" Level="1" ADate="EU1DFVCE" Author="Волосатова" Path="9-1004.mod" Time="EV6LHORK" Size="1490">
+<Title>Стандартизация изображений</Title>
+<Term Type="Out">Стандартизация гистограмм</Term>
+</Modul>
+
+<Course UId="BaseCourse" Creator="kylagin" Base="Y" Path="base.cou" Time="EUZETPA8" Size="5566">
+<Title>Цифровая обработка сигналов (базовый курс)</Title>
+</Course>
+
+<Thesaurus UId="DVRJPE40RC763X52VMAH" Path="t1.the" Time="EVF2CWSG" Size="8852">
+<Title>часть1</Title>
+</Thesaurus>
+
+<Modul UId="4QKJTIABP4T2IC98GO1A" Author="Горшкова" Level="0" ADate="EUECNDX2" Path="К-0005.mod" Time="EUEF3RPC" Size="352">
+<Title>Методы распознавания</Title>
+</Modul>
+
+<Modul UId="I1DV6WBSZK2O82ILBND4" Author="Горшкова" Level="0" ADate="EUECR39U" Path="К-0006.mod" Time="EUZ98QPS" Size="3102">
+<Title>Вероятностный подход</Title>
+</Modul>
+
+<Modul UId="2RR4A8DHPTUQBI1W8CXE" Author="Горшкова" Level="0" ADate="EUK8JR62" Path="К-0007.mod" Time="EUZ98WW0" Size="5253">
+<Title>Метод минимального расстояния</Title>
+</Modul>
+
+<Modul UId="J8XC9VTJGD8JZB678V4H" Author="Горшкова" Level="0" ADate="EUO9Z0GM" Path="К-0008.mod" Time="EUZ991IO" Size="970">
+<Title>Метод разделяющих функций</Title>
+</Modul>
+
+<Modul UId="QQV8HQAF7KXHNPHG6TGQ" Author="Горшкова" Level="0" ADate="EUOACW35" Path="К-0009.mod" Time="EV3LFT9S" Size="8561">
+<Title>Линейные разделяющие функции</Title>
+</Modul>
+
+<Modul UId="NWJCHW3IBZKEL8HZPE99" Author="Горшкова" Level="0" ADate="EUODW59W" Path="К-0010.mod" Time="EUOLI20G" Size="10100">
+<Title>Метод потенциалов</Title>
+</Modul>
+
+<Modul UId="M6CXWONB3LFJQ3BR08HP" Author="Горшкова" Level="0" ADate="EUPCL0GA" Path="К-0011.mod" Time="EUU9P1TC" Size="52341">
+<Title>Выделение признаков</Title>
+</Modul>
+
+<Modul UId="EMC3ZV5MV4L6JS2MSRVN" Author="Горшкова" Level="0" ADate="EUPF5U83" Path="К-0012.mod" Time="EUU8R9RK" Size="23742">
+<Title>Нейронные сети</Title>
+</Modul>
+
+<Modul UId="EY2SWQDCZ0VJ4Z8S7ESE" Author="Горшкова" Level="0" ADate="EUR873UN" Path="К-0013.mod" Time="EURAHCQO" Size="74531">
+<Title>Многослойные нейронные сети</Title>
+</Modul>
+
+<Modul UId="2ZDHK7QCDW28VPIHTES4" Level="0" ADate="ETMH3Q23" Author="Горшкова" Path="К-1111.mod" Time="ETMX0Z9S" Size="1548">
+<Title>Вычисление корреляционных функций и спектров</Title>
+</Modul>
+
+<Modul UId="DIEMQM5736Z5KLC8H3C7" Author="Горшкова" Level="0" ADate="ETMSVBKB" Path="К-1112.mod" Time="EVF1QHOW" Size="674">
+<Title>Основные принципы моделирования помех</Title>
+</Modul>
+
+<Modul UId="VNB9AMPU3KXX8QAFDPBN" Author="Горшкова Екатерина" Level="0" ADate="ETMV36AB" Path="К-1113.mod" Time="EVE7M9A8" Size="11521">
+<Title>Измерение параметров случайных помех</Title>
+<Term Type="Out">Локализация</Term>
+<Term Type="Out">Метод &quot;голосования</Term>
+</Modul>
+
+<Modul UId="8GVP4KETJ91O605BPZP4" Author="Горшкова" Level="0" ADate="ETN1WZG7" Path="К-1115.mod" Time="EVE7SY0W" Size="8606">
+<Title>Оптимальные линейные адаптивные фильтры</Title>
+<Term Type="Out">критерием оптимизации</Term>
+</Modul>
+
+<Modul UId="VYE2KFJL344K6KPW6ER9" Author="Горшкова" Level="0" ADate="ETRB87X1" Path="К-1116.mod" Time="EYR54RLS" Size="4822">
+<Title>Адаптивные линейные фильтры для подавления аддитивного независимого шума</Title>
+<Term Type="Out">аддитивных помех</Term>
+</Modul>
+
+<Modul UId="MK6TRIN3QZZBR27SNITG" Author="Горшкова" Level="0" ADate="ETRD0YLJ" Path="К-1117.mod" Time="EUK8V60G" Size="5717">
+<Title>Коррекция линейных искажений, вносимых линейными блоками систем преобразования сигнала</Title>
+</Modul>
+
+<Modul UId="F9PNRH0YKQVN9L144EHV" Author="Горшкова" Level="0" ADate="ETZZ76U9" Path="К-1118.mod" Time="EULILWF4" Size="6678">
+<Title>Линейные фильтры для препарирования изображений (выделения деталей)</Title>
+</Modul>
+
+<Modul UId="5527UJ7YKRJUIKZI12LZ" Author="Горшкова" Level="0" ADate="EU01B6FL" Path="К-1119.mod" Time="EUMZIIS0" Size="3481">
+<Title>Обнаружение и фильтрация импульсных помех и сбоев</Title>
+</Modul>
+
+<Modul UId="3AHW5HP9KK7KEG53AET9" Author="Горшкова" Level="0" ADate="EU01K67U" Path="К-1120.mod" Time="EVE857DS" Size="1572">
+<Title>Итеративный алгоритм фильтрации импульсных помех</Title>
+<Term Type="Out">Импульсные помехи</Term>
+</Modul>
+
+<Modul UId="V54BDVAKUAI7ENB65T9Y" Author="Горшкова" Level="0" ADate="EU1FDESB" Path="К-1121.mod" Time="EV3LGGF4" Size="1378">
+<Title>Рекурсивный алгоритм фильтрации импульсных помех</Title>
+</Modul>
+
+<Modul UId="5AWF7VLKWRMGB8TSWCCN" Author="Горшкова" Level="1" ADate="EU1JIXSX" Path="К-1122.mod" Time="EVF339V4" Size="21080">
+<Title>Синтез линейных фильтров методом регуляризации Тихонова</Title>
+</Modul>
+</Index>

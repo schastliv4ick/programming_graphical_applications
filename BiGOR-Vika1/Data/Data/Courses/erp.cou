@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Course UId="VYBD5GCO5LLK0G1L2SV6" Creator="И.П.Норенков">
+<Title>Автоматизированные системы управления</Title>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Введение</ChTitle>
+<LModul RC="rk6.bmstu.ru-ERP:QDJ3JWRB2STRRCVQZTK8" /><LModul RC="rk6.bmstu.ru-ERP:LRO1U1RXVO25JWT1XIQG" /><LModul RC="rk6.bmstu.ru-ERP:NZZ6X6FIM3J0G3CVMK48" /><LModul RC="rk6.bmstu.ru-ERP:2UXNN79XMKG1GNJRGX1U" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Управление предприятиями</ChTitle>
+<LModul RC="rk6.bmstu.ru-ERP:K3TX4W7OVAE34YOK4GED" /><LModul RC="rk6.bmstu.ru-ERP:Y59EI62QC4CZ6ARYA3Z5" /><LModul RC="rk6.bmstu.ru-ERP:NEZZTHR4E851V5AZ0U4B" /><LModul RC="rk6.bmstu.ru-ERP:NPSKQFLRLU78ZNC2VQY3" /><LModul RC="rk6.bmstu.ru-ERP:IXXRZWZMNTN4LIF98Q1E" /><LModul RC="rk6.bmstu.ru-ERP:Y4MEYZZSGFK065RA65ZW" /><LModul RC="rk6.bmstu.ru-ERP:7BTB7BQ6NF0Y0KDONCAK" /><LModul RC="rk6.bmstu.ru-ERP:9QAZPWXPQKFPV6ZR7L75" /><LModul RC="rk6.bmstu.ru-ERP:0CZCVCYPHB8RKF3BU9BN" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Подсистемы ERP</ChTitle>
+<LModul RC="rk6.bmstu.ru-ERP:QTKFXBHPBQW62Q2S2AY4" /><LModul RC="rk6.bmstu.ru-ERP:D59MJIG813S1FFRD13C2" /><LModul RC="rk6.bmstu.ru-ERP:R7SMNOI9VATRU8XJPHI7" /><LModul RC="rk6.bmstu.ru-ERP:RB917R7PA4D076U6U6HA" /><LModul RC="rk6.bmstu.ru-ERP:PUZB3JPJWFZP2TK9F20R" /><LModul RC="rk6.bmstu.ru-ERP:JI05Q38R4M3FEGJLF590" /><LModul RC="rk6.bmstu.ru-ERP:P9HX52KZKMG9V8T61EP3" /><LModul RC="rk6.bmstu.ru-ERP:JVS7NUPOJ68SSSL43ZN4" /><LModul RC="rk6.bmstu.ru-ERP:QOCWYG98HU25E298NNLV" /><LModul RC="rk6.bmstu.ru-ERP:E66YJXU9P7SVUM0SRBQQ" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Управление технологическими процессами</ChTitle>
+<LModul RC="rk6.bmstu.ru-ERP:06TI7YAQEEVDVAY5FSLN" /><LModul RC="rk6.bmstu.ru-ERP:W3P3DXB4DBH33VYNOLT8" /><LModul RC="rk6.bmstu.ru-ERP:U46DFGM93VT5WJ7N7J3M" /><LModul RC="rk6.bmstu.ru-ERP:9TO3SDEBG4DRH4HEWW2E" /></Chapter>
+<LTestMod RC="rk6.bmstu.ru-ERP:9Y0B0O74CDGGK110BVQS" /><LTestMod RC="rk6.bmstu.ru-ERP:C83S952WV2GTURCKETCA" /></Course>

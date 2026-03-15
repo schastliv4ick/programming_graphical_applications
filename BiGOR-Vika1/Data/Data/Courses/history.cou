@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Course UId="7XZXY96SYUTMXW4VU4MU" Creator="И.П.Норенков">
+<Title>История вычислительной техники и информационных технологий</Title>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Период до ЭВМ</ChTitle>
+<LModul RC="ru.bmstu.rk6-070010-13:CAH360KYRTPQIYBZVN1O" /><LModul RC="ru.bmstu.rk6-070010-13:Z9VEU6S8DLUBPV1TNFAO" /><LModul RC="ru.bmstu.rk6-070010-13:EQ4DLM50N2AFWDD6SQUC" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Зарубежные ЭВМ</ChTitle>
+<LModul RC="ru.bmstu.rk6-070010-13:X87V2T22EL87S5BOG4AM" /><LModul RC="ru.bmstu.rk6-070010-13:WCAOBZ5N85DPOVCYF96L" /><LModul RC="ru.bmstu.rk6-070010-13:MW6QCBZM8XC0ACNOIZL2" /><LModul RC="ru.bmstu.rk6-070010-13:RJ0H6P9OMSVBNLICG99J" /><LModul RC="ru.bmstu.rk6-070010-13:W2T09GLEJK9F7T91HHHX" /><LModul RC="ru.bmstu.rk6-070010-13:HC7OMYY1NPDPB7B5GH6Z" /><LModul RC="ru.bmstu.rk6-070010-13:E59GEV1CO60WLOVFRSXJ" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Отечественные ЭВМ</ChTitle>
+<LModul RC="ru.bmstu.rk6-070010-13:220TYL1LHR3JYEA3HJCX" /><LModul RC="ru.bmstu.rk6-070010-13:T5FD5SLC5O7FKMAJIHJJ" /><LModul RC="ru.bmstu.rk6-070010-13:1XPN0YCQ8VX79FFLQIPW" /><LModul RC="ru.bmstu.rk6-070010-13:I79ARUGXLDOVWZXBFKXA" /><LModul RC="ru.bmstu.rk6-070010-13:109ST54O1T7IQKDDKCJB" /><LModul RC="ru.bmstu.rk6-070010-13:5FU29POCA2LOUQ4FK5QB" /><LModul RC="ru.bmstu.rk6-070010-13:LZUT7HZC9YNB5W265C8K" /><LModul RC="ru.bmstu.rk6-070010-13:X0FQ38GJRNAZ6V7PMNEV" /><LModul RC="ru.bmstu.rk6-070010-13:W9SZMD8EAS3824GRAPYY" /><LModul RC="ru.bmstu.rk6-070010-13:94FIXV9U66MSKSOO03MI" /><LModul RC="ru.bmstu.rk6-070010-13:8TVQV1IR9BL5R4VWI7DX" /><LModul RC="ru.bmstu.rk6-070010-13:IS2FYGTBUY8QML1JWKTM" /><LModul RC="ru.bmstu.rk6-070010-13:XDLXS9A2S3L8B5FOI144" /><LModul RC="ru.bmstu.rk6-070010-13:6Q8GBLOZW5S6I0C4HWEJ" /><LModul RC="ru.bmstu.rk6-070010-13:8HYOVWL4T5HL1RV82OJ0" /><LModul RC="ru.bmstu.rk6-070010-13:XW51JNDQZ2BTSZCSWX63" /><LModul RC="ru.bmstu.rk6-070010-13:TBLGH3AZ3G6Z3SW8OUX5" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Элементная база компьютеров</ChTitle>
+<LModul RC="ru.bmstu.rk6-070010-13:U2S725VIYPW1U1DFWPFB" /><LModul RC="ru.bmstu.rk6-070010-13:BSOW23CGPGSKCHUKIMVE" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Сети</ChTitle>
+<LModul RC="ru.bmstu.rk6-070010-13:SXKM74IE4LDADA2BB5ZH" /><LModul RC="ru.bmstu.rk6-070010-13:I3KPP6PJUNO2PDDI40DG" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Программирование</ChTitle>
+<LModul RC="ru.bmstu.rk6-070010-13:ZCDNSYPE4S79164SITGY" /><LModul RC="ru.bmstu.rk6-070010-13:OD6ZJJA0MLXGIH46VH58" /><LModul RC="ru.bmstu.rk6-070010-13:JWEFM6L4ZBZ3COODAD6L" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Интеллектуальные системы</ChTitle>
+<LModul RC="ru.bmstu.rk6-070010-13:VN2WFHC1ODZ3X4IMXCE3" /><LModul RC="ru.bmstu.rk6-070010-13:EOATI10U7DZK6N7TRUCH" /><LModul RC="ru.bmstu.rk6-070010-13:Y3LY3HUERZJVQS9DHZ9D" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>САПР и ИПИ</ChTitle>
+<LModul RC="ru.bmstu.rk6-070010-13:ILLLH9O1VUV2YVT5SHHQ" /><LModul RC="ru.bmstu.rk6-070010-13:JCBGSNJHSTW9M6M8W38E" /><LModul RC="ru.bmstu.rk6-070010-13:OTFN7TZGE8MBZSQ454PH" /><LModul RC="ru.bmstu.rk6-070010-13:4BZO6WHFZ0CA2JW4A2HP" /><LModul RC="ru.bmstu.rk6-070010-13:695LVVVSQVYIT95SL7HZ" /><LModul RC="ru.bmstu.rk6-070010-13:3FF0HR64W448Q083XH5L" /></Chapter>
+</Course>

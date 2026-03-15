@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Modul UId="2ZDHK7QCDW28VPIHTES4" Level="0" ADate="ETMH3Q23" Author="Горшкова">
+<Title>Вычисление корреляционных функций и спектров</Title>
+<P>По определению,&#xA0;корреляционная функция сигнала<Formula Br="Y">Ra(&#x3BE;)=<Fraction><M X="0.67" Y="1.15" Kh="1.0">1</M><M X="0.5" Y="2.87" Kh="1.0">X</M></Fraction><Limits><M X="-0.0" Y="0.9" Kh="0.8">x+X</M><M X="0.96" Y="2.69" Kh="1.0">&#x222B;</M><M X="0.85" Y="3.74" Kh="0.8">x</M></Limits>a(x)a*(x+&#x3BE;)dx;</Formula>энергетический спектр<Formula Br="Y">A(f)=<Limits><M X="1.15" Y="0.9" Kh="0.8">+&#x221D;</M><M X="0.0" Y="2.6" Kh="1.0">&#x222B;<Indices><Z /><Z /><M>R</M><Z /><M>a</M></Indices>(&#x3BE;</M><M X="1.28" Y="3.76" Kh="0.8">-&#x221D;</M></Limits>)exp(i2&#x3C0;f&#x3BE;)d&#x3BE;.</Formula>Нетрудно получить дискретные аналоги этих соотношений:<Formula Br="Y" Num="Y" ID="ETMUEQWC">R<Sub>a</Sub>(n)=<Fraction><M>1</M><M>N</M></Fraction><Limits><M>N-1</M><M>&#x2211;</M><M>k=0</M></Limits>a<Sub>k</Sub>a*<Sub>k+n</Sub>,</Formula>который отличается от свертки наличием знака &quot;+&quot;, а не &quot;-&quot;. Таким образом,&#xA0;можно использовать операции типа свертки.</P>
+<P>Энергетический спектр <Formula Br="Y" Num="Y" ID="ETMUM6S0">A(r)=<Fraction><M>1</M><M>M</M></Fraction><Limits><M>M</M><M>&#x2211;</M><M>k=0</M></Limits>R<Sub>a</Sub>(k)exp(<Fraction><M X="0.5" Y="1.0" Kh="1.0">i2&#x3C0;kr</M><M X="0.5" Y="2.6" Kh="1.0">M</M></Fraction>),</Formula>т.е. дискретное преобразование Фурье от корреляционной функции.</P>
+</Modul>

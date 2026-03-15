@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Index>
+
+<Modul UId="T5P358BZ12JOJSF0KVLA" Author="Полякова Виктория" Level="0" ADate="ETEK8U0F" Path="1.0.mod" Time="EZSRWJK0" Size="4273">
+<Title>Прикладное программирование в стандарте ANSI C</Title>
+<Term Type="Out">Язык C</Term>
+<Term Type="In">директивой #include</Term>
+<Term Type="In">динамическое распределение памяти</Term>
+</Modul>
+
+<Modul UId="AE0N5B7DJXQOEUL09FUV" Author="Полякова Виктория" Level="0" ADate="ESXC0D6F" Path="1.1.mod" Time="EZSRWJK0" Size="6065">
+<Title>Используемые символы</Title>
+<Term Type="In">функций</Term>
+</Modul>
+
+<Modul UId="UPJ3K4TNUL2KYZMM0CCZ" Author="Полякова Виктория" Level="0" ADate="ESXDAM0G" Path="1.2.mod" Time="EZSRWJK0" Size="6786">
+<Title>Константы</Title>
+<Term Type="Out">Константа</Term>
+<Term Type="In">массив</Term>
+<Term Type="In">символьная строка</Term>
+</Modul>
+
+<Modul UId="9A7Y3GN1HYXP6BNTYAPH" Author="Полякова Виктория" Level="0" ADate="ESXE2G4E" Path="1.3.mod" Time="EZSRWJK0" Size="2029">
+<Title>Идентфикаторы</Title>
+<Term Type="Out">Идентификатором</Term>
+<Term Type="In">структуры</Term>
+</Modul>
+
+<Modul UId="LZQPIT1KHD1TT5RX11J6" Author="Полякова Виктория" Level="0" ADate="ESXFZ2UL" Path="1.4.mod" Time="EZSRWJK0" Size="1210">
+<Title>Ключевые слова</Title>
+<Term Type="Out">Ключевые слова</Term>
+</Modul>
+
+<Modul UId="OO5XFXO2O3TW875O8YB0" Author="Полякова Виктория" Level="0" ADate="ESXGB7HR" Path="1.5.mod" Time="EZSRWJK0" Size="1364">
+<Title>Использование комментариев в тексте программы</Title>
+<Term Type="Out">Комментарий</Term>
+</Modul>
+
+<AuxMod UId="IVTGMTD5T2FA19G3WSAM" Author="Полякова Виктория" Level="0" ADate="EUXWTDQT" Path="1.aux" Time="EZSRWJK0" Size="771">
+<Title>Список литературы</Title>
+</AuxMod>
+
+<Thesaurus UId="N0QK0GNR0U5IE9SX9NA1" Path="1.the" Time="EZSRWJK0" Size="24226">
+<Title>Программирование на языке Си</Title>
+</Thesaurus>
+
+<Modul UId="35SR2BA6F0YUTL814YEX" Author="Полякова Виктория" Level="0" ADate="ESXGOMJJ" Path="2.1.mod" Time="EZSRWJK0" Size="2772">
+<Title>Категория типов данных</Title>
+<Term Type="Out">Описатель</Term>
+<Term Type="Out">Спецификатор типа</Term>
+<Term Type="Out">Инициатор-</Term>
+<Term Type="Out">Спецификатор класса памяти</Term>
+<Term Type="In">Ключевые слова</Term>
+<Term Type="In">массив</Term>
+<Term Type="In">структура</Term>
+<Term Type="In">перечисление</Term>
+</Modul>
+
+<Modul UId="KEV5R3FIEDE9OG744XZL" Author="Полякова Виктория" Level="0" ADate="ESXLFCF9" Path="2.10.mod" Time="EZSRWJK0" Size="4646">
+<Title>Переменные с изменяемой структурой</Title>
+<Term Type="In">Константы</Term>
+</Modul>
+
+<Modul UId="WMCKIH32KRZ29XNYU1GQ" Author="Полякова Виктория" Level="0" ADate="ESXLPBVD" Path="2.11.mod" Time="EZSRWJK0" Size="5770">
+<Title>Определение объектов и типов</Title>
+<Term Type="In">структуры</Term>
+<Term Type="In">перечисления</Term>
+<Term Type="In">sizeof</Term>
+<Term Type="In">спецификаторы типов</Term>
+</Modul>
+
+<Modul UId="GI3E42812FPQX6RMW73J" Author="Полякова Виктория" Level="0" ADate="ESXLUX14" Path="2.12.mod" Time="EZSRWJK0" Size="5127">
+<Title>Инициализация данных</Title>
+</Modul>
+
+<Modul UId="35CVGBW82HEB96WF73O5" Author="Полякова Виктория" Level="0" ADate="ESXH3VXB" Path="2.2.mod" Time="EZSRWJK0" Size="3456">
+<Title>Целый тип данных</Title>
+<Term Type="In">ключевые слова</Term>
+<Term Type="In">идентификатора</Term>
+</Modul>
+
+<Modul UId="H1PF46WXLEUMYPV38G1J" Author="Полякова Виктория" Level="0" ADate="ESXJCPTT" Path="2.3.mod" Time="EZSRWJK0" Size="1121">
+<Title>Данные плавающего типа</Title>
+</Modul>
+
+<Modul UId="MPQY8WRNOPIXMS0QWCH6" Author="Полякова Виктория" Level="0" ADate="ESXJIHLF" Path="2.4.mod" Time="EZSRWJK0" Size="3585">
+<Title>Указатели</Title>
+<Term Type="Out">Указатель</Term>
+<Term Type="In">Ключевое слово</Term>
+<Term Type="In">константное выражение</Term>
+</Modul>
+
+<Modul UId="CK7D7NXIYT4BGS24LQP5" Author="Полякова Виктория" Level="0" ADate="ESXJTBUG" Path="2.5.mod" Time="EZSRWJK0" Size="4353">
+<Title>Переменные перечислимого типа</Title>
+<Term Type="Out">перечисления</Term>
+<Term Type="In">операнды</Term>
+<Term Type="Out">Описатель</Term>
+<Term Type="In">константного выражения</Term>
+<Term Type="In">Идентификатор</Term>
+</Modul>
+
+<Modul UId="3E7351IEA5FRYJSHV4XL" Author="Полякова Виктория" Level="0" ADate="ESXKBB9R" Path="2.6.mod" Time="EZSRWJK0" Size="3853">
+<Title>Массивы</Title>
+<Term Type="Out">Массивы</Term>
+<Term Type="Out">Описатель</Term>
+</Modul>
+
+<Modul UId="2J58SD1KNVKIYA3R42YP" Author="Полякова Виктория" Level="0" ADate="ESXL0IHH" Path="2.7.mod" Time="EZSRWJK0" Size="2987">
+<Title>Структуры</Title>
+<Term Type="Out">Структуры</Term>
+<Term Type="In">функций</Term>
+</Modul>
+
+<Modul UId="9VS0CCNPU9W4Q9ZPBWBU" Author="Полякова Виктория" Level="0" ADate="ESXL6FU1" Path="2.8.mod" Time="EZSRWJK0" Size="2256">
+<Title>Объединения (смеси)</Title>
+<Term Type="In">структуре</Term>
+</Modul>
+
+<Modul UId="GRZPHSQJEOD7D4JR05OB" Author="Полякова Виктория" Level="0" ADate="ESXLAT63" Path="2.9.mod" Time="EZSRWJK0" Size="1496">
+<Title>Поля битов</Title>
+<Term Type="In">массивы</Term>
+<Term Type="In">Структуры</Term>
+</Modul>
+
+<Modul UId="FSC602NMMYMRQO10216J" Author="Полякова Виктория" Level="0" ADate="ESYA60W0" Path="3.1.mod" Time="EZSRWJK0" Size="16469">
+<Title>Операции и операнды</Title>
+<Term Type="Out">операндов</Term>
+<Term Type="Out">константным выражением</Term>
+<Term Type="In">Константа</Term>
+<Term Type="In">Идентификаторы</Term>
+<Term Type="In">перечислении</Term>
+<Term Type="In">sizeof</Term>
+</Modul>
+
+<Modul UId="V9WURYCVN5WBWGCH3GOX" Author="Полякова Виктория" Level="0" ADate="ESYEFA2I" Path="3.10.mod" Time="EZSRWJK0" Size="1467">
+<Title>Логические операции</Title>
+<Term Type="In">Операнды</Term>
+</Modul>
+
+<Modul UId="I990MF1VX6K8ITZ2BQU8" Author="Полякова Виктория" Level="0" ADate="ESYEHKH2" Path="3.11.mod" Time="EZSRWJK0" Size="792">
+<Title>Операция последовательного вычисления</Title>
+</Modul>
+
+<Modul UId="GVWIPDXUFGHBEJ0ACGMC" Author="Полякова Виктория" Level="0" ADate="ESYEIM2T" Path="3.12.mod" Time="EZSRWJK0" Size="1856">
+<Title>Условная операция</Title>
+<Term Type="In">константным выражением</Term>
+</Modul>
+
+<Modul UId="IORRWW13JW3CH4XFLZKZ" Author="Полякова Виктория" Level="0" ADate="ESYELYP9" Path="3.13.mod" Time="EZSRWJK0" Size="1948">
+<Title>Операции увеличения и уменьшения</Title>
+</Modul>
+
+<Modul UId="Y31OG91FXXMYLNURUL9P" Author="Полякова Виктория" Level="0" ADate="ESYEOEU0" Path="3.14.mod" Time="EZSRWJK0" Size="826">
+<Title>Простое присваивание</Title>
+</Modul>
+
+<Modul UId="GWR3GZXQHOLDHQJBXZU0" Author="Полякова Виктория" Level="0" ADate="ESYEQEVR" Path="3.15.mod" Time="EZSRWJK0" Size="1582">
+<Title>Составное присваивание</Title>
+<Term Type="In">операндом</Term>
+<Term Type="In">указатель</Term>
+</Modul>
+
+<Modul UId="1GB6EADNKO70YDNT75G2" Author="Полякова Виктория" Level="0" ADate="ESYETTRS" Path="3.16.mod" Time="EZSRWJK0" Size="1627">
+<Title>Приоритеты операций и порядок вычислений</Title>
+<Term Type="In">sizeof</Term>
+</Modul>
+
+<Modul UId="FVOPITL87C4Y81PTPCD1" Author="Полякова Виктория" Level="0" ADate="ESYF6V11" Path="3.17.mod" Time="EZSRWJK0" Size="1527">
+<Title>Побочные эффекты</Title>
+</Modul>
+
+<Modul UId="NGN2IOLSPMJ64RGVG0QW" Author="Полякова Виктория" Level="0" ADate="ESYFAJ6U" Path="3.18.mod" Time="EZSRWJK0" Size="6103">
+<Title>Преобразование типов</Title>
+<Term Type="In">Указатель</Term>
+</Modul>
+
+<Modul UId="CSQ8X1E5CV2RI8YZQNM0" Author="Полякова Виктория" Level="0" ADate="ESYC12US" Path="3.2.mod" Time="EZSRWJK0" Size="1995">
+<Title>Преобразования при вычислении выражений</Title>
+</Modul>
+
+<Modul UId="YCO9DOQ4GM8CDVQ45F07" Author="Полякова Виктория" Level="0" ADate="ESYD2N52" Path="3.3.mod" Time="EZSRWJK0" Size="1601">
+<Title>Операции отрицания и дополнения</Title>
+</Modul>
+
+<Modul UId="VT7F7LYMGGMEHD3OVR83" Author="Полякова Виктория" Level="0" ADate="ESYD7DHG" Path="3.4.mod" Time="EZSRWJK0" Size="1957">
+<Title>Операции разадресации и адреса</Title>
+<Term Type="In">указатель</Term>
+</Modul>
+
+<Modul UId="6GGY7NEOGMHWHWFXE7JE" Author="Полякова Виктория" Level="0" ADate="ESYDIP7U" Path="3.5.mod" Time="EZSRWJK0" Size="2512">
+<Title>Операция sizeof</Title>
+<Term Type="Out">sizeof</Term>
+<Term Type="In">идентификатору</Term>
+<Term Type="In">структур</Term>
+</Modul>
+
+<Modul UId="BSXAIN84UG8XDSGIY72Y" Author="Полякова Виктория" Level="0" ADate="ESYE11Z6" Path="3.6.mod" Time="EZSRWJK0" Size="1750">
+<Title>Мультипликативные операции</Title>
+<Term Type="In">Операндами</Term>
+</Modul>
+
+<Modul UId="4VSWSP1HYCLD1XC8KUW1" Author="Полякова Виктория" Level="0" ADate="ESYE47H3" Path="3.7.mod" Time="EZSRWJK0" Size="2209">
+<Title>Аддитивные операции</Title>
+</Modul>
+
+<Modul UId="Y3DTSQE6DLZR5162IKVF" Author="Полякова Виктория" Level="0" ADate="ESYE8AEL" Path="3.8.mod" Time="EZSRWJK0" Size="1479">
+<Title>Операции сдвига</Title>
+</Modul>
+
+<Modul UId="6WNJ4WFOHY1MQKZ370OR" Author="Полякова Виктория" Level="0" ADate="ESYEAAUO" Path="3.9.mod" Time="EZSRWJK0" Size="1836">
+<Title>Поразрядные операции</Title>
+</Modul>
+
+<Modul UId="RYK3YIMV6D2NAXKNYKBL" Author="Полякова Виктория" Level="0" ADate="ESZYWSOF" Path="4.1.mod" Time="EZSRWJK0" Size="1799">
+<Title>Оператор выражение</Title>
+</Modul>
+
+<Modul UId="JNE6473N8WAUP7VTPTLN" Author="Полякова Виктория" Level="0" ADate="ET64AAGU" Path="4.10.mod" Time="EZSRWJK0" Size="1119">
+<Title>Оператор continue</Title>
+<Term Type="Out">Оператор continue</Term>
+<Term Type="In">оператор break</Term>
+<Term Type="In">оператор break</Term>
+</Modul>
+
+<Modul UId="Z7AAK98GSHI8UAL48SAP" Author="Полякова Виктория" Level="0" ADate="ET64KYXZ" Path="4.11.mod" Time="EZSRWJK0" Size="1980">
+<Title>Оператор return</Title>
+<Term Type="Out">Оператор return</Term>
+<Term Type="In">Функция</Term>
+</Modul>
+
+<Modul UId="Q6YLO9Z4Y5P3558QQ3GN" Author="Полякова Виктория" Level="0" ADate="ET64R6CI" Path="4.12.mod" Time="EZSRWJK0" Size="1216">
+<Title>Оператор goto</Title>
+</Modul>
+
+<Modul UId="DVKUJX13QY89FUA21EGC" Author="Полякова Виктория" Level="0" ADate="ESZZ1J18" Path="4.2.mod" Time="EZSRWJK0" Size="1074">
+<Title>Пустой оператор</Title>
+<Term Type="Out">Пустой оператор</Term>
+</Modul>
+
+<Modul UId="OSIPTA3QOXPU02P6NK97" Author="Полякова Виктория" Level="0" ADate="ESZZE31D" Path="4.3.mod" Time="EZSRWJK0" Size="1346">
+<Title>Составной оператор</Title>
+<Term Type="In">функции</Term>
+<Term Type="In">return</Term>
+</Modul>
+
+<Modul UId="3UUK74A0TK4HTZ50I34M" Author="Полякова Виктория" Level="0" ADate="ESZZLBRO" Path="4.4.mod" Time="EZSRWJK0" Size="3517">
+<Title>Оператор if</Title>
+<Term Type="Out">Оператор if</Term>
+<Term Type="In">ключевое слово</Term>
+<Term Type="In">switch</Term>
+</Modul>
+
+<Modul UId="QUHFNTN6QCFD5NXSOC2R" Author="Полякова Виктория" Level="0" ADate="ET005JPE" Path="4.5.mod" Time="EZSRWJK0" Size="5653">
+<Title>Оператор switch</Title>
+<Term Type="Out">Оператор switch</Term>
+<Term Type="In">константного выражения</Term>
+<Term Type="In">константных выражений</Term>
+<Term Type="In">Ключевые слова</Term>
+<Term Type="In">оператора break</Term>
+</Modul>
+
+<Modul UId="RX4C4YJBC5UDF1FX7YHP" Author="Полякова Виктория" Level="0" ADate="ET62KAE8" Path="4.6.mod" Time="EZSRWJK0" Size="452">
+<Title>Оператор break</Title>
+<Term Type="Out">Оператор break</Term>
+<Term Type="In">операторов switch</Term>
+</Modul>
+
+<Modul UId="9X0GHIH8RH678FOYWC8C" Author="Полякова Виктория" Level="0" ADate="ET62R4BJ" Path="4.7.mod" Time="EZSRWJK0" Size="3014">
+<Title>Оператор for</Title>
+<Term Type="Out">Оператор for</Term>
+<Term Type="In">оператор break</Term>
+<Term Type="In">массива</Term>
+</Modul>
+
+<Modul UId="PSSRAK19T3ANY68FB19F" Author="Полякова Виктория" Level="0" ADate="ET63TB4L" Path="4.8.mod" Time="EZSRWJK0" Size="1448">
+<Title>Оператор while</Title>
+<Term Type="Out">оператора while</Term>
+</Modul>
+
+<Modul UId="FIMZGAVRTVE2D7PHENVV" Author="Полякова Виктория" Level="0" ADate="ET63YQMC" Path="4.9.mod" Time="EZSRWJK0" Size="1276">
+<Title>Оператор do while</Title>
+<Term Type="Out">оператора do while</Term>
+</Modul>
+
+<Modul UId="P7K9MMT5J9G0TBHCS0VA" Author="Полякова Виктория" Level="0" ADate="ET64SNAC" Path="5.1.mod" Time="EZSRWJK0" Size="20504">
+<Title>Определение и вызов функций</Title>
+<Term Type="Out">функций</Term>
+<Term Type="In">директивы #include</Term>
+<Term Type="In">перечислением</Term>
+<Term Type="In">Идентификаторы</Term>
+<Term Type="In">стек</Term>
+<Term Type="In">оператор return</Term>
+</Modul>
+
+<Modul UId="OM3FFLV5RIJK3Z6JD8MU" Author="Полякова Виктория" Level="0" ADate="ET65Q4XJ" Path="5.2.mod" Time="EZSRWJK0" Size="4451">
+<Title>Вызов функции с переменным числом параметров</Title>
+<Term Type="In">функции</Term>
+</Modul>
+
+<Modul UId="G23S73Z6TZ2QKJG0ELN9" Author="Полякова Виктория" Level="0" ADate="ET66352U" Path="5.3.mod" Time="EZSRWJK0" Size="5094">
+<Title>Передача параметров функции main</Title>
+<Term Type="In">Функция</Term>
+</Modul>
+
+<Modul UId="3VY26PGCGS9PE8AHW131" Author="Полякова Виктория" Level="0" ADate="ET66EPDT" Path="6.1.mod" Time="EZSRWJK0" Size="12093">
+<Title>Исходные файлы и объявление переменных</Title>
+<Term Type="Out">Спецификатор класса памяти</Term>
+<Term Type="In">стеке</Term>
+<Term Type="In">константным выражением</Term>
+</Modul>
+
+<Modul UId="8AAUOBQWTL6ZJIT96XTW" Author="Полякова Виктория" Level="0" ADate="ET66W20T" Path="6.2.mod" Time="EZSRWJK0" Size="1572">
+<Title>Объявления функций</Title>
+</Modul>
+
+<Modul UId="86IMXVJ41I78IFVON8RZ" Author="Полякова Виктория" Level="0" ADate="ET66XEDP" Path="6.3.mod" Time="EZSRWJK0" Size="2015">
+<Title>Время жизни и область видимости программных объектов</Title>
+</Modul>
+
+<Modul UId="Z898GA9C4APLYADIB93N" Author="Полякова Виктория" Level="0" ADate="ET66YIZI" Path="6.4.mod" Time="EZSRWJK0" Size="2600">
+<Title>Инициализация глобальных и локальных переменных</Title>
+<Term Type="In">инициаторов</Term>
+</Modul>
+
+<Modul UId="YYMD4X74ETUXZKWC5Q4B" Author="Полякова Виктория" Level="0" ADate="ET6THYB5" Path="7.1.mod" Time="EZSRWJK0" Size="3204">
+<Title>Методы доступа к элементам массивов</Title>
+</Modul>
+
+<Modul UId="N3XMMEL6YPXN4WTOXP8K" Author="Полякова Виктория" Level="0" ADate="ET6TKR67" Path="7.2.mod" Time="EZSRWJK0" Size="4100">
+<Title>Указатели на многомерные массивы</Title>
+</Modul>
+
+<Modul UId="XYDM1E7IE850VX5JJK4B" Author="Полякова Виктория" Level="0" ADate="ET6TW1IO" Path="7.3.mod" Time="EZSRWJK0" Size="2163">
+<Title>Операции с указателями</Title>
+</Modul>
+
+<Modul UId="YR0742NFLJLWN5079GV0" Author="Полякова Виктория" Level="0" ADate="ET6U5DIL" Path="7.4.mod" Time="EZSRWJK0" Size="6590">
+<Title>Массивы указателей</Title>
+</Modul>
+
+<Modul UId="C1LOM1FAOK99NRSS8CVR" Author="Полякова Виктория" Level="0" ADate="ET6VE130" Path="7.5.mod" Time="EZSRWJK0" Size="7147">
+<Title>Динамическое размещение массивов</Title>
+<Term Type="In">динамическом распределении памяти</Term>
+<Term Type="In">calloc</Term>
+<Term Type="In">free</Term>
+</Modul>
+
+<Modul UId="JIVMCM4SV4567NHFNSX7" Author="Полякова Виктория" Level="0" ADate="ET6VSGI8" Path="8.1.mod" Time="EZSRWJK0" Size="1688">
+<Title>Директива #include</Title>
+<Term Type="Out">Директива #include</Term>
+</Modul>
+
+<Modul UId="T06DFZ5I9P52PXWC8YEK" Author="Полякова Виктория" Level="0" ADate="ET6VY48U" Path="8.2.mod" Time="EZSRWJK0" Size="3070">
+<Title>Директива #define</Title>
+<Term Type="In">Идентификаторы</Term>
+<Term Type="Out">Директива #define</Term>
+</Modul>
+
+<Modul UId="TN58K2UEGEUCDV34I8QY" Author="Полякова Виктория" Level="0" ADate="ET6W712C" Path="8.3.mod" Time="EZSRWJK0" Size="756">
+<Title>Директива #undef</Title>
+<Term Type="Out">Директива #undef</Term>
+<Term Type="In">директивы #define</Term>
+</Modul>
+
+<Modul UId="00SUE8S3KDJBUEKKYG3M" Author="Полякова Виктория" Level="0" ADate="ET6W8JOH" Path="9.1.mod" Time="EZSRWJK0" Size="4819">
+<Title>Методы организации и хранения линейных списков</Title>
+<Term Type="Out">Линейный список </Term>
+</Modul>
+
+<Modul UId="T9Z9I4V89VPG6FM1K5WR" Author="Полякова Виктория" Level="0" ADate="ET7D6YJY" Path="9.10.mod" Time="EZSRWJK0" Size="3108">
+<Title>Слияние списков</Title>
+<Term Type="In">массива</Term>
+</Modul>
+
+<Modul UId="6KKHLLYGZ2KMC04PM511" Author="Полякова Виктория" Level="0" ADate="ET7D9SEM" Path="9.11.mod" Time="EZSRWJK0" Size="4109">
+<Title>Сортировка списков путем слияния</Title>
+</Modul>
+
+<Modul UId="YECBI4LREX4167YBOVW0" Author="Полякова Виктория" Level="0" ADate="ET7DEOPU" Path="9.12.mod" Time="EZSRWJK0" Size="9702">
+<Title>Быстрая и распределяющая сортировки</Title>
+<Term Type="In">линейного списка</Term>
+</Modul>
+
+<Modul UId="Z9SEHIULKZ2FQGGNUTW7" Author="Полякова Виктория" Level="0" ADate="ET7EGKP5" Path="9.13.mod" Time="EZSRWJK0" Size="2908">
+<Title>Последовательный поиск</Title>
+<Term Type="In">линейные списки</Term>
+</Modul>
+
+<Modul UId="YK0AWG789NWT6M1UYCG2" Author="Полякова Виктория" Level="0" ADate="ET7ENNYE" Path="9.14.mod" Time="EZSRWJK0" Size="1657">
+<Title>Бинарный поиск</Title>
+<Term Type="In">линейных списков</Term>
+</Modul>
+
+<Modul UId="8D10KH76BG4UNGVRLXDK" Author="Полякова Виктория" Level="0" ADate="ET7EPJYB" Path="9.15.mod" Time="EZSRWJK0" Size="1235">
+<Title>М-блочный поиск</Title>
+</Modul>
+
+<Modul UId="A56F1DMICYY6ICIZ8SCD" Author="Полякова Виктория" Level="0" ADate="ET7EQCUO" Path="9.16.mod" Time="EZSRWJK0" Size="4482">
+<Title>Методы вычисления адреса</Title>
+</Modul>
+
+<Modul UId="L1944V8TSJU22LEG4UYO" Author="Полякова Виктория" Level="0" ADate="ET7ETEB7" Path="9.17.mod" Time="EZSRWJK0" Size="6654">
+<Title>Выбор в линейных списках</Title>
+<Term Type="In">массив</Term>
+</Modul>
+
+<Modul UId="OHUIP1LCX6TTNGNFXV4W" Author="Полякова Виктория" Level="0" ADate="ET6WV0C1" Path="9.2.mod" Time="EZSRWJK0" Size="4508">
+<Title>Операции со списками при последовательном хранении</Title>
+<Term Type="In">линейного списка</Term>
+</Modul>
+
+<Modul UId="UDPAFRD8NHY9ZP0GDJCQ" Author="Полякова Виктория" Level="0" ADate="ET6WZVYI" Path="9.3.mod" Time="EZSRWJK0" Size="6414">
+<Title>Операции со списками при связном хранении</Title>
+</Modul>
+
+<Modul UId="FNHA1ALKWM7PFTLNV00M" Author="Полякова Виктория" Level="0" ADate="ET7A0TRA" Path="9.4.mod" Time="EZSRWJK0" Size="5989">
+<Title>Организация двусвязных списков</Title>
+<Term Type="Out">двусвязным списком</Term>
+<Term Type="Out">циклическим списком</Term>
+</Modul>
+
+<Modul UId="I42KWG2VB86WJ3MWTODG" Author="Полякова Виктория" Level="0" ADate="ET7B6RYH" Path="9.5.mod" Time="EZSRWJK0" Size="5582">
+<Title>Стеки и очереди</Title>
+<Term Type="Out">стеком</Term>
+<Term Type="Out">очередью</Term>
+<Term Type="In">массивов</Term>
+<Term Type="In">структур</Term>
+<Term Type="In">операнды</Term>
+<Term Type="In">функция</Term>
+</Modul>
+
+<Modul UId="E4JZ1DI565HF9D2OSAJ9" Author="Полякова Виктория" Level="0" ADate="ET7BMDL8" Path="9.6.mod" Time="EZSRWJK0" Size="19898">
+<Title>Сжатое и индексное хранение линейных списков</Title>
+<Term Type="In">линейных списков</Term>
+</Modul>
+
+<Modul UId="N6H64MV5W4WO50EQLS1Q" Author="Полякова Виктория" Level="0" ADate="ET7CYMH0" Path="9.7.mod" Time="EZSRWJK0" Size="2058">
+<Title>Пузырьковая сортировка</Title>
+</Modul>
+
+<Modul UId="WBP7GRPL2X6WYHAJUV71" Author="Полякова Виктория" Level="0" ADate="ET7D1O11" Path="9.8.mod" Time="EZSRWJK0" Size="3069">
+<Title>Сортировка вставкой</Title>
+</Modul>
+
+<Modul UId="R3EG14O5OU0TP25X5FKC" Author="Полякова Виктория" Level="0" ADate="ET7D4FJH" Path="9.9.mod" Time="EZSRWJK0" Size="3325">
+<Title>Сортировка посредством выбора</Title>
+</Modul>
+
+<Modul UId="ISI8S5JDFP5PCY4YCTJ6" Author="Полякова Виктория" Level="0" ADate="ETEGLPX9" Path="alloc.mod" Time="EZSRWJK0" Size="13467">
+<Title>Динамическое распределение памяти</Title>
+<Term Type="Out">Динамическое распределение памяти</Term>
+<Term Type="In">стека</Term>
+<Term Type="In">функции</Term>
+<Term Type="In">указатель</Term>
+<Term Type="Out">free</Term>
+<Term Type="Out">malloc</Term>
+<Term Type="Out">calloc</Term>
+<Term Type="Out">realloc</Term>
+</Modul>
+
+<Modul UId="97BQM2TBDXZJO63U5VF0" Author="Полякова Виктория" Level="0" ADate="EUXW5M61" Path="analiz_vvod.mod" Time="EZSRWJK0" Size="4399">
+<Title>Анализ состояния потока ввода-вывода</Title>
+<Term Type="Out">функции: feof</Term>
+<Term Type="Out">Функция ferror</Term>
+<Term Type="Out">функция perror</Term>
+<Term Type="Out">fopen</Term>
+<Term Type="Out">Функция clearerr</Term>
+</Modul>
+
+<Course UId="BaseCourse" Creator="Полякова Виктория" Base="Y" Path="base.cou" Time="EZSRWJK0" Size="7553">
+<Title>Программирование на языке высокого уровня</Title>
+</Course>
+
+<Modul UId="DR8VADRMTCYYAD05M3YW" Author="Полякова Виктория" Level="0" ADate="EUXVWBJL" Path="begin vvod.mod" Time="EZSRWJK0" Size="3613">
+<Title>Начало обработки потока ввода-вывода</Title>
+<Term Type="In">fopen</Term>
+<Term Type="In">буферизованного ввода-вывода</Term>
+<Term Type="In">BUFSIZ</Term>
+</Modul>
+
+<Modul UId="ACSQFS2AFWXDE5GCB6RK" Author="Полякова Виктория" Level="0" ADate="EUXW2H7M" Path="besform_vvod.mod" Time="EZSRWJK0" Size="12837">
+<Title>Бесформатный ввод-вывод</Title>
+<Term Type="In">буферизованного ввода-вывода</Term>
+<Term Type="Out">функции fgetc</Term>
+<Term Type="Out">функцию puts</Term>
+<Term Type="Out">функцию fread</Term>
+<Term Type="In">Указатель</Term>
+<Term Type="In">BUFSIZ</Term>
+</Modul>
+
+<AuxMod UId="NUMZT01VQ14CH8G0MU41" Path="bilet.aux" Time="EZSRWJK0" Size="15330">
+<Title>Варианты заданий для зачетной работы</Title>
+</AuxMod>
+
+<Modul UId="8BWQGSG7MCGLQZXWUGA7" Author="Полякова Виктория" Level="0" ADate="EUXUTUY3" Path="bloc_copy.mod" Time="EZSRWJK0" Size="2343">
+<Title>Операции копирования блоков памяти</Title>
+<Term Type="Out">функции memcpy</Term>
+<Term Type="Out">Функция memmove</Term>
+</Modul>
+
+<Modul UId="URDOC7MY0AP3DVQ20Q7H" Author="Полякова Виктория" Level="0" ADate="EUXUP7YD" Path="bloc_srav.mod" Time="EZSRWJK0" Size="6271">
+<Title>Сравнение блоков памяти</Title>
+<Term Type="Out">функция memcmp</Term>
+<Term Type="In">массивы</Term>
+<Term Type="In">операции сравнения</Term>
+</Modul>
+
+<AuxMod UId="JUYBCDYTSJPIQODJY2M9" Path="bound1.aux" Time="EZSRWJK0" Size="34570">
+<Title>Форматирование текстовых файлов</Title>
+</AuxMod>
+
+<Modul UId="MKRFHVLB0FB5AZ6QEKKZ" Author="Полякова Виктория" Level="0" ADate="EUXVBLYV" Path="copy_len.mod" Time="EZSRWJK0" Size="2498">
+<Title>Операции копирования строк</Title>
+<Term Type="Out">функции strcpy</Term>
+<Term Type="Out">Функция strncpy</Term>
+</Modul>
+
+<Modul UId="PSJSHI8Q2POULCKI4A8S" Author="Полякова Виктория" Level="0" ADate="EUXW6ZY4" Path="final_vvod.mod" Time="EZSRWJK0" Size="5553">
+<Title>Завершение обработки потока ввода-вывода</Title>
+<Term Type="In">буферизованного ввода-вывода</Term>
+<Term Type="Out">функции fclose</Term>
+<Term Type="In">функции perror</Term>
+<Term Type="In">функций fgetc</Term>
+</Modul>
+
+<Modul UId="UZLKA1S6AFPFEE9KQQIO" Author="Полякова Виктория" Level="0" ADate="EUXVXP93" Path="form vivod.mod" Time="EZSRWJK0" Size="14347">
+<Title>Форматный вывод</Title>
+<Term Type="Out">Функция fprintf</Term>
+<Term Type="Out">Функция fprintf</Term>
+<Term Type="In">символьной строки</Term>
+<Term Type="Out">функции fprintf</Term>
+<Term Type="Out">форматный вывод</Term>
+<Term Type="Out">Функция printf</Term>
+<Term Type="In">указатель потока</Term>
+<Term Type="In">массива</Term>
+<Term Type="Out">функции itoa</Term>
+<Term Type="In">языка C</Term>
+</Modul>
+
+<Modul UId="NZIL0RREJAH5HDVMR2WC" Author="Полякова Виктория" Level="0" ADate="EUXVZTWM" Path="form_vvod.mod" Time="EZSRWJK0" Size="19823">
+<Title>Форматный ввод</Title>
+<Term Type="Out">Форматный ввод</Term>
+<Term Type="In">функции fscanf</Term>
+<Term Type="Out">указателя потока</Term>
+<Term Type="In">Указатель</Term>
+<Term Type="Out">Функция chkdate</Term>
+<Term Type="Out">функции scani</Term>
+</Modul>
+
+<AuxMod UId="EEXJJKHWLSVNJ94C1JWZ" Path="home.aux" Time="EZSRWJK0" Size="21986">
+<Title>Варианты домашних заданий</Title>
+</AuxMod>
+
+<Modul UId="AN4FJ31QCZATQQ274A4S" Author="Полякова Виктория" Level="0" ADate="EUXVE5R4" Path="konk_len.mod" Time="EZSRWJK0" Size="3346">
+<Title>Конкатенация строк</Title>
+<Term Type="In">символьных строк</Term>
+<Term Type="Out">функции strcat</Term>
+<Term Type="Out">функция strncat</Term>
+</Modul>
+
+<AuxMod UId="82DEI5S6648TOVPJR8YU" Path="kontr_1.aux" Time="EZSRWJK0" Size="10755">
+<Title>Варианты заданий для контрольных работ (часть 1)</Title>
+</AuxMod>
+
+<AuxMod UId="6519ET96SC60AE6BNX72" Path="kontr_2.aux" Time="EZSRWJK0" Size="11381">
+<Title>Варианты заданий для контрольных работ (часть 2)</Title>
+</AuxMod>
+
+<Modul UId="QM3NDTE1U3YZLCB9TYB2" Author="Полякова Виктория" Level="0" ADate="ETEN2QHJ" Path="mem.mod" Time="EZSRWJK0" Size="3204">
+<Title>Инициализация блоков памяти</Title>
+<Term Type="In">символьных строк</Term>
+<Term Type="In">массивы</Term>
+<Term Type="In">структуры</Term>
+<Term Type="Out">функция memset</Term>
+</Modul>
+
+<AuxMod UId="OAUCUWRHVQ6UN0GM1Q20" Path="palindrome.aux" Time="EZSRWJK0" Size="20835">
+<Title>Анализ текстовых палиндромов</Title>
+</AuxMod>
+
+<Modul UId="DKVXXRA86EHPIA85T4DI" Author="Полякова Виктория" Level="0" ADate="EUXW4DEX" Path="poz_vvod.mod" Time="EZSRWJK0" Size="5461">
+<Title>Позиционирование в потоках ввода-вывода</Title>
+<Term Type="Out">функция fseek</Term>
+<Term Type="Out">функцию rewind</Term>
+</Modul>
+
+<Modul UId="DW5T8JCI9RLUOROXDLQK" Author="Полякова Виктория" Level="0" ADate="EUXVP1IF" Path="search_len.mod" Time="EZSRWJK0" Size="11218">
+<Title>Организация операции поиска данных в символьной строке</Title>
+<Term Type="In">функции strcmp</Term>
+<Term Type="Out">Функции strchr</Term>
+<Term Type="Out">Функции strpbrk</Term>
+<Term Type="Out">Функция strstr</Term>
+<Term Type="Out">функций strrchr</Term>
+<Term Type="Out">операция лексического разбора</Term>
+<Term Type="Out">Функция strtok</Term>
+</Modul>
+
+<Modul UId="4FDUCZB2BGLUMCCYPX3H" Author="Полякова Виктория" Level="0" ADate="EUXVFYX1" Path="srav_len.mod" Time="EZSRWJK0" Size="2815">
+<Title>Сравнение строк</Title>
+<Term Type="In">символьных строк</Term>
+<Term Type="Out">операцию сравнения</Term>
+<Term Type="Out">функции strcmp</Term>
+<Term Type="Out">функция strncmp</Term>
+</Modul>
+
+<Modul UId="Y0H9GBMWEE4CLEA46SB7" Author="Полякова Виктория" Level="0" ADate="ETENBH32" Path="stdio.mod" Time="EZSRWJK0" Size="3848">
+<Title>Программный интерфейс потоков ввода-вывода</Title>
+<Term Type="In">языке C</Term>
+<Term Type="In">функций</Term>
+<Term Type="Out">BUFSIZ</Term>
+<Term Type="In">указателя потока</Term>
+</Modul>
+
+<Modul UId="OWW4M0PJMFJU5IU0YJR6" Author="Полякова Виктория" Level="0" ADate="ETENDHXG" Path="string.mod" Time="EZSRWJK0" Size="6600">
+<Title>Стандартные функции обработки символов и функции для измерительных операций со строками.</Title>
+<Term Type="Out">Символьная строка</Term>
+<Term Type="In">массив</Term>
+<Term Type="Out">функции strlen</Term>
+<Term Type="Out">функции strspn</Term>
+<Term Type="Out">Функция strcspn</Term>
+</Modul>
+
+<Modul UId="YJZSYURQFSW170I2PTA7" Author="Полякова Виктория" Level="0" ADate="EUXVUK82" Path="vvod-vivod.mod" Time="EZSRWJK0" Size="3279">
+<Title>Потоки ввода-вывода</Title>
+<Term Type="Out">буферизованного ввода-вывода</Term>
+<Term Type="Out">Базовый уровень</Term>
+</Modul>
+</Index>

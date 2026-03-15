@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Index>
+
+<Course UId="IEAK7RR6GDEK165KIPEI" Creator="И.П.Норенков" Path="cals.cou" Time="EHLNPXPC" Size="2115">
+<Title>Введение в CALS-технологии</Title>
+</Course>
+
+<Course UId="VYBD5GCO5LLK0G1L2SV6" Creator="И.П.Норенков" Path="erp.cou" Time="EGZDBG4G" Size="2030">
+<Title>Автоматизированные системы управления</Title>
+</Course>
+
+<Course UId="Q381JR7A9VLR23YL3PPH" Creator="И.П.Норенков" Path="Hardware.cou" Time="EGZFKRLC" Size="4488">
+<Title>Техническое обеспечение автоматизированных систем</Title>
+</Course>
+
+<Course UId="7XZXY96SYUTMXW4VU4MU" Creator="И.П.Норенков" Path="history.cou" Time="EGZGBN6O" Size="3324">
+<Title>История вычислительной техники и информационных технологий</Title>
+</Course>
+
+<Course UId="ZUUXUHWRPC1Q4R5FWAYE" Creator="И.П.Норенков" Path="IT_education.cou" Time="EDTQL2M8" Size="4380">
+<Title>Информационные технологии в образовании</Title>
+</Course>
+
+<Course UId="Z84GIUXOZHG2HZ2W50OG" Creator="И.П.Норенков" Path="sap1.cou" Time="EDQZZ6BK" Size="3619">
+<Title>Система SAP Business Suite</Title>
+</Course>
+
+<Course UId="1R7U44IKRNF6ROT7C4D4" Creator="И.П.Норенков" Path="web.cou" Time="EHYU5BQ8" Size="4164">
+<Title>Введение в Web-технологии</Title>
+</Course>
+</Index>

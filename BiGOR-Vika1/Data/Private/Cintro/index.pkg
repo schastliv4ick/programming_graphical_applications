@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Index>
+
+<Modul UId="HGCM1KIIW333WL574UKD" Author="Федорук Е.В." Level="0" ADate="EW2355FF" Path="adr_func.mod" Time="EYETMW00" Size="2381">
+<Title>Передача адреса в функцию</Title>
+<Term Type="Out">операция получения адреса</Term>
+</Modul>
+
+<Modul UId="3SPMA6ZLP2VH313QNDQI" Author="Федорук Е.В." Level="0" ADate="EW248PQC" Path="adr_mas.mod" Time="EYETMW00" Size="4229">
+<Title>Передача в функцию адреса массива</Title>
+<Term Type="Out">адрес массива</Term>
+</Modul>
+
+<Modul UId="HJXZC50F720L31C2Z4TB" Author="Федорук Е.В." Level="0" ADate="EVV13KVX" Path="adr_oper.mod" Time="EYETMW00" Size="5155">
+<Title>Адресная арифметика</Title>
+<Term Type="Out">Адресная арифметика</Term>
+</Modul>
+
+<Modul UId="ZYSPO8ECRL8F9DGFIS64" Author="Федорук Е.В." Level="0" ADate="EUJUC1YL" Path="alfavit.mod" Time="EYETMW00" Size="2391">
+<Title>Алфавит языка программирования СИ</Title>
+<Term Type="Out">Алфавит</Term>
+<Term Type="Out">служебные слова</Term>
+<Term Type="Out">идентификатор</Term>
+</Modul>
+
+<Modul UId="7AICT7V762N8I8FG6AZI" Author="Федорук Е.В." Level="0" ADate="EV6S2QK9" Path="argument.mod" Time="EYETMW00" Size="2692">
+<Title>Аргументы функции</Title>
+<Term Type="Out">фактические параметры</Term>
+</Modul>
+
+<Modul UId="WSYVTF0QLC0W1O2VA7KV" Author="Федорук Е.В." Level="0" ADate="EUPB04VM" Path="arifm_oper.mod" Time="EYETMW00" Size="1871">
+<Title>Арифметические операции</Title>
+<Term Type="Out">арифметические операции</Term>
+<Term Type="Out">Аддитивные операции</Term>
+<Term Type="Out">Мультипликативные операции</Term>
+<Term Type="Out">Изменение знака</Term>
+</Modul>
+
+<Modul UId="3K9SVLY0UYBLAOPZUO9P" Author="Федорук Е.В." Level="0" ADate="EUFEW3BY" Path="arifmetic.mod" Time="EYETMW00" Size="9074">
+<Title>Двоичная арифметика</Title>
+<Term Type="Out">Двоичная арифметика</Term>
+</Modul>
+
+<Modul UId="NDSH83WQ3I8QE86D5JO2" Author="Федорук Е.В." Level="0" ADate="EV9G9533" Path="atr_const.mod" Time="EYETMW00" Size="1074">
+<Title>Атрибут const</Title>
+<Term Type="Out">атрибут const</Term>
+</Modul>
+
+<Modul UId="TCVFVAWQRHN2IZARPQ2A" Author="Федорук Е.В." Level="0" ADate="EVGI4A2H" Path="auto_class.mod" Time="EYETMW00" Size="1705">
+<Title>Автоматический класс памяти</Title>
+<Term Type="Out">Автоматическая переменная</Term>
+</Modul>
+
+<Course UId="BaseCourse" Creator="Федорук Е.В." Base="Y" Path="base.cou" Time="EYETMW00" Size="4228">
+<Title>Программирование на языке Си</Title>
+</Course>
+
+<Modul UId="IZGG2PTENMGC414LBBRV" Author="Федорук Е.В." Level="0" ADate="EWJF84UP" Path="bit_oper.mod" Time="EYETMW00" Size="5180">
+<Title>Обзор побитовых операций</Title>
+<Term Type="Out">побитовых операций</Term>
+<Term Type="Out">Поразрядное дополнение</Term>
+<Term Type="Out">Поразрядное умножение</Term>
+<Term Type="Out">Исключающее ИЛИ</Term>
+<Term Type="Out">Поразрядное сложение</Term>
+<Term Type="Out">Сдвиг влево</Term>
+<Term Type="Out">Сдвиг вправо</Term>
+</Modul>
+
+<Modul UId="D010YINFWMRTNX72KNPO" Author="Федорук Е.В." Level="0" ADate="EVNUL583" Path="break_con.mod" Time="EYETMW00" Size="18494">
+<Title>Операторы break и continue</Title>
+<Term Type="Out">оператор break</Term>
+<Term Type="Out">оператор continue</Term>
+</Modul>
+
+<Modul UId="RK5MZDK8COCN6R39MUGA" Author="Федорук Е.В." Level="0" ADate="EUJU4NPT" Path="character.mod" Time="EYETMW00" Size="2770">
+<Title>Характерные черты языка программирования Си</Title>
+<Term Type="Out">Язык программирования Си</Term>
+<Term Type="Out">ОС UNIX</Term>
+<Term Type="Out">стандарт K&amp;R</Term>
+<Term Type="Out">стандарт ANSI</Term>
+</Modul>
+
+<Thesaurus UId="5ZVPR2V35AC9IW0YLLB1" Path="Cintro.the" Time="EYETMW00" Size="33843">
+<Title>Программирование на языке СИ</Title>
+</Thesaurus>
+
+<Modul UId="W1CN1D9O1S0C393PXT2K" Author="Федорук Е.В." Level="0" ADate="EUJV0NPF" Path="comment.mod" Time="EYETMW00" Size="1540">
+<Title>Комментарии</Title>
+<Term Type="Out">Комментарии</Term>
+</Modul>
+
+<Modul UId="36D0KFB6G2KXW93TC3OI" Author="Федорук Е.В." Level="0" ADate="EUMJUC2F" Path="constant.mod" Time="EYETMW00" Size="5839">
+<Title>Константы</Title>
+<Term Type="Out">Константа</Term>
+<Term Type="Out">Целочисленные константы</Term>
+<Term Type="Out">Константы с плавающей точкой</Term>
+<Term Type="Out">Строковая константа </Term>
+</Modul>
+
+<Modul UId="J78LRH344A2SGHIGD6HW" Author="Федорук Е.В." Level="0" ADate="EV3ZO7WV" Path="decl_func.mod" Time="EYETMW00" Size="3256">
+<Title>Объявление функций</Title>
+<Term Type="Out">объявления функции</Term>
+</Modul>
+
+<Modul UId="SPQ46581NIPL3LTDP9G4" Author="Федорук Е.В." Level="0" ADate="EV3ZFNLU" Path="define_func.mod" Time="EYETMW00" Size="2821">
+<Title>Определение функции</Title>
+<Term Type="Out">Определение функции</Term>
+<Term Type="Out">формальными параметрами</Term>
+<Term Type="Out">возвращаемого значения</Term>
+</Modul>
+
+<Modul UId="0J2DAN4W06WHNWJL2DOB" Author="Федорук Е.В." Level="0" ADate="EVL50AVN" Path="do_while.mod" Time="EYETMW00" Size="10007">
+<Title>Оператор цикла do-while</Title>
+<Term Type="Out">Оператор цикла do-while</Term>
+</Modul>
+
+<Modul UId="KP35D9EARBKWT406NB27" Author="Федорук Е.В." Level="0" ADate="EV0Z3XBL" Path="dostup.mod" Time="EYETMW00" Size="4236">
+<Title>Доступ к элементам массива</Title>
+<Term Type="Out">операция доступа к элементу массива</Term>
+<Term Type="Out">Имя массива</Term>
+<Term Type="Out">смещение</Term>
+</Modul>
+
+<Modul UId="KSWW2U94GZW3I77SAM38" Author="Федорук Е.В." Level="0" ADate="EW3IX104" Path="dostup_arg.mod" Time="EYETMW00" Size="10105">
+<Title>Доступ к аргументам командной строки</Title>
+<Term Type="Out">Аргументы командной строки</Term>
+</Modul>
+
+<Modul UId="9C1U9LTUBPSTSOS83VYU" Author="Федорук Е.В." Level="0" ADate="EW9DLHQ9" Path="dostup_struct.mod" Time="EYETMW00" Size="1595">
+<Title>Доступ к элементам структуры</Title>
+<Term Type="Out">операция доступа к элементу структуры</Term>
+</Modul>
+
+<Modul UId="VYL10D0M5LUARXZARAZM" Author="Федорук Е.В." Level="0" ADate="EVGIQ393" Path="external_class.mod" Time="EYETMW00" Size="4196">
+<Title>Внешний класс памяти</Title>
+<Term Type="Out">Внешняя переменная</Term>
+<Term Type="Out">Внешнее определение</Term>
+<Term Type="Out">Внешнее объявление</Term>
+</Modul>
+
+<Modul UId="5EVVRY7QQAB5GIUG7DDO" Author="Федорук Е.В." Level="0" ADate="EVL6A0G1" Path="for.mod" Time="EYETMW00" Size="16524">
+<Title>Оператор цикла for</Title>
+<Term Type="Out">Оператор цикла for</Term>
+</Modul>
+
+<Modul UId="D0IXUW46W4OQK9TJHW1B" Author="Федорук Е.В." Level="0" ADate="EUFAQGZY" Path="format.mod" Time="EYETMW00" Size="11419">
+<Title>Формы представления числовой информации</Title>
+<Term Type="Out">Автоматное представление числа</Term>
+<Term Type="Out">представлением чисел с фиксированной точкой</Term>
+<Term Type="Out">переполнение разрядной сетки</Term>
+<Term Type="Out">Прямой код</Term>
+<Term Type="Out">Обратный код</Term>
+<Term Type="Out">Дополнительный код</Term>
+<Term Type="Out">представления числа с плавающей точкой</Term>
+</Modul>
+
+<Modul UId="4XVW7LADKILFA0K6VSNF" Author="Федорук Е.В." Level="0" ADate="EUJVFPGS" Path="formul.mod" Time="EYETMW00" Size="1423">
+<Title>Выражения</Title>
+<Term Type="Out">Выражение</Term>
+</Modul>
+
+<Modul UId="6J2B961G9BKTJWGKF572" Author="Федорук Е.В." Level="0" ADate="EV3ZCL3Q" Path="function.mod" Time="EYETMW00" Size="1213">
+<Title>Функции</Title>
+<Term Type="Out">Функция</Term>
+</Modul>
+
+<Modul UId="IBEB3BWXYHTYYP53PG2X" Author="Федорук Е.В." Level="0" ADate="EUY4PGER" Path="if.mod" Time="EYETMW00" Size="9933">
+<Title>Управляющий оператор if</Title>
+<Term Type="Out">Оператор if</Term>
+</Modul>
+
+<Modul UId="OM1B8234LGQYG9XU3HKY" Author="Федорук Е.В." Level="0" ADate="EVQQYJ3U" Path="include.mod" Time="EYETMW00" Size="39670">
+<Title>Организация файлов программы</Title>
+<Term Type="Out">Директива препроцессора include</Term>
+<Term Type="Out">файлами заголовков</Term>
+</Modul>
+
+<Modul UId="23A43YNTB3ZV8R93VEIW" Author="Федорук Е.В." Level="0" ADate="EV3YF333" Path="incremeny.mod" Time="EYETMW00" Size="3351">
+<Title>Операции инкрементации и декрементации</Title>
+<Term Type="Out">унарными операциями</Term>
+<Term Type="Out">Операция инкрементации</Term>
+<Term Type="Out">Операция декрементации</Term>
+<Term Type="Out">префиксную</Term>
+<Term Type="Out">постфиксную</Term>
+</Modul>
+
+<Modul UId="TBZMP12TFANCVWT02L8V" Author="Федорук Е.В." Level="0" ADate="EVJLV34U" Path="init_mas.mod" Time="EYETMW00" Size="2173">
+<Title>Инициализация массива</Title>
+<Term Type="Out">Инициализация массива</Term>
+</Modul>
+
+<Modul UId="2VJKPKZ8408FJW6PDUOU" Author="Федорук Е.В." Level="0" ADate="EVTITWAK" Path="isp_pointer.mod" Time="EYETMW00" Size="25386">
+<Title>Использование указателей</Title>
+<Term Type="Out">Операция косвенного доступа</Term>
+</Modul>
+
+<Modul UId="0HKEFKYKLN4C187CAWIR" Author="Федорук Е.В." Level="0" ADate="EUTWSBBE" Path="log-oper.mod" Time="EYETMW00" Size="3181">
+<Title>Логические операции</Title>
+<Term Type="Out">логические операции</Term>
+<Term Type="Out">коньюнкция</Term>
+<Term Type="Out">дизьюнкция</Term>
+<Term Type="Out">логическое отрицание</Term>
+</Modul>
+
+<Modul UId="YI45MFW8KM72QPT2NESB" Author="Федорук Е.В." Level="0" ADate="EVQJP2RB" Path="macros.mod" Time="EYETMW00" Size="6956">
+<Title>Макросы</Title>
+<Term Type="Out">Макрос</Term>
+<Term Type="Out">Операция #</Term>
+<Term Type="Out">Операция ##</Term>
+</Modul>
+
+<Modul UId="HU5J3ITPYPSDHIU20PPI" Author="Федорук Е.В." Level="0" ADate="EV9GP1JV" Path="mas_func_2.mod" Time="EYETMW00" Size="2258">
+<Title>Передача в функцию многомерного массива</Title>
+<Term Type="Out">Многомерный массив</Term>
+</Modul>
+
+<Modul UId="TMHA3VBII2CU7DRJTXSR" Author="Федорук Е.В." Level="0" ADate="EV109OFV" Path="mas_simb.mod" Time="EYETMW00" Size="1759">
+<Title>Массивы символов</Title>
+<Term Type="Out">Символьная строка</Term>
+<Term Type="Out">признаком конца строки</Term>
+</Modul>
+
+<Modul UId="G5H9I0P8UIA7AKEFFO6C" Author="Федорук Е.В." Level="0" ADate="EW9DYMMB" Path="mass_struct.mod" Time="EYETMW00" Size="3042">
+<Title>Массивы структур</Title>
+<Term Type="Out">Массив структур</Term>
+</Modul>
+
+<Modul UId="IHFIOKFW83NRHQ47ZOY0" Author="Федорук Е.В." Level="0" ADate="EUZH9REJ" Path="massiv.mod" Time="EYETMW00" Size="7705">
+<Title>Массивы</Title>
+<Term Type="Out">Массив</Term>
+<Term Type="Out">производными типами</Term>
+<Term Type="Out">Индекс </Term>
+</Modul>
+
+<Modul UId="OO6IKXW4JR41YVXYA8EL" Author="Федорук Е.В." Level="0" ADate="EUJUPSL0" Path="minimum.mod" Time="EYETMW00" Size="1341">
+<Title>Минимальная программа на языке программирования Си</Title>
+<Term Type="Out">функции main()</Term>
+<Term Type="Out">символы промежутков</Term>
+</Modul>
+
+<Modul UId="0U0T66Z1UFK46AK4DAOE" Author="Федорук Е.В." Level="0" ADate="EVQGIJCJ" Path="name_const.mod" Time="EYETMW00" Size="2434">
+<Title>Поименованные константы</Title>
+<Term Type="Out">Поименованные константы</Term>
+<Term Type="Out">директивы препроцессора define</Term>
+</Modul>
+
+<Modul UId="TVIN4JOQ1RYFMMR6CY4U" Author="Федорук Е.В." Level="0" ADate="EVQF8PHR" Path="op_goto.mod" Time="EYETMW00" Size="2130">
+<Title>Оператор goto</Title>
+<Term Type="Out">оператор goto</Term>
+<Term Type="Out">Метка</Term>
+</Modul>
+
+<Modul UId="CSX1FSGW4YZEQNV2890F" Author="Федорук Е.В." Level="0" ADate="EV85HAKG" Path="op_pre.mod" Time="EYETMW00" Size="2309">
+<Title>Операция приведения</Title>
+<Term Type="Out">Приведение</Term>
+</Modul>
+
+<Modul UId="JQDU9435L30U3X21CWML" Author="Федорук Е.В." Level="0" ADate="EVNTSVM1" Path="op_zap.mod" Time="EYETMW00" Size="2978">
+<Title>Операция &quot;запятая&quot;</Title>
+<Term Type="Out">Операция &quot;запятая&quot;</Term>
+</Modul>
+
+<Modul UId="T75EJSDMTVU6ED6O0I82" Author="Федорук Е.В." Level="0" ADate="EUTWEDAG" Path="oper_otnosh.mod" Time="EYETMW00" Size="1771">
+<Title>Операции отношений</Title>
+<Term Type="Out">Операции отношений</Term>
+<Term Type="Out">истина</Term>
+<Term Type="Out">ложь</Term>
+</Modul>
+
+<Modul UId="TQ9AI1ICGOG9A1WJDFJ3" Author="Федорук Е.В." Level="0" ADate="EUTW77PK" Path="operator.mod" Time="EYETMW00" Size="2046">
+<Title>Операторы</Title>
+<Term Type="Out">Оператор</Term>
+<Term Type="Out">Простой оператор</Term>
+<Term Type="Out">пустой оператор</Term>
+<Term Type="Out">Блок операторов</Term>
+<Term Type="Out">Управляющие операторы</Term>
+</Modul>
+
+<Modul UId="Q9ABQ1GRZJFOOS87LGAY" Author="Федорук Е.В." Level="0" ADate="EV126SOT" Path="out_mas.mod" Time="EYETMW00" Size="2626">
+<Title>Обработка массивов</Title>
+<Term Type="Out">Выход за границу массива</Term>
+</Modul>
+
+<Modul UId="ZOO88LPH2LDQURQ7G1EI" Author="Федорук Е.В." Level="0" ADate="EVTIQJ4K" Path="pointer.mod" Time="EYETMW00" Size="2233">
+<Title>Указатели</Title>
+<Term Type="Out">Указатель</Term>
+</Modul>
+
+<Modul UId="C1F77Z9U62N7X1RA434Q" Author="Федорук Е.В." Level="0" ADate="EUWL3DN0" Path="preobraz.mod" Time="EYETMW00" Size="8513">
+<Title>Преобразование данных</Title>
+<Term Type="Out">преобразования данных</Term>
+</Modul>
+
+<Modul UId="H96YGS2X4H1510EGE5IW" Author="Федорук Е.В." Level="0" ADate="EVQG3ENC" Path="preproc.mod" Time="EYETMW00" Size="1510">
+<Title>Препроцессор языка Си</Title>
+<Term Type="Out">Препроцессор</Term>
+<Term Type="Out">директивы препроцессора</Term>
+</Modul>
+
+<Modul UId="3IDNQ3NL9ROO31CMHVRQ" Author="Федорук Е.В." Level="0" ADate="EUY2OF5H" Path="priorety.mod" Time="EYETMW00" Size="3741">
+<Title>Приоритеты операций</Title>
+<Term Type="Out">Приоритет операции</Term>
+<Term Type="Out">Ассоциативность</Term>
+<Term Type="Out">таблице приоритетов</Term>
+</Modul>
+
+<Modul UId="VJAUOI97IGWS4RERD2E9" Author="Федорук Е.В." Level="0" ADate="EUTUIARV" Path="prisv.mod" Time="EYETMW00" Size="2662">
+<Title>Операция присваивания</Title>
+<Term Type="Out">Операция присваивания</Term>
+<Term Type="Out">Именующее выражение</Term>
+<Term Type="Out">Составные операции присваивания</Term>
+</Modul>
+
+<Modul UId="E10VY2FZ14Q98M3MNVMT" Author="Федорук Е.В." Level="0" ADate="EVJMN5T2" Path="recurc.mod" Time="EYETMW00" Size="15550">
+<Title>Рекурсивные функции</Title>
+<Term Type="Out">рекурсивной</Term>
+</Modul>
+
+<Modul UId="IXW2TRURIU2QGW44PWMM" Author="Федорук Е.В." Level="0" ADate="EVGII2A9" Path="register_class.mod" Time="EYETMW00" Size="2048">
+<Title>Регистровый класс памяти</Title>
+<Term Type="Out">Регистровая переменная</Term>
+</Modul>
+
+<Modul UId="W1P2CPYIU1S0LW3NIZH7" Author="Федорук Е.В." Level="0" ADate="EUCDPR47" Path="repres.mod" Time="EYETMW00" Size="7651">
+<Title>Выбор системы счисления для представления числовой информации</Title>
+<Term Type="Out">Система счисления</Term>
+<Term Type="Out">Непозиционная система счисления</Term>
+<Term Type="Out">Позиционная система счисления</Term>
+<Term Type="Out">Основание позиционной системы счисления</Term>
+<Term Type="Out">Длина числа</Term>
+<Term Type="Out">длина разрядной сетки</Term>
+<Term Type="Out">Диапазон представления чисел</Term>
+</Modul>
+
+<Modul UId="H8I665WCZ42HQILAIM7D" Author="Федорук Е.В." Level="0" ADate="EV9DNUML" Path="return.mod" Time="EYETMW00" Size="4531">
+<Title>Оператор return</Title>
+<Term Type="Out">оператора возврата return</Term>
+</Modul>
+
+<Modul UId="M83TFL2R752R2HI2XG9A" Author="Федорук Е.В." Level="0" ADate="EUJR820G" Path="stad.mod" Time="EYETMW00" Size="9993">
+<Title>Стадии создания программного продукта</Title>
+<Term Type="Out">стадия предпроектных исследований и технического задания</Term>
+<Term Type="Out">стадия технического предложения</Term>
+<Term Type="Out">стадия эскизного проектирования</Term>
+<Term Type="Out">стадия технического проектирования</Term>
+<Term Type="Out">стадия рабочего проектирования</Term>
+<Term Type="Out">стадия испытаний</Term>
+<Term Type="Out">стадия внедрения в эксплуатацию</Term>
+<Term Type="Out">Алгоритмом</Term>
+<Term Type="Out">отладки программы</Term>
+</Modul>
+
+<Modul UId="BHBJ6OMF57UH69WJAZDD" Author="Федорук Е.В." Level="0" ADate="EV86BNBS" Path="stak.mod" Time="EYETMW00" Size="10715">
+<Title>Назначение стека при вызове функции</Title>
+<Term Type="Out">Стек</Term>
+<Term Type="Out">кадром</Term>
+</Modul>
+
+<Modul UId="VW5MZ9PRH9HMTJIR7OF1" Author="Федорук Е.В." Level="0" ADate="EXT2N38U" Path="stap_komp.mod" Time="EYETMW00" Size="10574">
+<Title>Шаги компиляции Си</Title>
+</Modul>
+
+<Modul UId="VJQ9XBKI8ZIDZQL4ZO6P" Author="Федорук Е.В." Level="0" ADate="EVJICGX1" Path="static_class.mod" Time="EYETMW00" Size="2005">
+<Title>Статический класс памяти</Title>
+<Term Type="Out">Статическая переменная</Term>
+<Term Type="Out">Внешняя статическая переменная</Term>
+<Term Type="Out">Внутренние статические переменные</Term>
+</Modul>
+
+<Modul UId="BFUHJ2QK1ANY9PNEULI9" Author="Федорук Е.В." Level="0" ADate="EW9BZ0BT" Path="struct.mod" Time="EYETMW00" Size="7427">
+<Title>Структуры</Title>
+<Term Type="Out">Структура</Term>
+<Term Type="Out">Агрегатным типом</Term>
+<Term Type="Out">Шаблон структуры</Term>
+</Modul>
+
+<Modul UId="WAS1AV4BP3IWS1T8AK94" Author="Федорук Е.В." Level="0" ADate="EWJBNT78" Path="struct_func.mod" Time="EYETMW00" Size="2428">
+<Title>Структуры и функции</Title>
+<Term Type="Out">операция копирования структур</Term>
+</Modul>
+
+<Modul UId="T0AE5QBFQ7STZWQ1YJ34" Author="Федорук Е.В." Level="0" ADate="EWJCJBP1" Path="struct_init.mod" Time="EYETMW00" Size="2368">
+<Title>Инициализация структуры</Title>
+<Term Type="Out">Инициализация структуры</Term>
+<Term Type="Out">Инициализирующая запись</Term>
+</Modul>
+
+<Modul UId="YGXATT6GVLNB463BRMUH" Author="Федорук Е.В." Level="0" ADate="EWJ830VI" Path="struct_point.mod" Time="EYETMW00" Size="7594">
+<Title>Указатели на структуры</Title>
+<Term Type="Out">операция доступа к элементу структуры через указатель</Term>
+</Modul>
+
+<Modul UId="VPHSKXT579OEQJD5WGAR" Author="Федорук Е.В." Level="0" ADate="EUJV6M95" Path="struct_progr.mod" Time="EYETMW00" Size="1039">
+<Title>Общая структура программы на языке Си</Title>
+<Term Type="Out">Программа на языке Си</Term>
+</Modul>
+
+<Modul UId="KCSDPDGIX3XO2RH4BXFN" Author="Федорук Е.В." Level="0" ADate="EWJD0EBW" Path="struct_sam.mod" Time="EYETMW00" Size="9675">
+<Title>Самоссылающиеся структуры</Title>
+<Term Type="Out">самоссылающиеся структуры</Term>
+</Modul>
+
+<Modul UId="0JWANEKBIWGR4SA4Z1DZ" Author="Федорук Е.В." Level="0" ADate="EVNX3B2H" Path="switch.mod" Time="EYETMW00" Size="19621">
+<Title>Оператор switch</Title>
+<Term Type="Out">Оператор switch</Term>
+</Modul>
+
+<Modul UId="9676IZR6NOY45Z3VNJL5" Author="Федорук Е.В." Level="0" ADate="EUJTZDE9" Path="syntaks.mod" Time="EYETMW00" Size="1813">
+<Title>Синтаксис и семантика языка программирования</Title>
+<Term Type="Out">язык</Term>
+<Term Type="Out">Алгоритмический язык</Term>
+<Term Type="Out">языком программирования</Term>
+<Term Type="Out">Синтаксис языка</Term>
+<Term Type="Out">Семантика языка</Term>
+</Modul>
+
+<Modul UId="CQH9A17E80L3TZG3R1P2" Author="Федорук Е.В." Level="0" ADate="EUJTR7Y0" Path="tecnol.mod" Time="EYETMW00" Size="1271">
+<Title>Технология программирования</Title>
+<Term Type="Out">структурное программирование</Term>
+<Term Type="Out">объектно-ориентированное программирование</Term>
+</Modul>
+
+<Modul UId="NGDK4HKBFSUVNBZZWPJ2" Author="Федорук Е.В." Level="0" ADate="EUCLKDMT" Path="translate.mod" Time="EYETMW00" Size="11090">
+<Title>Перевод числовой информации из одной ПСС в другую</Title>
+<Term Type="Out">Точность перевода</Term>
+<Term Type="Out">Абсолютная погрешность представления числа</Term>
+<Term Type="Out">Относительная погрешность представления числа</Term>
+</Modul>
+
+<Modul UId="S5IGNB95N4YGL6EBHHMH" Author="Федорук Е.В." Level="0" ADate="EVQQ5INE" Path="trigraf.mod" Time="EYETMW00" Size="1137">
+<Title>Триграфы</Title>
+<Term Type="Out">Триграфы</Term>
+</Modul>
+
+<Modul UId="FGDZXMK3MEE2TO3OZNIC" Author="Федорук Е.В." Level="0" ADate="EVQRTAEA" Path="typedef.mod" Time="EYETMW00" Size="1442">
+<Title>Переименование типа</Title>
+<Term Type="Out">Оператор typedef</Term>
+</Modul>
+
+<Modul UId="KTHTS2I2BY5EY4Y1NNCD" Author="Федорук Е.В." Level="0" ADate="EUP9EGRF" Path="types.mod" Time="EYETMW00" Size="15296">
+<Title>Основные типы данных</Title>
+<Term Type="Out">Объявлении переменной</Term>
+<Term Type="Out">Тип переменной</Term>
+<Term Type="Out">целого типа</Term>
+</Modul>
+
+<Modul UId="TBUV6QUIVZIB6POJSZLA" Author="Федорук Е.В." Level="0" ADate="EV9EK84C" Path="usl_oper.mod" Time="EYETMW00" Size="2027">
+<Title>Условная операция</Title>
+<Term Type="Out">условной операции</Term>
+</Modul>
+
+<Modul UId="6NGHVS5GIV4XQQK7APZL" Author="Федорук Е.В." Level="0" ADate="EVGHZ146" Path="view_class.mod" Time="EYETMW00" Size="8287">
+<Title>Обзор классов памяти</Title>
+<Term Type="Out">Классы памяти</Term>
+<Term Type="Out">область действия</Term>
+<Term Type="Out">время жизни</Term>
+<Term Type="Out">Автоматический</Term>
+<Term Type="Out">Регистровый</Term>
+<Term Type="Out">Внешний</Term>
+<Term Type="Out">Статический внешний</Term>
+<Term Type="Out">Статический внутренний</Term>
+</Modul>
+
+<Modul UId="2V2ZY48SUBFEN8OVHUHX" Author="Федорук Е.В." Level="0" ADate="EV6RAKII" Path="vizov_func.mod" Time="EYETMW00" Size="1836">
+<Title>Вызов функции</Title>
+<Term Type="Out">Вызов функции</Term>
+<Term Type="Out">вызывающей функцией</Term>
+</Modul>
+
+<Modul UId="1R18542HG5A3IRM4T0QI" Author="Федорук Е.В." Level="0" ADate="EUZFX2Z2" Path="while.mod" Time="EYETMW00" Size="4481">
+<Title>Оператор цикла while</Title>
+<Term Type="Out">Оператор цикла while</Term>
+</Modul>
+</Index>

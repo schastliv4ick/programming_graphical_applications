@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Course UId="IEAK7RR6GDEK165KIPEI" Creator="И.П.Норенков">
+<Title>Введение в CALS-технологии</Title>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Автоматизированные системы в промышленности</ChTitle>
+<LModul RC="rk6.bmstu.ru-CALS:N7Z11HUV48DDJEFHRW8M" /><LModul RC="rk6.bmstu.ru-CALS:MRARQUQPNDP92089V3IV" /><LModul RC="rk6.bmstu.ru-CALS:IOQ2N80K4KEKA1OCRY1G" /><LModul RC="ru.bmstu.rk6-051312-08:681A3EQBZ2V2DOB34277" /><LModul RC="rk6.bmstu.ru-CALS:QU0T7HCG4EMWNHDEOZ3K" /><LModul RC="rk6.bmstu.ru-CALS:CVIDOHV2PSTSF3NUGAYZ" /><LModul RC="rk6.bmstu.ru-ERP:K3TX4W7OVAE34YOK4GED" /><LModul RC="rk6.bmstu.ru-ERP:Y4MEYZZSGFK065RA65ZW" /><LModul RC="rk6.bmstu.ru-CALS:XWKWUONK5KBPNMA2R1CB" /><LModul RC="rk6.bmstu.ru-CALS:XFH73OCAA8W5K0F942KC" /><LModul RC="rk6.bmstu.ru-ERP:D59MJIG813S1FFRD13C2" /><LModul RC="rk6.bmstu.ru-CALS:8TSHRXUSEHKNCB51XDJH" /><LModul RC="rk6.bmstu.ru-CALS:9PY39BOYZTB896XDPEQU" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Стандарты информационной поддержки изделий</ChTitle>
+<LModul RC="rk6.bmstu.ru-CALS:UXOYKGVQI0YUIXCOKFPZ" /><LModul RC="rk6.bmstu.ru-CALS:SC84DWXNLOL6J6GJ4AF0" /><LModul RC="rk6.bmstu.ru-CALS:TDS4MWLPP3IF9PZWA9RB" /><LModul RC="rk6.bmstu.ru-CALS:LP3SJP2EHJLCLBYAHSO1" /><LModul RC="rk6.bmstu.ru-CALS:26K44GSXPGYTG5T1CB61" /><LTestMod RC="rk6.bmstu.ru-CALS:JKN7E7EPT1CIMX2MG8S0" /><LTestMod RC="rk6.bmstu.ru-CALS:GZKIQOYJP4CE78N2GH9M" /><LTestMod RC="rk6.bmstu.ru-CALS:P9PECZXH5YZQMALNQV01" /><LTestMod RC="rk6.bmstu.ru-CALS:QZAXBJMKC1VHOP4N5IX2" /><LTestMod RC="rk6.bmstu.ru-CALS:OGO98DSXJ42YLK9ZS4OU" /><LModul RC="rk6.bmstu.ru-CALS:89LJQY391L885FMS9XYL" /><LModul RC="rk6.bmstu.ru-CALS:FE6KN9ZFCAPYY6H947GM" /><LModul RC="rk6.bmstu.ru-CALS:CBVUX33WYZHFCBD8F6MQ" /><LModul RC="rk6.bmstu.ru-CALS:N5OTBEFTCMN97GHY5GO7" /><LModul RC="ru.bmstu.rk6-051315-10:889UB6VALNL2K5ULD6KP" /><LModul RC="ru.bmstu.rk6-051315-10:5F71VF2OW7KHMSUEZMKT" /><LModul RC="rk6.bmstu.ru-CALS:VAN4KMICO8JZ5EQRQRJU" /><LTestMod RC="rk6.bmstu.ru-CALS:DP75S805I2O2CA6705W1" /><LTestMod RC="rk6.bmstu.ru-CALS:EC2C873NRDOETMFT7I8P" /></Chapter>
+</Course>

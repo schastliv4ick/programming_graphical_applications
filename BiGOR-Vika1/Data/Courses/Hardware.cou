@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Course UId="Q381JR7A9VLR23YL3PPH" Creator="И.П.Норенков">
+<Title>Техническое обеспечение автоматизированных систем</Title>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Введение</ChTitle>
+<LModul RC="ru.bmstu.rk6-051313-09:58APZ4BPR5UB7OFSLLKS" /><LModul RC="ru.bmstu.rk6-051313-09:KLLTCKRCV2U60HNOGI7T" /><LModul RC="ru.bmstu.rk6-051313-09:I4F12SOVXST3H9KTANRO" /><LTestMod RC="ru.bmstu.rk6-051313-09:LNSKR53I8FB3HWR0TH3R" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Вычислительные машины и системы</ChTitle>
+<LModul RC="rk6.bmstu.ru-Computers:NAZ48UZ2Z5D1I4FHBXAZ" /><LModul RC="rk6.bmstu.ru-Computers:1R43KA0IF82Q90T7YOGL" /><LModul RC="rk6.bmstu.ru-Computers:50N04C2P1G88X5ZIHNLV" /><LModul RC="rk6.bmstu.ru-Computers:UHPCKIYEABT0SMOX8AE3" /><LModul RC="rk6.bmstu.ru-Computers:8ZSFT0S1NLL8VL28ZZJX" /><LModul RC="rk6.bmstu.ru-Computers:6OSFCSE60F3GEI071P33" /><LModul RC="rk6.bmstu.ru-Computers:2BLW7USBVS0V5RAOMMUC" /><LModul RC="rk6.bmstu.ru-Computers:3ZWS784OEGI3ME0RULF7" /><LModul RC="rk6.bmstu.ru-Computers:ZXYY10VD4DYCHPAYHMX9" /><LModul RC="rk6.bmstu.ru-Computers:0MR9LCM14A94EY6VJADV" /><LModul RC="rk6.bmstu.ru-Computers:P4W1JVEQSFYBFMUPSDNB" /><LModul RC="rk6.bmstu.ru-Computers:I5QA91SAFQEHZLG6A7OA" /><LModul RC="rk6.bmstu.ru-Computers:640P3F0MPEAR7B2X9RGQ" /><LModul RC="rk6.bmstu.ru-Computers:JI1LEWI95I82JUD6VVTV" /><LModul RC="rk6.bmstu.ru-Computers:OEIK6LS8MQCKJZCATXTZ" /><LModul RC="rk6.bmstu.ru-Computers:OZKDOV38H0DXB1OZOUHW" /><LModul RC="rk6.bmstu.ru-Computers:LMFIIFZHVOZTKDDJGHRS" /><LTestMod RC="rk6.bmstu.ru-Computers:EL9C8WDJS2R7NA6PENUC" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Каналы и линии передачи данных</ChTitle>
+<LModul RC="ru.bmstu.rk6-051313-09:LVFLAY3XMYYETCWT45T5" /><LModul RC="ru.bmstu.rk6-051313-09:F45LJJJ5850686QNW6RA" /><LModul RC="ru.bmstu.rk6-051313-09:DWJ267Z79WSEMB37N6F0" /><LModul RC="ru.bmstu.rk6-051313-09:0XFZK7HBKPYBJQYHY59L" /><LModul RC="ru.bmstu.rk6-051313-09:A23IF2SR7DD3SKZ4UWH4" /><LModul RC="ru.bmstu.rk6-051313-09:F036DZ6F67W3BCKJ0196" /><LModul RC="ru.bmstu.rk6-051313-09:5080MZ4N8QC7MDYBAWMM" /><LModul RC="ru.bmstu.rk6-051313-09:N7TP9O7II4S806DV6XJ5" /><LModul RC="ru.bmstu.rk6-051313-09:HYFJXE7ENCJTRDMHAS0Z" /><LModul RC="ru.bmstu.rk6-051313-09:0TV9UDNQ5DUYDJC2PNOR" /><LModul RC="ru.bmstu.rk6-051313-09:QURPX37JPFDSVUJ4WK00" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Локальные сети</ChTitle>
+<LModul RC="ru.bmstu.rk6-051313-09:4977NR0KC3MP8EEKVYF1" /><LModul RC="ru.bmstu.rk6-051313-09:R8OKP69DV4FY7OB9LQB0" /><LModul RC="ru.bmstu.rk6-051313-09:V3WUJRYGG8N2ZSGKZCRA" /><LModul RC="ru.bmstu.rk6-051313-09:OH6QG965XPD61026IXYB" /><LModul RC="ru.bmstu.rk6-051313-09:Y1MV8BPHVM2Y0TGX22B0" /><LModul RC="ru.bmstu.rk6-051313-09:6XE7O026T4MZ5AV9IRI9" /><LModul RC="ru.bmstu.rk6-051313-09:NG00XVDL51XHLTPKF81I" /><LModul RC="ru.bmstu.rk6-051313-09:EKNIVEITCJNWXTX9YLZ1" /><LModul RC="ru.bmstu.rk6-051313-09:RMV8BC8NBJTMU72K2UR4" /><LModul RC="ru.bmstu.rk6-051313-09:7YZGXOV6BGD6JLWU6V5G" /><LModul RC="rk6.bmstu.ru-Computers:ENBQRV5FPX0CYU7JA3IL" /><LTestMod RC="ru.bmstu.rk6-051313-09:WTCZDYOYIDBJGQY2QNC0" /><LTestMod RC="ru.bmstu.rk6-051313-09:9UAKDWC8RJJFYCLKX4IT" /><LTestMod RC="ru.bmstu.rk6-051313-09:7NEPKTHALXPLA9D1BJJV" /><LTestMod RC="ru.bmstu.rk6-051313-09:LK6WR2F2K5JZVM9GK9C6" /><LTestMod RC="ru.bmstu.rk6-051313-09:LWD1KZ0ECQPY8OUBKEL4" /><LTestMod RC="ru.bmstu.rk6-051313-09:Q8BWNX5XVXFZBPAWZ9RV" /></Chapter>
+
+<Chapter Num="Y" Type="1">
+<ChTitle>Сети TCP/IP</ChTitle>
+<LModul RC="ru.bmstu.rk6-051313-09:3LBFGBJ1VGBTTJBXDU1O" /><LModul RC="ru.bmstu.rk6-051313-09:SEKOX4RC2ZWITO4XTJ29" /><LModul RC="ru.bmstu.rk6-051313-09:6FR1F2IEGSX7DW1FRS3V" /><LModul RC="ru.bmstu.rk6-051313-09:RD29XYT7GE48R4B8JGPE" /><LModul RC="rk6.bmstu.ru-Computers:J0ZUHX8IR8CF5HL6TDU0" /><LModul RC="ru.bmstu.rk6-051313-09:6B8WD2S4G2ID2UJUUDFM" /><LModul RC="ru.bmstu.rk6-051313-09:Z0OKFMN8TNDKAJACRHBS" /><LModul RC="ru.bmstu.rk6-051313-09:551YSRJB0BADJPHIMZVI" /><LModul RC="ru.bmstu.rk6-051313-09:TSLALRUDUF33B16TNJZA" /><LModul RC="ru.bmstu.rk6-051313-09:SQ06OHX3KNFIR68ZITQE" /><LModul RC="ru.bmstu.rk6-051313-09:VDMCZAD2L3TR1US1H739" /><LModul RC="ru.bmstu.rk6-051313-09:9L4WOOIDLDBIDXPLGXQ0" /><LTestMod RC="ru.bmstu.rk6-051313-09:U3FTPJ5UCTJ8HF9LE9BZ" /><LTestMod RC="ru.bmstu.rk6-051313-09:ZFJEEXOURC7U891XCZS6" /><LTestMod RC="ru.bmstu.rk6-051313-09:DQ0D7XY3H6E5J5GO0QK7" /><LTestMod RC="ru.bmstu.rk6-051313-09:JCO25VBUBXPN0PUFGZYE" /></Chapter>
+</Course>

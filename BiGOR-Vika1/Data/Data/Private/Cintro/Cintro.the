@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<Thesaurus UId="5ZVPR2V35AC9IW0YLLB1">
+<Title>Программирование на языке СИ</Title>
+
+<Entity>
+<Phrase>система счисления</Phrase>
+<Phrase>СС</Phrase>
+<Define>Совокупность приемов и правил для записи чисел цифровыми знаками или символами</Define>
+</Entity>
+
+<Entity>
+<Phrase>непозиционная система счисления</Phrase>
+<Define><Term Type="In" Text="Система счисления">Система счисления</Term>, для которой значение символа не зависит от его положения в числе</Define>
+</Entity>
+
+<Entity>
+<Phrase>позиционная система счисления</Phrase>
+<Phrase>ПСС</Phrase>
+<Define><Term Type="In" Text="Система счисления">Система счисления</Term>, для которой значение цифры определяется ее положением в числе</Define>
+</Entity>
+
+<Entity>
+<Phrase>основание позиционной системы счисления</Phrase>
+<Define>Количество знаков или символов, используемых для изображения числа в данной <Term Type="In" Text="Позиционная система счисления">позиционной системе счисления</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>длина числа</Phrase>
+<Phrase>ДЧ</Phrase>
+<Define>Количество позиций (или разрядов) в записи числа</Define>
+</Entity>
+
+<Entity>
+<Phrase>длина разрядной сетки</Phrase>
+<Define>Макмсисальное количество разрядов в представлении числа в компьютере</Define>
+</Entity>
+
+<Entity>
+<Phrase>диапазон представления чисел</Phrase>
+<Phrase>ДП</Phrase>
+<Phrase>диапазон значений</Phrase>
+<Define>Интервал числовой оси, заключенный между максимальным и минимальным числами, представленными <Term Type="In">длиной разрядной сетки</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>точность перевода</Phrase>
+<Define>Точность перевода правильной дроби из одной <Term Type="In">ПСС</Term> в другую &#x2014; число знаков после точки в новом представлении дроби</Define>
+</Entity>
+
+<Entity>
+<Phrase>абсолютная погрешность представления числа</Phrase>
+<Phrase Aux="Y">абсолютная погрешность</Phrase>
+<Define>Разность между истинным значением числа и его <Term Type="In">машинным представлением</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>относительная погрешность представления числа</Phrase>
+<Phrase Aux="Y">относительная погрешность</Phrase>
+<Define>Отношение <Term Type="In" Text="абсолютная погрешность представления числа">абсолютной погрешности</Term> и значением <Term Type="In">машинного представления числа</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>двоичная арифметика</Phrase>
+<Phrase Aux="Y">арифметические действия над двоичными числами</Phrase>
+<Define>Арифметические действия,выполняемые над двоичными числами в соответстии с таблицами двоичного сложения, вычитания, умножения</Define>
+</Entity>
+
+<Entity>
+<Phrase>переполнение разрядной сетки</Phrase>
+<Define>Ситуация, когда результатом операции является число, по абсолютному значению превышающее максимально допустимое для данной разрядной сетки компьютера</Define>
+</Entity>
+
+<Entity>
+<Phrase>представление числа с фиксированной точкой</Phrase>
+<Phrase>формат целых чисел</Phrase>
+<Define>Такое <Term Type="In">автоматное представление числа</Term>, при котором положение его разрядов остается всегда постоянным независимо от величины самого числа</Define>
+</Entity>
+
+<Entity>
+<Phrase>представление числа с плавающей точкой</Phrase>
+<Phrase>формат с плавающей точкой</Phrase>
+<Phrase Aux="Y">вещественное</Phrase>
+<Define><Term Type="In">Автоматное представление</Term> вещественного числа</Define>
+</Entity>
+
+<Entity>
+<Phrase>прямой код</Phrase>
+<Define>Двоичное <Term Type="In">автоматное представление</Term> целого числа</Define>
+</Entity>
+
+<Entity>
+<Phrase>обратный код</Phrase>
+<Phrase>обратный код двоичного отрицательного целого числа</Phrase>
+<Define>Инверсное изображение <Term Type="In">прямого кода</Term> числа</Define>
+</Entity>
+
+<Entity>
+<Phrase>дополнительный код</Phrase>
+<Phrase>дополнительный код двоичного отрицательного целого числа</Phrase>
+<Define>Результат прибавления единицы к младшему разряду <Term Type="In">обратного кода</Term> числа</Define>
+</Entity>
+
+<Entity>
+<Phrase>автоматное представления числа</Phrase>
+<Phrase Aux="Y">автоматное представление</Phrase>
+<Phrase>машинное представления числа</Phrase>
+<Phrase Aux="Y">машинное представление</Phrase>
+<Phrase>представление данных</Phrase>
+<Define>Представление числа в разрядной сетке ЭВМ</Define>
+</Entity>
+
+<Entity>
+<Phrase>стадия предпроектных исследований и технического задания</Phrase>
+<Define>Определение требований к программному продукту и осуществление формальной постановки задачи</Define>
+</Entity>
+
+<Entity>
+<Phrase>стадия технического предложения</Phrase>
+<Phrase>анализ</Phrase>
+<Define>Определение методов решения задачи</Define>
+</Entity>
+
+<Entity>
+<Phrase>стадия эскизного проектирования</Phrase>
+<Define>Разработка структуры программного продукта, выбор структур для хранения данных, построение и оценка алгоритмов подпрограмм и определение особенностей взаимодействия программы с вычислительной средой</Define>
+</Entity>
+
+<Entity>
+<Phrase>стадия технического проектирования</Phrase>
+<Define>Составление <Term Type="In">программы</Term> на выбранном <Term Type="In">языке программирования</Term>, ее тестирование и <Term Type="In">отладка</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>стадия рабочего проектирования</Phrase>
+<Define>Оформление документации на программный продукт</Define>
+</Entity>
+
+<Entity>
+<Phrase>стадия испытаний</Phrase>
+<Define>Всестороннее тестирование программы</Define>
+</Entity>
+
+<Entity>
+<Phrase>стадия внедрения в эксплуатацию</Phrase>
+<Define>Передача программого продукта заказчику</Define>
+</Entity>
+
+<Entity>
+<Phrase>алгоритм</Phrase>
+<Define>Формально описанная последовательность действий, которые необходимо выполнить для получения требуемого результата</Define>
+</Entity>
+
+<Entity>
+<Phrase>структурное программирование</Phrase>
+<Define>Технология программирования, базирующаяся на процедурной декомпозиции</Define>
+</Entity>
+
+<Entity>
+<Phrase>объектно-ориентированное программирование</Phrase>
+<Define>Технология программирования, базирующаяся на объектной декомпозиции</Define>
+</Entity>
+
+<Entity>
+<Phrase>язык</Phrase>
+<Define>Система символов или знаков для обмена информацией</Define>
+</Entity>
+
+<Entity>
+<Phrase>алгоритмический язык</Phrase>
+<Define>Набор символов и система правил образования и истолкования конструкций из этих символов для задания <Term Type="In">алгоритмов</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>язык программирования</Phrase>
+<Define><Term Type="In">Алгоритмический язык</Term> для записи <Term Type="In">программ</Term> и данных</Define>
+</Entity>
+
+<Entity>
+<Phrase>отладка программы</Phrase>
+<Phrase Aux="Y">отладка</Phrase>
+<Define>Процесс локализации и исправления ошибок в <Term Type="In">программе</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>синтаксис языка</Phrase>
+<Phrase Aux="Y">синтаксис</Phrase>
+<Define>Совокупность правил, определяющих допустимые конструкции (слова, предложения) <Term Type="In">языка программирования</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>семантика языка</Phrase>
+<Phrase Aux="Y">семантика</Phrase>
+<Define>Совокупность правил, определяющих смысл синтаксически корректных конструкций <Term Type="In">языка программирования</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>ОС UNIX</Phrase>
+<Phrase Aux="Y">UNIX</Phrase>
+<Define>Операционная система UNIX</Define>
+</Entity>
+
+<Entity>
+<Phrase>язык программирования Си</Phrase>
+<Phrase Aux="Y">язык Си</Phrase>
+<Phrase Aux="Y">Си</Phrase>
+<Define>Функциональный <Term Type="In">язык программирования</Term> высокого уровня</Define>
+</Entity>
+
+<Entity>
+<Phrase>стандарт ANSI</Phrase>
+<Phrase Aux="Y">ANSI</Phrase>
+<Define>Стандарт <Term Type="In">языка программирования Си</Term>, утвержденный Американским институтом национальных стандартов</Define>
+</Entity>
+
+<Entity>
+<Phrase>стандарт K&amp;R</Phrase>
+<Phrase Aux="Y">K&amp;R</Phrase>
+<Define>Первоначальный стандарт <Term Type="In">языка программирования Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>алфавит языка Си</Phrase>
+<Phrase Aux="Y">алфавит</Phrase>
+<Define>Множество символов, допустимых при построении конструкций программы на <Term Type="In">языке Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>служебное слово</Phrase>
+<Phrase>ключевое слово</Phrase>
+<Define>Слово, зарезервированное в <Term Type="In">алфавите</Term> <Term Type="In">языка Си</Term> для определенных целей</Define>
+</Entity>
+
+<Entity>
+<Phrase>символы промежутков</Phrase>
+<Define>Символы пробела, знаков табуляции и перевода строки</Define>
+</Entity>
+
+<Entity>
+<Phrase>идентификатор</Phrase>
+<Phrase>имя</Phrase>
+<Define>Имя переменной, <Term Type="In">функции</Term>, <Term Type="In">типов данных</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>программа на языке Си</Phrase>
+<Phrase Aux="Y">программа</Phrase>
+<Define>Набор <Term Type="In">функций</Term> и <Term Type="In">объявлений данных</Term>, содержащийся в одном или более файлах</Define>
+</Entity>
+
+<Entity>
+<Phrase>функция main()</Phrase>
+<Phrase Aux="Y">main()</Phrase>
+<Define><Term Type="In">Функция</Term>, с которой начинается выполнение любой <Term Type="In">программы</Term> на <Term Type="In">языке Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>объявление переменной</Phrase>
+<Phrase>объявление данных</Phrase>
+<Define>Оператор языка Си, содержащий тип переменной и ее идентификатор</Define>
+</Entity>
+
+<Entity>
+<Phrase>функция языка СИ</Phrase>
+<Phrase Aux="Y">функция</Phrase>
+<Define>Именованный фрагмент <Term Type="In">программы</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>определение функции</Phrase>
+<Phrase>определение прототипа функции</Phrase>
+<Define>Совокупность следующей информации о <Term Type="In">функции</Term>: тип <Term Type="In">возвращаемого значения</Term>, имя функции, список <Term Type="In">формальных параметров</Term> и тело функции</Define>
+</Entity>
+
+<Entity>
+<Phrase>возвращаемое значение</Phrase>
+<Define>Значение, которое функция возвращает в вызывающую функцию после своего выполнения</Define>
+</Entity>
+
+<Entity>
+<Phrase>объявление функции</Phrase>
+<Phrase>объявление прототипа функции</Phrase>
+<Define>Совокупность следующей информации о <Term Type="In">функции</Term>: тип <Term Type="In">возвращаемого значения</Term>, имя функции, список типов параметров</Define>
+</Entity>
+
+<Entity>
+<Phrase>формальный параметр</Phrase>
+<Phrase Aux="Y">параметр</Phrase>
+<Define>Параметр в <Term Type="In">определении функции</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>вызов функции</Phrase>
+<Define>Действие, которое влечет выполнение содержащихся в <Term Type="In">определении функции</Term> операторов</Define>
+</Entity>
+
+<Entity>
+<Phrase>вызывающая функция</Phrase>
+<Define>Функция, которая содержит вызов другой функции</Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор возврата return</Phrase>
+<Phrase Aux="Y">оператор return</Phrase>
+<Phrase Aux="Y">оператор возврата</Phrase>
+<Phrase Aux="Y">return</Phrase>
+<Define>Оператор языка Си, который возвращает управление<Term Type="In">вызывающей функции</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>комментарий</Phrase>
+<Define>Множество символов, заключенное в &quot;комментарные&quot; скобки</Define>
+</Entity>
+
+<Entity>
+<Phrase>константа</Phrase>
+<Define>Определенная в <Term Type="In">программе</Term> и неизменяемая величина</Define>
+</Entity>
+
+<Entity>
+<Phrase>целочисленная константа</Phrase>
+<Phrase Aux="Y">целая константа</Phrase>
+<Phrase>десятичная константа</Phrase>
+<Phrase>восьмеричная константа</Phrase>
+<Phrase>шестнадцатеричная константа</Phrase>
+<Phrase>символьная константа</Phrase>
+<Define>Целочисленная <Term Type="In">константа</Term> <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>строковая константа</Phrase>
+<Define>Заключенная в двойные кавычки последовательность, состоящая из нуля или более символов</Define>
+</Entity>
+
+<Entity>
+<Phrase>константа с плавающей точкой</Phrase>
+<Define>Вещественная <Term Type="In">константа</Term> <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>тип переменной</Phrase>
+<Phrase Aux="Y">тип данных</Phrase>
+<Phrase Aux="Y">тип</Phrase>
+<Define>Формат <Term Type="In">представления данных</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>производный тип</Phrase>
+<Define><Term Type="In">Тип данных</Term>, создаваемый из существующих типов данных</Define>
+</Entity>
+
+<Entity>
+<Phrase>агрегатный тип</Phrase>
+<Define><Term Type="In">Тип данных</Term>, конструируемый из элементов независимых (возможно различных) типов</Define>
+</Entity>
+
+<Entity>
+<Phrase>целый тип</Phrase>
+<Phrase Aux="Y">целый</Phrase>
+<Define>Тип данных в <Term Type="In">языке Си</Term> для представления целочисленных величин</Define>
+</Entity>
+
+<Entity>
+<Phrase>выражение</Phrase>
+<Define>Конструкция <Term Type="In">языка Си</Term>, имеющяя значение</Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор</Phrase>
+<Define>Конструкция <Term Type="In">языка Си</Term>, которая вызывает выполнение действия</Define>
+</Entity>
+
+<Entity>
+<Phrase>простой оператор</Phrase>
+<Phrase>оператор-выражение</Phrase>
+<Phrase Aux="Y">простой</Phrase>
+<Define><Term Type="In">Выражение</Term>, заканчивающееся точкой с запятой</Define>
+</Entity>
+
+<Entity>
+<Phrase>блок операторов</Phrase>
+<Phrase Aux="Y">блок</Phrase>
+<Phrase>составной оператор</Phrase>
+<Phrase Aux="Y">составной</Phrase>
+<Define>Последовательность <Term Type="In">операторов</Term>, заключенная в фигурные скобки</Define>
+</Entity>
+
+<Entity>
+<Phrase>пустой оператор</Phrase>
+<Define><Term Type="In">Оператор</Term> <Term Type="In">языка Си</Term>, состоящий из одного символа ; (точка с запятой)</Define>
+</Entity>
+
+<Entity>
+<Phrase>управляющий оператор</Phrase>
+<Phrase Aux="Y">управляющий</Phrase>
+<Define>Оператор <Term Type="In">языка Си</Term>, реализующий один из вариантов передачи управления в программе (ветвление <Term Type="In">алгоритма</Term>, циклы, передача управления)</Define>
+</Entity>
+
+<Entity>
+<Phrase>приоритет операции</Phrase>
+<Phrase Aux="Y">приоритет</Phrase>
+<Define>Характеристика операции, которая определяет порядок вычисления операций в <Term Type="In">выражении</Term> <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>унарная операция</Phrase>
+<Phrase Aux="Y">унарная</Phrase>
+<Define>Операция, имеющая один операнд</Define>
+</Entity>
+
+<Entity>
+<Phrase>ассоциативность</Phrase>
+<Define>Характеристика операции, которая определяет порядок вычисления операций в <Term Type="In">выражении</Term> <Term Type="In">языка Си</Term>, имеющих равный приоритет</Define>
+</Entity>
+
+<Entity>
+<Phrase>таблица приоритетов</Phrase>
+<Define>Таблица, содержащая все операции <Term Type="In">языка Си</Term>в порядке убывания <Term Type="In">приоритета</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>арифметическая операция</Phrase>
+<Phrase Aux="Y">арифметическая</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, выполняющая какое-либо арифметическое действие</Define>
+</Entity>
+
+<Entity>
+<Phrase>аддитивная операция</Phrase>
+<Define>Арифметическая операция <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>мультипликативная операция</Phrase>
+<Define>Арифметическая операция <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>изменение знака</Phrase>
+<Phrase>унарный минус</Phrase>
+<Define>Арифметическая операция <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>атрибут const</Phrase>
+<Phrase Aux="Y">const</Phrase>
+<Define>Атрибут переменной, который используется для указания того, что значение переменной не будет изменено в программе</Define>
+</Entity>
+
+<Entity>
+<Phrase>операция инкрементации</Phrase>
+<Phrase Aux="Y">инкрементация</Phrase>
+<Define>Унарная операция <Term Type="In">языка Си</Term>, в результате которой к операнду добавляется 1</Define>
+</Entity>
+
+<Entity>
+<Phrase>операция декрементации</Phrase>
+<Phrase Aux="Y">декрементация</Phrase>
+<Define>Унарная операция <Term Type="In">языка Си</Term>, в результате которой из операнда вычитается 1</Define>
+</Entity>
+
+<Entity>
+<Phrase>именующее выражение</Phrase>
+<Define>Выражение, определяющее объект, которому может быть присвоено какое-либо значение</Define>
+</Entity>
+
+<Entity>
+<Phrase>префиксная форма</Phrase>
+<Phrase Aux="Y">префиксная</Phrase>
+<Define>Форма записи операции: знак операции стоит перед операндом</Define>
+</Entity>
+
+<Entity>
+<Phrase>постфиксная форма</Phrase>
+<Phrase Aux="Y">постфиксная</Phrase>
+<Define>Форма записи операции: знак операции стоит после операнда</Define>
+</Entity>
+
+<Entity>
+<Phrase>операция присваивания</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, помещающая значение выражения правого операнда в область памяти, определяемую левым операндом</Define>
+</Entity>
+
+<Entity>
+<Phrase>составная операция присваивания</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, которая выполняет две операции: какую-либо <Term Type="In">арифметическую</Term> или <Term Type="In">побитовую</Term> операцию и <Term Type="In">операцию присваивания</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>операция отношений</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, которая используются для сравнения двух числовых значений</Define>
+</Entity>
+
+<Entity>
+<Phrase>истина</Phrase>
+<Phrase Aux="Y">истинный</Phrase>
+<Define>Любое ненулевое значение выражения</Define>
+</Entity>
+
+<Entity>
+<Phrase>ложь</Phrase>
+<Phrase Aux="Y">ложный</Phrase>
+<Define>Нулевое значение выражения</Define>
+</Entity>
+
+<Entity>
+<Phrase>логическая операция</Phrase>
+<Define>Одна из трех логических операций <Term Type="In">языка Си</Term> (<Term Type="In">коньюнкция</Term>, <Term Type="In">дизьюнкция</Term>, <Term Type="In">логическое отрицание</Term>)</Define>
+</Entity>
+
+<Entity>
+<Phrase>коньюнкция</Phrase>
+<Phrase>логическое умножение</Phrase>
+<Phrase Aux="Y">&amp;&amp;</Phrase>
+<Phrase Aux="Y">И</Phrase>
+<Define>Операция логического умножения <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>дизьюнкция</Phrase>
+<Phrase>логическое сложение</Phrase>
+<Phrase Aux="Y">||</Phrase>
+<Phrase Aux="Y">ИЛИ</Phrase>
+<Define>Операция логического сложения <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>логическое отрицание</Phrase>
+<Phrase Aux="Y">НЕ</Phrase>
+<Phrase Aux="Y">!</Phrase>
+<Define>Логическая операция <Term Type="In">языка Си</Term>, результат которой &#x2014; инверсия значения операнда</Define>
+</Entity>
+
+<Entity>
+<Phrase>приведение</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, используемая для временного преобразования значения <Term Type="In">выражения</Term> одного <Term Type="In">типа</Term> в данные другого типа</Define>
+</Entity>
+
+<Entity>
+<Phrase>операция &quot;запятая&quot;</Phrase>
+<Define>Бинарная операция <Term Type="In">языка Си</Term>, значением которой является значение правого операнда</Define>
+</Entity>
+
+<Entity>
+<Phrase>условная операция</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, которая по действию аналогична <Term Type="In">оператору if</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>преобразование данных</Phrase>
+<Phrase Aux="Y">автоматическое преобразование</Phrase>
+<Phrase Aux="Y">преобразование</Phrase>
+<Define>Преобразование данных из одного <Term Type="In">типа</Term> в другой при выполнении программы</Define>
+</Entity>
+
+<Entity>
+<Phrase>класс памяти</Phrase>
+<Define>Характеристика переменной, которая определяет способ ее хранения</Define>
+</Entity>
+
+<Entity>
+<Phrase>область действия</Phrase>
+<Define>Часть программы на <Term Type="In">языке Си</Term>, в которой определено имя перменной</Define>
+</Entity>
+
+<Entity>
+<Phrase>автоматический класс памяти</Phrase>
+<Phrase Aux="Y">автоматический</Phrase>
+<Define>Класс памяти, который определяет локальную переменную, располагающуюся на <Term Type="In">кадре</Term> <Term Type="In">стека</Term> в течение времени выполнения <Term Type="In">функции</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>автоматическая переменная</Phrase>
+<Define>Переменная, относящаяся к <Term Type="In">автоматическому классу памяти</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>регистровый класс памяти</Phrase>
+<Phrase Aux="Y">регистровый</Phrase>
+<Define>Класс памяти, который определяет локальную переменную, располагающуюся на регистре в течение времени выполнения <Term Type="In">функции</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>регистровая переменная</Phrase>
+<Define>переменная, относящаяся к <Term Type="In">регистровому классу памяти</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>внешний класс памяти</Phrase>
+<Phrase Aux="Y">внешний</Phrase>
+<Define>Класс памяти, который определяет глобальную переменную, располагающуюся в области данных в течение времени выполнения <Term Type="In">программы</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>внешняя переменная</Phrase>
+<Define>Переменная, относящаяся к <Term Type="In">внешнему классу памяти</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>внешнее определение</Phrase>
+<Define>Определение внешней переменной, по которому выделяется память</Define>
+</Entity>
+
+<Entity>
+<Phrase>внешнее объявление</Phrase>
+<Define>Объявление внешней переменной, которое информирует компилятор о том, что переменная определена в другом файле</Define>
+</Entity>
+
+<Entity>
+<Phrase>статическая переменная</Phrase>
+<Phrase Aux="Y">статическая</Phrase>
+<Define>Переменная, при объявлении которой используется <Term Type="In">ключевое слово</Term> static</Define>
+</Entity>
+
+<Entity>
+<Phrase>статический внешний класс памяти</Phrase>
+<Phrase Aux="Y">статический внешний</Phrase>
+<Define>Класс памяти, который определяет внешнюю переменную, располагающуюся в области данных в течение времени выполнения программы, но доступную только функциям того файла, где эта переменная объявлена</Define>
+</Entity>
+
+<Entity>
+<Phrase>внешняя статическая переменная</Phrase>
+<Define>Переменная, относящаяся к <Term Type="In">статическому внешнему классу памяти</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>внутренняя статическая переменная</Phrase>
+<Define>Переменная, относящаяся к <Term Type="In">статическому внутреннему классу памяти</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>статический внутренний класс памяти</Phrase>
+<Phrase Aux="Y">статический внутренний</Phrase>
+<Define>Класс памяти, который определяет локальную переменную, располагающуюся в области данных в течение времени выполнения программы</Define>
+</Entity>
+
+<Entity>
+<Phrase>время жизни</Phrase>
+<Define>Промежуток времени, в течении которого содержимое переменной остается правильным</Define>
+</Entity>
+
+<Entity>
+<Phrase>фактический параметр</Phrase>
+<Phrase>аргумент</Phrase>
+<Define><Term Type="In">Выражение</Term>, стоящее в круглых скобках в <Term Type="In">вызове функции</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>стек</Phrase>
+<Define>Область памяти, используемая выполняемой программой для временного запоминания значений при вызове функции</Define>
+</Entity>
+
+<Entity>
+<Phrase>кадр</Phrase>
+<Phrase>frame</Phrase>
+<Define>Совокупность значений <Term Type="In">фактических параметров</Term>, регистров, <Term Type="In">формальных параметров</Term> и <Term Type="In">автоматических</Term> переменных для <Term Type="In">вызова функции</Term>, размещаемые на <Term Type="In">стеке</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>рекурсивная функция</Phrase>
+<Phrase Aux="Y">рекурсивная</Phrase>
+<Define><Term Type="In">Функция</Term>, которая вызывает сама себя</Define>
+</Entity>
+
+<Entity>
+<Phrase>операция получения адреса</Phrase>
+<Define>Операция языка Си, результат которой &#x2014; адрес операнда</Define>
+</Entity>
+
+<Entity>
+<Phrase>операция косвенного доступа</Phrase>
+<Define>Операция языка Си, результат которой &#x2014; значение объекта, на который указывет ее операнда</Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор цикла do-while</Phrase>
+<Phrase Aux="Y">цикл do-while</Phrase>
+<Phrase Aux="Y">do-while</Phrase>
+<Define><Term Type="In">Управляющий оператор</Term> <Term Type="In">языка Си</Term>, реализующий цикл в <Term Type="In">алгоритме</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор цикла while</Phrase>
+<Phrase Aux="Y">цикл while</Phrase>
+<Phrase Aux="Y">while</Phrase>
+<Define><Term Type="In">Управляющий оператор</Term> <Term Type="In">языка Си</Term>, реализующий цикл в <Term Type="In">алгоритме</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор цикла for</Phrase>
+<Phrase Aux="Y">цикл for</Phrase>
+<Phrase Aux="Y">for</Phrase>
+<Define><Term Type="In">Управляющий оператор</Term> <Term Type="In">языка Си</Term>, реализующий цикл в <Term Type="In">алгоритме</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор if</Phrase>
+<Phrase>оператор if-else</Phrase>
+<Define><Term Type="In">Управляющий оператор</Term> <Term Type="In">языка Си</Term>, реализующий ветвление <Term Type="In">алгоритма</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор break</Phrase>
+<Phrase Aux="Y">break</Phrase>
+<Define><Term Type="In">Управляющий оператор</Term> <Term Type="In">языка Си</Term>, реализующий немедленный выход из <Term Type="In">циклов while</Term>, <Term Type="In">do-while</Term>, <Term Type="In">for</Term> и <Term Type="In">оператора switch</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор continue</Phrase>
+<Phrase Aux="Y">continue</Phrase>
+<Define><Term Type="In">Управляющий оператор</Term> <Term Type="In">языка Си</Term>, вызывающий немедленное выполнение следующей итерации <Term Type="In">циклов while</Term>, <Term Type="In">do-while</Term>, <Term Type="In">for</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор goto</Phrase>
+<Phrase Aux="Y">goto</Phrase>
+<Define><Term Type="In">Управляющий оператор</Term> безусловного перехода <Term Type="In">языка Си</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>метка</Phrase>
+<Define>Идентификатор , завершаемый двоеточием</Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор switch</Phrase>
+<Phrase Aux="Y">switch</Phrase>
+<Define><Term Type="In">Управляющий оператор</Term> <Term Type="In">языка Си</Term>, реализующий ветвление <Term Type="In">алгоритма</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>массив</Phrase>
+<Define>Упорядоченный набор объектов, <Term Type="In">тип</Term> и размер которых совпадает</Define>
+</Entity>
+
+<Entity>
+<Phrase>индекс массива</Phrase>
+<Phrase Aux="Y">индекс</Phrase>
+<Define>выражение, используемое в <Term Type="In">операции доступа к элементу массива</Term>, которое определяет используемый элемент массива</Define>
+</Entity>
+
+<Entity>
+<Phrase>имя массива</Phrase>
+<Define>Идентификатор, которому ставится в соответствие адрес, начиная с которого хранится <Term Type="In">массив</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>адрес массива</Phrase>
+<Define>Адрес элемента <Term Type="In">массива</Term>, имеющего <Term Type="In">индекс</Term> 0 (первого элемента)</Define>
+</Entity>
+
+<Entity>
+<Phrase>многомерный массив</Phrase>
+<Define><Term Type="In">Массив</Term>, имеющий более одного измерения</Define>
+</Entity>
+
+<Entity>
+<Phrase>массив структур</Phrase>
+<Define><Term Type="In">Массив</Term>, каждый элемент которого является <Term Type="In">структурой</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>символьная строка</Phrase>
+<Phrase>символьный массив</Phrase>
+<Phrase Aux="Y">массив символов</Phrase>
+<Define>Последовательность символов из некоторого набора, например из таблицы кодирования ASCII</Define>
+</Entity>
+
+<Entity>
+<Phrase>признак конца строки</Phrase>
+<Define>&#x201C;Нулевой&#x201D; символом &apos;\0&apos;, которым должна заканчиваться в языке Си <Term Type="In">символьная строка</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>операция доступа к элементу массива</Phrase>
+<Phrase Aux="Y">доступ к элементу массива</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, результат которой &#x2014; значение элемента <Term Type="In">массива</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>смещение</Phrase>
+<Define>Адрес элемента массива относительно начального <Term Type="In">адреса массива</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>выход за границу массива</Phrase>
+<Define>Обращение к элементу <Term Type="In">массива</Term>, <Term Type="In">индексы</Term> которого выходят за указанные в объявлении массива пределы</Define>
+</Entity>
+
+<Entity>
+<Phrase>инициализация массива</Phrase>
+<Define>Присваивание элементам массива начальных значений</Define>
+</Entity>
+
+<Entity>
+<Phrase>указатель</Phrase>
+<Define>Переменная, содержащая адрес какого-либо объекта</Define>
+</Entity>
+
+<Entity>
+<Phrase>адресная арифметика</Phrase>
+<Define>Арифметические операции над указателями</Define>
+</Entity>
+
+<Entity>
+<Phrase>структура</Phrase>
+<Define>Набор элементов, которые могут иметь различные <Term Type="In">типы</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>шаблон структуры</Phrase>
+<Phrase Aux="Y">шаблон</Phrase>
+<Define>Список объявлений переменных, описывающий элементы <Term Type="In">структуры</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>инициализация структуры</Phrase>
+<Define>Присваивание элементам структуры начальных значений</Define>
+</Entity>
+
+<Entity>
+<Phrase>инициализирующая запись структуры</Phrase>
+<Phrase Aux="Y">инициализирующая запись</Phrase>
+<Define>Заключенный в фигурные скобки список, элементы которого разделяются запятыми и являются <Term Type="In">константами</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>операция доступа к элементу структуры</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, результат которой &#x2014; элемент <Term Type="In">структуры</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>операция доступа к элементу структуры через указатель</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, результат которой &#x2014; элемент <Term Type="In">структуры</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>операция копирования структур</Phrase>
+<Define>Присваивание значений элементов одной <Term Type="In">структуры</Term> элементам другой струтуры того же типа при помощи <Term Type="In">операции присваивания</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>самоссылающаяся структура</Phrase>
+<Define>Структура, в которой хотя бы один элемент является указателем на структуру того же типа, что и сами структура</Define>
+</Entity>
+
+<Entity>
+<Phrase>побитовая операция</Phrase>
+<Phrase Aux="Y">побитовая</Phrase>
+<Define>Операция <Term Type="In">языка Си</Term>, которая работает с отдельными битами операндов</Define>
+</Entity>
+
+<Entity>
+<Phrase>поразрядное дополнение</Phrase>
+<Define><Term Type="In">Побитовая операция</Term>, результатом которой является значение, полученное поразрядным дополнением операнда</Define>
+</Entity>
+
+<Entity>
+<Phrase>поразрядное умножение</Phrase>
+<Phrase>поразрядное И</Phrase>
+<Define><Term Type="In">Побитовая операция</Term>, результатом которой является поразрядное логические умножение двух операндов</Define>
+</Entity>
+
+<Entity>
+<Phrase>исключающее ИЛИ</Phrase>
+<Define><Term Type="In">Побитовая операция</Term>, результатом которой является поразрядное исключающее ИЛИ ее операндов</Define>
+</Entity>
+
+<Entity>
+<Phrase>поразрядное сложение</Phrase>
+<Phrase>поразрядное ИЛИ</Phrase>
+<Define><Term Type="In">Побитовая операция</Term>, результатом которой является поразрядное логические сложение двух операндов</Define>
+</Entity>
+
+<Entity>
+<Phrase>сдвиг влево</Phrase>
+<Define><Term Type="In">Побитовая операция</Term>, результатом которой является битовое представление левого операнда, сдвинутого влево на число битов, определяемое значением правого операнда</Define>
+</Entity>
+
+<Entity>
+<Phrase>сдвиг вправо</Phrase>
+<Define><Term Type="In">Побитовая операция</Term>, результатом которой является битовое представление левого операнда, сдвинутого вправо на число битов, определяемое значением правого операнда</Define>
+</Entity>
+
+<Entity>
+<Phrase>аргументы командной строки</Phrase>
+<Define>Множество слов, из которых состоит командная строка</Define>
+</Entity>
+
+<Entity>
+<Phrase>препроцессор</Phrase>
+<Define>Составная часть компилятора <Term Type="In">языка Си</Term>, реализующая первую стадию компиляции</Define>
+</Entity>
+
+<Entity>
+<Phrase>директива препроцессора</Phrase>
+<Phrase Aux="Y">директива</Phrase>
+<Define>Строка текста <Term Type="In">программы</Term> на <Term Type="In">языке Си</Term>, начинающаяся с символа #</Define>
+</Entity>
+
+<Entity>
+<Phrase>поименованная константа</Phrase>
+<Define>Константа, определенная с помощью <Term Type="In">директивы препроцессора define</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>директива препроцессора define</Phrase>
+<Phrase Aux="Y">директива define</Phrase>
+<Define><Term Type="In">Директива препроцессора</Term> <Term Type="In">языка Си</Term>, определяющая <Term Type="In">поименованные константы</Term> и <Term Type="In">макросы</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>макрос</Phrase>
+<Define>Короткая процедура, определенная с помощью <Term Type="In">директивы препроцессора define</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>операция #</Phrase>
+<Define>Операция <Term Type="In">препроцессора</Term> для создания строки из аргумента макроса</Define>
+</Entity>
+
+<Entity>
+<Phrase>операция ##</Phrase>
+<Define>Операция <Term Type="In">препроцессора</Term> для объединения лексем в одну лексему</Define>
+</Entity>
+
+<Entity>
+<Phrase>оператор переопределения типа typedef</Phrase>
+<Phrase Aux="Y">оператор typedef</Phrase>
+<Phrase Aux="Y">typedef</Phrase>
+<Define>Оператора <Term Type="In">языка Си</Term>, который определяет новое имя (синоним) существующему<Term Type="In">типу данных</Term></Define>
+</Entity>
+
+<Entity>
+<Phrase>триграф</Phrase>
+<Define>Последовательность из трех символов, обозначающая один символ</Define>
+</Entity>
+
+<Entity>
+<Phrase>директива препроцессора include</Phrase>
+<Phrase Aux="Y">директива include</Phrase>
+<Phrase Aux="Y">include</Phrase>
+<Define><Term Type="In">Директива препроцессора</Term> <Term Type="In">языка Си</Term>, которая влечет вставку в текущую позицию текста <Term Type="In">программы</Term> на языке Си копии указанного файла</Define>
+</Entity>
+
+<Entity>
+<Phrase>файл заголовков</Phrase>
+<Phrase>файл вставок</Phrase>
+<Define>Файл, который содержат <Term Type="In">директивы препроцессора define</Term> для <Term Type="In">поименованных констант</Term> и <Term Type="In">макросов</Term>, <Term Type="In">объявления функций</Term>,<Term Type="In">внешних переменных</Term></Define>
+</Entity>
+</Thesaurus>
