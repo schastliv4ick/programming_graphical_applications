@@ -22,9 +22,9 @@ int colorite(Display* dpy) {
 	int i;        
 	static char* spector[] = {
 							  "#ffffff",
-							  "#ff0000",
-							  "#00ff00",
-							  "#0000ff",
+							  "#FF7F50",
+							  "#1E90FF",
+							  "#4B0082",
 							  "#000000" 
 	};
 	cmap = DefaultColormap(dpy, DefaultScreen(dpy));
