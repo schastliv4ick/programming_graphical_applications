@@ -5,8 +5,13 @@ TARGET = chess_editor
 
 all: $(TARGET)
 
-$(TARGET): chess_editor.c
-	$(CC) $(CFLAGS) -o $(TARGET) chess_editor.c $(LDFLAGS)
+$(TARGET): display.c logic.c head.h
+	$(CC) $(CFLAGS) -o $(TARGET) display.c logic.c $(LDFLAGS)
 
 clean:
 	rm -f $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+.PHONY: all clean run

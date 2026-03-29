@@ -5,8 +5,13 @@ TARGET = outer_product_editor
 
 all: $(TARGET)
 
-$(TARGET): outer_product_editor.c
-	$(CC) $(CFLAGS) -o $(TARGET) outer_product_editor.c $(LDFLAGS)
+$(TARGET): display.c logic.c head.h
+	$(CC) $(CFLAGS) -o $(TARGET) display.c logic.c $(LDFLAGS)
 
 clean:
 	rm -f $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET) 5
+
+.PHONY: all clean run

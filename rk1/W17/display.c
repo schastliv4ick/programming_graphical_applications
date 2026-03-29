@@ -1,33 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <X11/Xlib.h>
-#include <X11/Xutil.h>
-#include <X11/keysym.h>
+#include "head.h"
 
-#define BOARD_SIZE 8
-#define CELL_SIZE 60
-#define WIN_WIDTH (BOARD_SIZE * CELL_SIZE)
-#define WIN_HEIGHT (BOARD_SIZE * CELL_SIZE)
-
-/* Типы фигур */
-typedef enum {
-    PIECE_KING = 'K',
-    PIECE_QUEEN = 'Q',
-    PIECE_ROOK = 'R',
-    PIECE_BISHOP = 'B',
-    PIECE_KNIGHT = 'N'
-} PieceType;
-
-/* Структура фигуры */
-typedef struct {
-    Window win;
-    PieceType type;
-    int row, col;
-    int start_row, start_col;
-} Piece;
-
-/* Глобальные переменные */
+/* Определения глобальных переменных (без extern) */
 Display *dpy;
 Window main_win;
 Window cell_windows[BOARD_SIZE][BOARD_SIZE];
@@ -35,53 +8,10 @@ Piece pieces[BOARD_SIZE];
 int num_pieces = 0;
 int occupied[BOARD_SIZE][BOARD_SIZE];
 int threats[BOARD_SIZE][BOARD_SIZE];
-
-/* Pixel может быть не определён, добавим явно */
-#ifndef Pixel
-typedef unsigned long Pixel;
-#endif
-
-Pixel color_light, color_dark;
-Pixel color_threat;
-Pixel color_piece_bg;
+Pixel color_light, color_dark, color_threat, color_piece_bg;
 GC text_gc;
 XFontStruct *font_info;
 
-/* Прототипы всех функций */
-void init_colors(void);
-void create_cell_windows(void);
-void create_piece_windows(void);
-void draw_piece_text(Window win, PieceType type);
-void update_cell_colors(void);
-void compute_threats(void);
-void move_piece(int piece_idx, int new_row, int new_col);
-void reset_positions(void);
-void free_resources(void);
-static int in_board(int r, int c);
-
-/* Инициализация цветов */
-void init_colors(void) {
-    Colormap cmap = DefaultColormap(dpy, DefaultScreen(dpy));
-    XColor xcol;
-
-    XParseColor(dpy, cmap, "bisque2", &xcol);
-    XAllocColor(dpy, cmap, &xcol);
-    color_light = xcol.pixel;
-
-    XParseColor(dpy, cmap, "burlywood4", &xcol);
-    XAllocColor(dpy, cmap, &xcol);
-    color_dark = xcol.pixel;
-
-    XParseColor(dpy, cmap, "lightcoral", &xcol);
-    XAllocColor(dpy, cmap, &xcol);
-    color_threat = xcol.pixel;
-
-    XParseColor(dpy, cmap, "white", &xcol);
-    XAllocColor(dpy, cmap, &xcol);
-    color_piece_bg = xcol.pixel;
-}
-
-/* Создание окон для клеток доски */
 void create_cell_windows(void) {
     for (int i = 0; i < BOARD_SIZE; i++) {
         for (int j = 0; j < BOARD_SIZE; j++) {
@@ -89,7 +19,7 @@ void create_cell_windows(void) {
             int y = i * CELL_SIZE;
             Pixel bg = ((i + j) % 2 == 0) ? color_light : color_dark;
             cell_windows[i][j] = XCreateSimpleWindow(dpy, main_win,
-                                                      x, y, CELL_SIZE, CELL_SIZE, 1,
+                                                      x, y, CELL_SIZE, CELL_SIZE, 0,
                                                       BlackPixel(dpy, DefaultScreen(dpy)),
                                                       bg);
             XSelectInput(dpy, cell_windows[i][j], ButtonPressMask);
@@ -98,9 +28,7 @@ void create_cell_windows(void) {
     }
 }
 
-/* Создание окон для фигур */
 void create_piece_windows(void) {
-    /* Начальные позиции и типы (белые фигуры на 0-й горизонтали) */
     const int start_positions[8][2] = {
         {0,0},{0,1},{0,2},{0,3},{0,4},{0,5},{0,6},{0,7}
     };
@@ -120,7 +48,7 @@ void create_piece_windows(void) {
         pieces[idx].start_row = row;
         pieces[idx].start_col = col;
         pieces[idx].win = XCreateSimpleWindow(dpy, main_win,
-                                              x, y, CELL_SIZE, CELL_SIZE, 1,
+                                              x, y, CELL_SIZE, CELL_SIZE, 0,
                                               BlackPixel(dpy, DefaultScreen(dpy)),
                                               color_piece_bg);
         XSelectInput(dpy, pieces[idx].win, ButtonPressMask | ExposureMask);
@@ -131,7 +59,6 @@ void create_piece_windows(void) {
     num_pieces = 8;
 }
 
-/* Рисование буквы в окне фигуры */
 void draw_piece_text(Window win, PieceType type) {
     char str[2] = { (char)type, '\0' };
     int tw = XTextWidth(font_info, str, 1);
@@ -143,7 +70,6 @@ void draw_piece_text(Window win, PieceType type) {
     XFlush(dpy);
 }
 
-/* Обновление цвета фона клеток с учётом угроз */
 void update_cell_colors(void) {
     for (int i = 0; i < BOARD_SIZE; i++) {
         for (int j = 0; j < BOARD_SIZE; j++) {
@@ -157,95 +83,6 @@ void update_cell_colors(void) {
     XFlush(dpy);
 }
 
-/* Проверка, что клетка на доске */
-static int in_board(int r, int c) {
-    return r >= 0 && r < BOARD_SIZE && c >= 0 && c < BOARD_SIZE;
-}
-
-/* Вычисление угроз для всех фигур */
-void compute_threats(void) {
-    /* Сброс угроз */
-    for (int i = 0; i < BOARD_SIZE; i++)
-        for (int j = 0; j < BOARD_SIZE; j++)
-            threats[i][j] = 0;
-
-    /* Для каждой фигуры */
-    for (int idx = 0; idx < num_pieces; idx++) {
-        int r = pieces[idx].row;
-        int c = pieces[idx].col;
-        PieceType type = pieces[idx].type;
-
-        switch (type) {
-            case PIECE_KING:
-                for (int dr = -1; dr <= 1; dr++) {
-                    for (int dc = -1; dc <= 1; dc++) {
-                        if (dr == 0 && dc == 0) continue;
-                        int nr = r + dr, nc = c + dc;
-                        if (in_board(nr, nc) && occupied[nr][nc] == -1)
-                            threats[nr][nc] = 1;
-                    }
-                }
-                break;
-
-            case PIECE_QUEEN:
-                for (int dr = -1; dr <= 1; dr++) {
-                    for (int dc = -1; dc <= 1; dc++) {
-                        if (dr == 0 && dc == 0) continue;
-                        int nr = r + dr, nc = c + dc;
-                        while (in_board(nr, nc)) {
-                            if (occupied[nr][nc] != -1) break;
-                            threats[nr][nc] = 1;
-                            nr += dr; nc += dc;
-                        }
-                    }
-                }
-                break;
-
-            case PIECE_ROOK:
-                for (int dr = -1; dr <= 1; dr++) {
-                    for (int dc = -1; dc <= 1; dc++) {
-                        if ((dr == 0) == (dc == 0)) continue; /* только ортогональ */
-                        int nr = r + dr, nc = c + dc;
-                        while (in_board(nr, nc)) {
-                            if (occupied[nr][nc] != -1) break;
-                            threats[nr][nc] = 1;
-                            nr += dr; nc += dc;
-                        }
-                    }
-                }
-                break;
-
-            case PIECE_BISHOP:
-                for (int dr = -1; dr <= 1; dr++) {
-                    for (int dc = -1; dc <= 1; dc++) {
-                        if (dr == 0 || dc == 0) continue;
-                        int nr = r + dr, nc = c + dc;
-                        while (in_board(nr, nc)) {
-                            if (occupied[nr][nc] != -1) break;
-                            threats[nr][nc] = 1;
-                            nr += dr; nc += dc;
-                        }
-                    }
-                }
-                break;
-
-            case PIECE_KNIGHT:
-                {
-                    int moves[8][2] = {{-2,-1},{-2,1},{-1,-2},{-1,2},{1,-2},{1,2},{2,-1},{2,1}};
-                    for (int k = 0; k < 8; k++) {
-                        int nr = r + moves[k][0];
-                        int nc = c + moves[k][1];
-                        if (in_board(nr, nc) && occupied[nr][nc] == -1)
-                            threats[nr][nc] = 1;
-                    }
-                }
-                break;
-        }
-    }
-    update_cell_colors();
-}
-
-/* Перемещение фигуры */
 void move_piece(int piece_idx, int new_row, int new_col) {
     if (!in_board(new_row, new_col)) return;
     if (occupied[new_row][new_col] != -1) return;
@@ -256,16 +93,13 @@ void move_piece(int piece_idx, int new_row, int new_col) {
     pieces[piece_idx].row = new_row;
     pieces[piece_idx].col = new_col;
     occupied[new_row][new_col] = piece_idx;
-    int x = new_col * CELL_SIZE;
-    int y = new_row * CELL_SIZE;
-    XMoveWindow(dpy, pieces[piece_idx].win, x, y);
+    XMoveWindow(dpy, pieces[piece_idx].win, new_col * CELL_SIZE, new_row * CELL_SIZE);
     XFlush(dpy);
     compute_threats();
+    update_cell_colors();
 }
 
-/* Сброс в начальную расстановку */
 void reset_positions(void) {
-    /* Очищаем occupied */
     for (int i = 0; i < BOARD_SIZE; i++)
         for (int j = 0; j < BOARD_SIZE; j++)
             occupied[i][j] = -1;
@@ -273,26 +107,21 @@ void reset_positions(void) {
     const int start_positions[8][2] = {
         {0,0},{0,1},{0,2},{0,3},{0,4},{0,5},{0,6},{0,7}
     };
-    const PieceType start_types[8] = {
-        PIECE_ROOK, PIECE_KNIGHT, PIECE_BISHOP, PIECE_QUEEN,
-        PIECE_KING, PIECE_BISHOP, PIECE_KNIGHT, PIECE_ROOK
-    };
-
+    /* start_types не используется в reset_positions, но нужна для restore */
+    /* Используем существующие типы фигур из массива pieces */
     for (int idx = 0; idx < 8; idx++) {
-        int new_row = start_positions[idx][0];
-        int new_col = start_positions[idx][1];
-        pieces[idx].row = new_row;
-        pieces[idx].col = new_col;
-        occupied[new_row][new_col] = idx;
-        int x = new_col * CELL_SIZE;
-        int y = new_row * CELL_SIZE;
-        XMoveWindow(dpy, pieces[idx].win, x, y);
+        int row = start_positions[idx][0];
+        int col = start_positions[idx][1];
+        pieces[idx].row = row;
+        pieces[idx].col = col;
+        occupied[row][col] = idx;
+        XMoveWindow(dpy, pieces[idx].win, col * CELL_SIZE, row * CELL_SIZE);
     }
     XFlush(dpy);
     compute_threats();
+    update_cell_colors();
 }
 
-/* Освобождение ресурсов */
 void free_resources(void) {
     for (int i = 0; i < BOARD_SIZE; i++)
         for (int j = 0; j < BOARD_SIZE; j++)
@@ -325,7 +154,6 @@ int main(int argc, char *argv[]) {
 
     init_colors();
 
-    /* Загрузка шрифта */
     font_info = XLoadQueryFont(dpy, "fixed");
     if (!font_info) {
         font_info = XLoadQueryFont(dpy, "6x13");
@@ -337,7 +165,6 @@ int main(int argc, char *argv[]) {
     text_gc = XCreateGC(dpy, main_win, 0, NULL);
     XSetFont(dpy, text_gc, font_info->fid);
 
-    /* Инициализация occupied */
     for (int i = 0; i < BOARD_SIZE; i++)
         for (int j = 0; j < BOARD_SIZE; j++)
             occupied[i][j] = -1;
@@ -345,34 +172,25 @@ int main(int argc, char *argv[]) {
     create_cell_windows();
     create_piece_windows();
     compute_threats();
+    update_cell_colors();
 
-    int dragging = 0;
-    int drag_piece = -1;
-    int drag_x_start = 0, drag_y_start = 0;
-
+    int dragging = 0, drag_piece = -1, drag_x_start = 0, drag_y_start = 0;
     XEvent ev;
     int running = 1;
+
     while (running) {
         XNextEvent(dpy, &ev);
-
         switch (ev.type) {
             case KeyPress: {
                 KeySym ks = XLookupKeysym(&ev.xkey, 0);
-                if (ks == XK_Escape) {
-                    reset_positions();
-                }
+                if (ks == XK_Escape) reset_positions();
                 break;
             }
-
             case ButtonPress: {
                 Window clicked = ev.xbutton.window;
                 int piece_idx = -1;
-                for (int i = 0; i < num_pieces; i++) {
-                    if (pieces[i].win == clicked) {
-                        piece_idx = i;
-                        break;
-                    }
-                }
+                for (int i = 0; i < num_pieces; i++)
+                    if (pieces[i].win == clicked) { piece_idx = i; break; }
                 if (piece_idx != -1) {
                     dragging = 1;
                     drag_piece = piece_idx;
@@ -383,7 +201,7 @@ int main(int argc, char *argv[]) {
                                  GrabModeAsync, GrabModeAsync, None, None, CurrentTime);
                 } else {
                     /* Проверка клика по свободной клетке для выхода */
-                    for (int i = 0; i < BOARD_SIZE && !running; i++) {
+                    for (int i = 0; i < BOARD_SIZE && running; i++) {
                         for (int j = 0; j < BOARD_SIZE; j++) {
                             if (cell_windows[i][j] == clicked && occupied[i][j] == -1) {
                                 running = 0;
@@ -394,7 +212,6 @@ int main(int argc, char *argv[]) {
                 }
                 break;
             }
-
             case MotionNotify: {
                 if (dragging && drag_piece != -1) {
                     int new_x = ev.xmotion.x_root - drag_x_start;
@@ -408,19 +225,17 @@ int main(int argc, char *argv[]) {
                 }
                 break;
             }
-
             case ButtonRelease: {
                 if (dragging && drag_piece != -1) {
                     XWindowAttributes attrs;
                     XGetWindowAttributes(dpy, pieces[drag_piece].win, &attrs);
-                    int center_x = attrs.x + CELL_SIZE / 2;
-                    int center_y = attrs.y + CELL_SIZE / 2;
+                    int center_x = attrs.x + CELL_SIZE/2;
+                    int center_y = attrs.y + CELL_SIZE/2;
                     int new_col = center_x / CELL_SIZE;
                     int new_row = center_y / CELL_SIZE;
                     if (in_board(new_row, new_col) && occupied[new_row][new_col] == -1) {
                         move_piece(drag_piece, new_row, new_col);
                     } else {
-                        /* Возврат в исходную позицию */
                         int old_row = pieces[drag_piece].row;
                         int old_col = pieces[drag_piece].col;
                         XMoveWindow(dpy, pieces[drag_piece].win,
@@ -433,15 +248,13 @@ int main(int argc, char *argv[]) {
                 }
                 break;
             }
-
             case Expose: {
                 if (ev.xexpose.window != main_win) {
-                    for (int i = 0; i < num_pieces; i++) {
+                    for (int i = 0; i < num_pieces; i++)
                         if (pieces[i].win == ev.xexpose.window) {
                             draw_piece_text(pieces[i].win, pieces[i].type);
                             break;
                         }
-                    }
                 }
                 break;
             }
